@@ -1,0 +1,56 @@
+{% extends 'fuzzy_app/base.html' %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-success text-white">
+                <h3 class="mb-0">Prediction Results</h3>
+            </div>
+            <div class="card-body">
+                {% if results %}
+                <h4>Most Likely Diseases:</h4>
+                
+                <div class="list-group mt-3">
+                    {% for disease, data in results.items %}
+                    <div class="list-group-item">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">{{ disease }}</h5>
+                            <span class="badge bg-primary rounded-pill">{{ data.confidence }}</span>
+                        </div>
+                        <p class="mb-1">{{ data.description }}</p>
+                        <div class="confidence-meter">
+                            <div class="confidence-fill" style="width: {{ data.confidence|floatformat:0 }}%"></div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                <hr>
+                
+                <h4>Your Input Symptoms:</h4>
+                <ul class="list-group">
+                    {% for symptom, value in symptom_values.items %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ symptom }}
+                        <span class="badge bg-secondary rounded-pill">{{ value }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+                
+                <div class="d-grid gap-2 mt-4">
+                    <a href="{% url 'fuzzy_app:index' %}" class="btn btn-primary">Try Again</a>
+                </div>
+                {% else %}
+                <div class="alert alert-warning">
+                    No diseases matched your symptoms with significant confidence.
+                </div>
+                <div class="d-grid gap-2 mt-4">
+                    <a href="{% url 'fuzzy_app:index' %}" class="btn btn-primary">Try Again</a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

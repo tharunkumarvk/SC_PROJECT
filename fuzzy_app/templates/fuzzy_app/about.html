@@ -1,0 +1,40 @@
+{% extends 'fuzzy_app/base.html' %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                <h3 class="mb-0">About This Project</h3>
+            </div>
+            <div class="card-body">
+                <h4>Disease Prediction using Fuzzy Logic</h4>
+                <p>
+                    This system uses fuzzy logic to predict possible diseases based on symptom inputs.
+                    Fuzzy logic allows for handling imprecise or uncertain information, which is common
+                    in medical diagnosis.
+                </p>
+                
+                <h5 class="mt-4">How It Works</h5>
+                <ol>
+                    <li>Enter your symptom values in the input form</li>
+                    <li>The system calculates membership degrees for each symptom in fuzzy sets (low, medium, high)</li>
+                    <li>Fuzzy rules are applied to determine possible diseases</li>
+                    <li>Results are displayed with confidence levels</li>
+                </ol>
+                
+                <h5 class="mt-4">Technologies Used</h5>
+                <ul>
+                    <li>Django - Python web framework</li>
+                    <li>Fuzzy Logic - For handling uncertain medical information</li>
+                    <li>Bootstrap - For responsive user interface</li>
+                </ul>
+                
+                <div class="d-grid gap-2 mt-4">
+                    <a href="{% url 'fuzzy_app:index' %}" class="btn btn-primary">Back to Prediction</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
