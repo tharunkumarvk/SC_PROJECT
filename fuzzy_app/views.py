@@ -1,11 +1,11 @@
 from django.shortcuts import render, redirect
-from .forms import SymptomInputForm
+from .forms import SymptomForm
 from .fuzzy_logic import FuzzySystem
 from .models import Symptom, Disease, DiseaseRule  # Added DiseaseRule import
 
 def index(request):
     if request.method == 'POST':
-        form = SymptomInputForm(request.POST)
+        form = SymptomForm(request.POST)
         if form.is_valid():
             # Prepare symptom values
             symptom_values = {}
@@ -25,7 +25,7 @@ def index(request):
                 'symptom_values': symptom_values
             })
     else:
-        form = SymptomInputForm()
+        form = SymptomForm()
     
     return render(request, 'fuzzy_app/index.html', {'form': form})
 

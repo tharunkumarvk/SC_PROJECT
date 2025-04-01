@@ -3,8 +3,9 @@ class FuzzySystem:
         self.symptoms = {}
         self.diseases = {}
         self.rules = []
+        self._load_from_db()
 
-    def load_from_db(self):
+    def _load_from_db(self):
         from .models import Symptom, Disease, DiseaseRule
         
         # Load symptoms
@@ -23,97 +24,48 @@ class FuzzySystem:
             }
         
         # Load rules
-        for rule in DiseaseRule.objects.select_related('disease', 'symptom').all():
+        for rule in DiseaseRule.objects.select_related('disease', 'symptom'):
             self.diseases[rule.disease.name]['rules'].append({
                 'symptom': rule.symptom.name,
                 'severity': rule.severity,
-                'weight': rule.weight
+                'weight': rule.weight,
+                'min': rule.threshold_min,
+                'max': rule.threshold_max
             })
 
-    def triangular_mf(self, x, a, b, c):
-        """Triangular membership function with edge case handling"""
-        if b == a or c == b:
-            return 0.0  # or handle differently based on your needs
-            
-        return max(min((x-a)/(b-a), (c-x)/(c-b)), 0)
-
-    def trapezoidal_mf(self, x, a, b, c, d):
-        """Trapezoidal membership function with edge case handling"""
-        # Handle cases where denominators might be zero
-        left = (x-a)/(b-a) if (b-a) != 0 else 1.0 if x >= b else 0.0
-        right = (d-x)/(d-c) if (d-c) != 0 else 1.0 if x <= c else 0.0
-        
+    def _trapezoidal_mf(self, x, a, b, c, d):
+        """Safe trapezoidal membership function"""
+        left = (x - a)/(b - a) if (b - a) != 0 else 1 if x >= b else 0
+        right = (d - x)/(d - c) if (d - c) != 0 else 1 if x <= c else 0
         return max(min(left, 1, right), 0)
 
-    def calculate_membership(self, symptom_name, value):
-        """Calculate membership degrees for a symptom value with validation"""
-        if symptom_name not in self.symptoms:
-            return {}
-        
-        symptom = self.symptoms[symptom_name]
-        min_val = symptom['min']
-        max_val = symptom['max']
-        
-        # Validate input value
-        if value < min_val or value > max_val:
-            return {}
-        
-        # Define fuzzy sets for symptom with safe ranges
-        low = self.trapezoidal_mf(value, 
-                                 min_val, 
-                                 min_val, 
-                                 min_val + 0.3*(max_val-min_val), 
-                                 min_val + 0.5*(max_val-min_val))
-        
-        medium = self.triangular_mf(value,
-                                  min_val + 0.3*(max_val-min_val),
-                                  min_val + 0.5*(max_val-min_val),
-                                  min_val + 0.7*(max_val-min_val))
-        
-        high = self.trapezoidal_mf(value,
-                                 min_val + 0.5*(max_val-min_val),
-                                 min_val + 0.7*(max_val-min_val),
-                                 max_val,
-                                 max_val)
-        
-        return {
-            'low': low,
-            'medium': medium,
-            'high': high
-        }
-
-    def predict_disease(self, symptom_values):
-        """Predict diseases based on symptom values with input validation"""
+    def predict(self, symptom_values):
         results = {}
         
-        # Validate input
-        if not symptom_values:
-            return results
-        
-        # Calculate membership degrees for all symptoms
+        # Calculate memberships
         memberships = {}
-        for symptom_name, value in symptom_values.items():
-            if symptom_name in self.symptoms:
-                memberships[symptom_name] = self.calculate_membership(symptom_name, float(value))
-        
-        # Evaluate rules for each disease
-        for disease_name, disease_data in self.diseases.items():
-            max_confidence = 0
-            
-            for rule in disease_data['rules']:
-                symptom_name = rule['symptom']
-                severity = rule['severity']
-                weight = rule['weight']
-                
-                if symptom_name in memberships and severity in memberships[symptom_name]:
-                    rule_confidence = memberships[symptom_name][severity] * weight
-                    max_confidence = max(max_confidence, rule_confidence)
-            
-            if max_confidence > 0:
-                results[disease_name] = {
-                    'confidence': round(max_confidence, 2),
-                    'description': disease_data['description']
+        for name, value in symptom_values.items():
+            if name in self.symptoms:
+                s = self.symptoms[name]
+                normalized = (value - s['min'])/(s['max'] - s['min'])
+                memberships[name] = {
+                    'low': self._trapezoidal_mf(normalized, 0, 0, 0.3, 0.5),
+                    'medium': self._trapezoidal_mf(normalized, 0.3, 0.5, 0.7),
+                    'high': self._trapezoidal_mf(normalized, 0.5, 0.7, 1, 1)
                 }
         
-        # Sort results by confidence
-        return dict(sorted(results.items(), key=lambda item: item[1]['confidence'], reverse=True))
+        # Evaluate rules
+        for disease, data in self.diseases.items():
+            confidence = 0
+            for rule in data['rules']:
+                if rule['symptom'] in memberships:
+                    rule_confidence = memberships[rule['symptom']][rule['severity']] * rule['weight']
+                    confidence = max(confidence, rule_confidence)
+            
+            if confidence > 0:
+                results[disease] = {
+                    'confidence': round(confidence, 2),
+                    'description': data['description']
+                }
+        
+        return sorted(results.items(), key=lambda x: x[1]['confidence'], reverse=True)

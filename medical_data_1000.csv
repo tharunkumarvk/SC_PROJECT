@@ -1,0 +1,1001 @@
+patient_id,age,gender,disease,symptom_1,symptom_2,symptom_3,symptom_4,symptom_5
+d33a137a-b6ed-4b0b-870f-4c091c54dc1a,9,M,Asthma,"Shortness of Breath,0.7","Wheezing,0.8","Rapid Breathing,0.6","Coughing at Night,0.7","Chest Tightness,0.6"
+6d1916d1-2cec-41dc-a53c-c9fed1fb010f,50,M,Influenza,"Body Aches,0.3","Fatigue,0.4","Nasal Congestion,1.0","Dry Cough,0.5",
+6dd9c4b2-5039-4ce0-b17e-b8bfc8e9ea7f,59,F,Pneumonia,"Chest Pain,0.4","Cough with Phlegm,0.9","Confusion,0.9","Shortness of Breath,0.7",
+cd010d83-5302-41af-a530-470514dfd224,64,M,Influenza,"Fatigue,0.6","Headache,1.0","High Fever,0.8","Dry Cough,0.7","Body Aches,0.6"
+5d920579-d237-4cee-827b-9e574177323b,11,F,Common Cold,"Mild Fever,0.8","Cough,0.9","Sneezing,0.5","Sore Throat,0.5","Runny Nose,0.7"
+3be3e861-1f9e-4719-9886-012c02950897,50,M,Pneumonia,"High Fever,0.3","Confusion,0.8","Cough with Phlegm,1.0","Chest Pain,0.6",
+6ba2f7f8-763d-4e29-969f-34c4fc8f7fa5,50,F,Asthma,"Chest Tightness,0.5","Shortness of Breath,0.5","Rapid Breathing,0.8",,
+8e0714ad-1185-461b-ba7e-967287bdc062,64,F,Influenza,"Body Aches,0.4","High Fever,0.3","Dry Cough,0.8","Chills,0.6",
+3d36310d-94b7-4af4-afbb-248bfacb57da,56,M,Common Cold,"Sore Throat,0.8","Sneezing,0.4","Cough,0.5","Mild Fever,0.7",
+adeea4d1-2297-44fd-92e5-1a001919b779,66,F,Pneumonia,"Fatigue,0.9","High Fever,0.3","Confusion,0.7","Shortness of Breath,0.7",
+fc48889c-2b3d-440e-8b91-c3d07ec60332,19,F,Asthma,"Rapid Breathing,1.0","Coughing at Night,0.7","Chest Tightness,0.8",,
+51b9b5ab-7aed-4c08-bb96-e4a506da9677,57,M,Influenza,"Chills,0.4","Fatigue,0.5","Body Aches,0.6",,
+8eb2f324-26a5-4ac6-afa9-207120f55f03,41,M,Pneumonia,"Cough with Phlegm,0.4","Chest Pain,0.8","Fatigue,1.0",,
+46fc1d5b-72c7-42cf-9147-eb97c94f9630,84,F,Common Cold,"Runny Nose,0.8","Sore Throat,0.4","Cough,0.3","Congestion,0.5",
+bc140cdd-798c-4339-83e0-d3e27f1633a2,52,M,Pneumonia,"Cough with Phlegm,0.7","Fatigue,0.6","Chest Pain,0.4",,
+3f902189-d044-4a95-9eb8-6393fd741adc,81,F,Pneumonia,"Shortness of Breath,0.4","High Fever,0.5","Fatigue,0.6",,
+9600f333-7119-441d-9018-27c32849c51e,43,M,Common Cold,"Runny Nose,0.7","Congestion,0.6","Mild Fever,0.6","Sneezing,0.9",
+79c9160d-17f6-460f-a597-4e95307e0fb1,68,M,Pneumonia,"Chest Pain,0.5","Cough with Phlegm,0.9","Fatigue,0.6","High Fever,0.8","Shortness of Breath,0.9"
+e68de4b3-35b5-4cfc-8ea2-5640db5501d4,4,F,Pneumonia,"Confusion,0.7","Cough with Phlegm,0.5","Chest Pain,0.6","High Fever,0.4","Fatigue,0.9"
+dd5df35a-43f8-46d4-aa38-16c4a989d5b8,58,M,Common Cold,"Sneezing,0.7","Mild Fever,0.9","Runny Nose,0.9","Congestion,0.8","Cough,0.5"
+2d517afb-7205-4d55-abb3-2f2eff5f5c9a,34,F,Influenza,"Headache,0.4","Nasal Congestion,0.3","High Fever,0.5","Fatigue,0.6",
+14696519-6cd1-45c3-b803-7c8017a3a4da,44,F,Common Cold,"Sore Throat,0.6","Sneezing,0.3","Cough,0.9","Mild Fever,0.7","Congestion,0.9"
+37d99e13-ca54-4fe5-a7c2-6f2e985c2c1a,15,M,Pneumonia,"Confusion,1.0","High Fever,0.9","Shortness of Breath,0.5",,
+cd486d52-8c08-4c6d-979e-6d251dd0b880,63,M,Pneumonia,"Cough with Phlegm,0.5","Fatigue,0.5","Confusion,0.4","Chest Pain,0.7","Shortness of Breath,0.6"
+3f04ccdb-565e-403e-b15a-342208b100f2,56,M,Common Cold,"Mild Fever,0.5","Cough,0.7","Runny Nose,0.5","Sore Throat,0.8",
+4914f466-0689-4e52-9783-4dd33884e8e6,6,F,Common Cold,"Mild Fever,0.8","Sneezing,0.7","Cough,0.8","Runny Nose,0.9","Sore Throat,0.7"
+c5f620f4-2bf6-48c8-b2dd-66237dc48341,21,F,Pneumonia,"Chest Pain,0.6","Confusion,1.0","High Fever,0.4",,
+0216db5c-788d-4fe7-96e4-84ba85c6c9a0,74,M,Pneumonia,"High Fever,0.7","Chest Pain,0.5","Cough with Phlegm,0.7","Fatigue,0.4","Confusion,0.8"
+dbe5f196-a0bf-49d2-93f8-d04370ed4a35,53,F,Common Cold,"Sore Throat,1.0","Sneezing,0.8","Runny Nose,0.8","Cough,0.4","Mild Fever,0.7"
+667964c4-003d-45f3-8da7-5184212a930e,49,F,Common Cold,"Cough,0.9","Runny Nose,0.6","Sore Throat,0.9","Mild Fever,0.7","Sneezing,0.8"
+d6b2dcee-d6c2-46a7-b62f-8e8616629e56,39,M,Pneumonia,"Confusion,0.5","Cough with Phlegm,0.9","Shortness of Breath,0.9","Fatigue,0.3",
+70a022ad-2332-4c2e-9224-8becffe1ea24,20,M,Pneumonia,"Confusion,0.9","High Fever,0.4","Chest Pain,0.8",,
+418d5ff6-cdf2-43af-a963-86945e3dce72,78,F,Asthma,"Shortness of Breath,0.8","Wheezing,0.6","Rapid Breathing,1.0",,
+a10d9763-722a-4205-8adf-22f031b0e510,68,F,Pneumonia,"Cough with Phlegm,0.8","Chest Pain,0.4","High Fever,0.7","Fatigue,0.3",
+1f6d5fe0-ffc7-42c6-a830-aef094050ad0,30,M,Influenza,"High Fever,0.4","Headache,0.7","Fatigue,0.7","Dry Cough,0.6",
+95bf1554-f29d-47bd-b784-c1a1493d37f4,39,M,Common Cold,"Congestion,0.5","Sneezing,0.4","Mild Fever,1.0","Sore Throat,0.8",
+d7638a88-d441-439b-9c5f-abc2e4470bf3,35,M,Common Cold,"Congestion,0.5","Runny Nose,0.6","Cough,0.4","Sore Throat,0.8",
+17ee0ec5-03b0-4825-b135-f8559a8b2713,65,M,Influenza,"Dry Cough,0.8","Chills,0.5","Headache,0.9","Body Aches,0.7",
+dc2c97db-c4ec-4b41-a8c1-1ac77197acb2,41,M,Common Cold,"Runny Nose,0.8","Cough,0.4","Sore Throat,0.9","Mild Fever,0.6","Congestion,0.7"
+013028e4-0f9f-457a-b8c9-9f9041086f7a,51,M,Asthma,"Rapid Breathing,0.6","Shortness of Breath,0.4","Coughing at Night,0.6","Chest Tightness,0.8",
+198748be-c5d8-4611-a65c-8099c51b4a95,64,M,Pneumonia,"Confusion,0.4","High Fever,0.4","Fatigue,0.9",,
+60fa3d35-3bd8-4e9f-8063-d3ca1b4a47a3,83,F,Pneumonia,"Confusion,0.9","Chest Pain,0.6","High Fever,0.5","Cough with Phlegm,0.4","Shortness of Breath,0.8"
+b1c885b3-7fe5-40d6-b111-6f16a842986e,73,M,Common Cold,"Runny Nose,0.6","Sneezing,0.8","Mild Fever,0.7","Sore Throat,0.6","Congestion,0.4"
+352f65fa-ba61-4a72-98a3-0ba48cc4c691,90,M,Asthma,"Rapid Breathing,0.6","Coughing at Night,0.7","Wheezing,0.7","Shortness of Breath,0.6",
+3d70bba3-5871-42c5-9e8e-2fdd43af16f5,28,M,Common Cold,"Sneezing,0.5","Runny Nose,0.6","Sore Throat,0.9",,
+441867aa-4e1e-450d-bdec-2f7d5797022c,58,M,Common Cold,"Sneezing,0.5","Sore Throat,0.4","Mild Fever,0.5",,
+805818e2-e282-4eb6-a499-299ba8d49d53,33,M,Asthma,"Shortness of Breath,0.7","Wheezing,0.5","Coughing at Night,0.9",,
+e69c7734-422d-488d-9265-210ccafcd2db,78,F,Common Cold,"Sneezing,0.4","Runny Nose,0.5","Cough,0.4",,
+2301ab9e-0f14-4ff1-b704-712f1cff85c0,11,F,Influenza,"Dry Cough,0.9","Chills,0.4","Body Aches,0.8","Fatigue,0.6","High Fever,0.9"
+e258cb44-f10b-44a4-be64-f0df2fc4c75a,40,M,Influenza,"Nasal Congestion,0.9","Chills,0.3","Fatigue,0.5","Dry Cough,0.8","Body Aches,0.6"
+2e5b14ca-5b3d-4f61-8aea-193d6415dab9,19,F,Common Cold,"Congestion,0.7","Sneezing,0.9","Mild Fever,1.0","Sore Throat,0.8",
+60703530-95af-437b-a1cc-6d9e9c0b626f,21,M,Common Cold,"Congestion,0.7","Sneezing,0.9","Runny Nose,0.9","Sore Throat,0.4",
+9a977a66-cb82-4ea7-9da5-56ac5878b7fe,81,F,Influenza,"Dry Cough,0.7","Body Aches,0.8","High Fever,0.8","Fatigue,0.7",
+c53749c6-e631-4447-a44e-fbc5d299dc86,31,F,Common Cold,"Congestion,0.8","Cough,0.3","Mild Fever,0.3","Sneezing,0.4",
+5375ed24-278d-4f8b-b7bb-87869a294b41,54,M,Asthma,"Rapid Breathing,0.8","Coughing at Night,0.3","Shortness of Breath,0.5",,
+ae8a2c1b-8249-46b7-9fc2-13ae50b2e945,17,F,Common Cold,"Mild Fever,0.3","Runny Nose,1.0","Sore Throat,0.3","Cough,0.8",
+fa71030b-29e2-420a-8d70-98df523fb923,51,M,Common Cold,"Cough,0.9","Runny Nose,0.6","Sore Throat,0.9","Congestion,0.5","Sneezing,0.8"
+28256639-f282-44ae-ac9c-78eeff3e3282,39,M,Asthma,"Chest Tightness,0.7","Rapid Breathing,0.4","Wheezing,0.3",,
+2c1f5a50-8665-4912-9b97-a608d10bd205,65,M,Common Cold,"Sneezing,0.8","Sore Throat,0.7","Congestion,1.0",,
+cf748dc5-164e-4fa9-a89b-53347f680c1a,90,F,Pneumonia,"High Fever,0.6","Shortness of Breath,0.4","Cough with Phlegm,0.7","Confusion,0.5","Fatigue,0.9"
+01065285-7a7f-4799-b714-f0201f408e4b,27,F,Asthma,"Coughing at Night,0.3","Chest Tightness,0.8","Rapid Breathing,0.3","Wheezing,0.6","Shortness of Breath,0.4"
+eae8729b-ac9b-40ee-a2d4-fb8fc5f27f90,46,M,Asthma,"Wheezing,0.6","Shortness of Breath,0.5","Coughing at Night,0.7","Rapid Breathing,0.5","Chest Tightness,0.5"
+42beffe2-babc-4ae4-a5f5-c011a9612721,88,M,Pneumonia,"Cough with Phlegm,0.6","Chest Pain,0.7","Confusion,0.7",,
+12e04444-53b2-4a46-8b6e-45dec54cc397,74,M,Common Cold,"Cough,0.4","Sneezing,0.6","Sore Throat,0.3",,
+5b303ce8-71e7-4251-9ac6-96c1a60569b0,40,M,Influenza,"Chills,0.6","High Fever,0.5","Dry Cough,0.7","Fatigue,0.4","Body Aches,0.4"
+3a21f314-1467-4ad8-9b18-fc63f7155621,79,F,Common Cold,"Sneezing,0.7","Congestion,0.3","Runny Nose,1.0",,
+af2fb6c2-20f5-400f-a323-40321101cef6,51,F,Pneumonia,"Shortness of Breath,1.0","High Fever,0.5","Chest Pain,0.5",,
+b405dec0-9b6c-4602-89b0-4c4bbc91a029,73,M,Pneumonia,"Chest Pain,0.5","Fatigue,0.6","Confusion,0.6","Cough with Phlegm,0.9",
+9a9d5d42-4824-4bf2-a8dc-9d27161daa72,25,M,Asthma,"Rapid Breathing,0.8","Chest Tightness,1.0","Shortness of Breath,0.7","Coughing at Night,0.5",
+9fe3f507-b34e-4d6c-b796-17363492b864,82,F,Pneumonia,"Chest Pain,1.0","Fatigue,0.6","Shortness of Breath,0.3",,
+706ba230-7160-4540-a152-685ec91f197d,28,M,Pneumonia,"Fatigue,0.5","High Fever,0.4","Shortness of Breath,0.9","Chest Pain,0.4","Cough with Phlegm,0.4"
+12ec3062-8cf1-4b83-a2b2-a94d0d1cf1e2,90,F,Pneumonia,"High Fever,0.3","Cough with Phlegm,0.8","Confusion,0.6",,
+fd439b56-4836-4f82-8a85-f341a76ef9b9,85,F,Pneumonia,"Shortness of Breath,0.5","Fatigue,0.8","Confusion,0.7","Chest Pain,0.7","High Fever,0.9"
+0fc1fb3f-14f1-4852-a941-b80a291f53e7,8,F,Pneumonia,"High Fever,0.6","Chest Pain,0.7","Fatigue,0.4","Confusion,0.8",
+507de906-2f0d-4ae2-a85c-04cfc114f50b,52,M,Pneumonia,"Cough with Phlegm,1.0","Confusion,0.4","Shortness of Breath,0.7","Fatigue,0.4","High Fever,0.8"
+2f7a7c1d-6841-47d3-b8dc-ee9a6165c13e,25,M,Influenza,"Fatigue,0.8","Nasal Congestion,0.4","Headache,0.6","High Fever,0.4",
+6b22274e-450e-449c-95eb-32972a27b1a7,42,M,Common Cold,"Runny Nose,0.7","Congestion,0.8","Sneezing,0.7",,
+bb7a96ee-d32a-4294-afd4-6b2b472a4068,22,M,Pneumonia,"Fatigue,0.8","High Fever,0.7","Shortness of Breath,0.5","Confusion,0.3",
+4d18b08e-e20f-4333-8ced-4e27bc931d05,44,M,Common Cold,"Congestion,0.7","Cough,0.5","Mild Fever,0.9",,
+440a5eee-ad4d-4074-9fa3-b8f6c94c4c81,43,F,Asthma,"Rapid Breathing,0.4","Chest Tightness,0.7","Shortness of Breath,0.6",,
+579b78ff-1569-4e1b-a11e-3dcd6ee14b35,79,M,Asthma,"Shortness of Breath,0.7","Chest Tightness,0.3","Coughing at Night,0.6","Wheezing,0.4","Rapid Breathing,0.9"
+25e10511-1550-40e2-9b90-401bc2fd29fd,1,M,Asthma,"Rapid Breathing,0.9","Shortness of Breath,0.8","Coughing at Night,0.5","Wheezing,0.8",
+aa069732-5d84-41ec-8914-731de8aca4a8,42,F,Asthma,"Wheezing,0.8","Coughing at Night,0.5","Rapid Breathing,0.5",,
+0bb57e53-79f8-47f1-9941-74d891978d6e,6,M,Influenza,"High Fever,0.5","Nasal Congestion,0.8","Headache,0.4",,
+4e098624-9622-4f13-bc7a-7a44dbfda893,17,F,Pneumonia,"Cough with Phlegm,0.6","Fatigue,0.9","Chest Pain,0.9","Confusion,0.9",
+68b3f8d9-03d2-4554-825d-ed343b7420e4,53,M,Influenza,"Body Aches,0.4","Fatigue,0.5","Dry Cough,0.5","High Fever,0.9",
+412acdeb-a824-4a06-8517-b936c278abd6,51,M,Asthma,"Coughing at Night,0.6","Chest Tightness,1.0","Rapid Breathing,0.8",,
+e75961f3-4bc8-4b9d-9b2a-1b978d14e13d,88,F,Influenza,"Body Aches,0.5","Headache,0.3","Dry Cough,0.7","Nasal Congestion,0.8",
+137f5508-ae73-43ed-9acf-12ebc3ba3bd2,16,F,Common Cold,"Mild Fever,0.6","Congestion,0.9","Sore Throat,0.4","Runny Nose,1.0",
+58720989-b780-42bd-9948-ba2d4dc1def4,67,M,Common Cold,"Runny Nose,0.5","Sore Throat,0.5","Congestion,0.3","Cough,0.3","Sneezing,0.9"
+a4e65c64-7607-47a3-947d-7fd49a54d80a,65,M,Influenza,"Headache,0.4","High Fever,1.0","Body Aches,0.5",,
+3029858f-a675-4741-8f01-1e0c4d161e12,38,F,Pneumonia,"Confusion,1.0","High Fever,0.9","Cough with Phlegm,0.8","Shortness of Breath,0.4",
+64d46628-a4cf-4073-bbac-c141f8ce4641,27,M,Pneumonia,"Shortness of Breath,0.8","High Fever,0.7","Cough with Phlegm,0.3","Fatigue,0.4","Confusion,0.5"
+02b71d95-a7a4-4112-9974-26e85171ebb4,24,F,Pneumonia,"Shortness of Breath,0.8","High Fever,0.7","Fatigue,0.8","Chest Pain,0.4","Confusion,0.9"
+b53da483-6dda-4d0c-8d76-edcc38681596,82,M,Influenza,"Fatigue,0.8","Chills,0.6","Dry Cough,0.6","Headache,1.0","Nasal Congestion,0.5"
+9ff0ce2a-5770-4e4a-86a8-c8c8f916338e,78,F,Common Cold,"Cough,0.4","Sneezing,1.0","Congestion,0.8","Runny Nose,0.8","Mild Fever,0.7"
+f188158f-ba6d-49c5-b64a-9f8b8be6015b,33,F,Common Cold,"Sore Throat,0.5","Congestion,0.4","Runny Nose,0.8","Mild Fever,0.5","Sneezing,0.5"
+713280ca-6e54-4a94-aed9-3610642b86f6,11,F,Asthma,"Coughing at Night,0.8","Wheezing,0.8","Rapid Breathing,0.7","Chest Tightness,0.8",
+a490fbdf-6528-4b97-8ddc-3e0221f918e4,46,F,Pneumonia,"Chest Pain,0.6","High Fever,0.8","Fatigue,1.0","Confusion,0.5",
+1de32d30-8874-4124-b731-4d1353ae2dfd,86,F,Pneumonia,"Shortness of Breath,1.0","Cough with Phlegm,0.5","Fatigue,0.6","High Fever,0.6","Confusion,1.0"
+b4bc3aee-5a19-4114-8826-a1e208322834,88,F,Asthma,"Wheezing,0.4","Chest Tightness,1.0","Shortness of Breath,0.3",,
+73cbbb37-e801-44a6-a0da-d47c592e2062,65,F,Asthma,"Coughing at Night,0.6","Rapid Breathing,0.7","Wheezing,0.5","Chest Tightness,0.5","Shortness of Breath,1.0"
+e9026593-bf0b-45d4-8d68-a380111a232b,84,M,Pneumonia,"Confusion,1.0","Cough with Phlegm,0.3","High Fever,0.9","Fatigue,0.8",
+7bc411ac-6713-4f87-a498-5a46c06d9265,48,M,Pneumonia,"Chest Pain,0.5","Fatigue,0.9","Shortness of Breath,0.4","Confusion,0.6",
+eb182db0-48e7-4255-b7f7-b0f22eec0a3d,60,M,Common Cold,"Congestion,0.3","Mild Fever,0.9","Sneezing,0.3",,
+f5b13893-e6ab-461a-9628-9760cb22c045,83,M,Common Cold,"Runny Nose,0.9","Congestion,0.8","Cough,0.5","Sore Throat,0.9",
+a33bb955-e4ec-483d-8984-fb4595b1bef8,44,F,Asthma,"Coughing at Night,0.7","Chest Tightness,0.8","Rapid Breathing,0.4","Wheezing,0.5",
+04abe8ab-d23e-4002-8739-66b3fd7f85a9,37,F,Influenza,"Fatigue,0.7","Body Aches,0.7","Chills,0.5","High Fever,0.8",
+c25c730c-9cdd-471f-abe1-9a11a2bd3262,67,M,Asthma,"Chest Tightness,0.5","Wheezing,0.3","Coughing at Night,0.6","Shortness of Breath,0.7",
+6469cc5e-9d09-42a8-a372-dc454b6e5fe8,56,F,Asthma,"Wheezing,0.5","Coughing at Night,0.3","Rapid Breathing,0.6",,
+fca24ac5-eb6c-4f42-9773-3e3ddcd1b989,60,F,Pneumonia,"Chest Pain,0.7","Fatigue,0.8","Cough with Phlegm,0.8",,
+1900b050-cfcc-4b02-a2d9-903a54e70cce,60,F,Common Cold,"Mild Fever,0.3","Sneezing,0.3","Cough,0.9","Runny Nose,0.7",
+07d0c9ec-efac-4a95-9f81-14507ff8e98d,54,F,Pneumonia,"High Fever,0.6","Cough with Phlegm,0.9","Shortness of Breath,1.0",,
+9680e8ea-56b9-4d77-9af0-de718b777125,38,F,Asthma,"Wheezing,0.8","Shortness of Breath,1.0","Rapid Breathing,0.5","Chest Tightness,0.9","Coughing at Night,0.8"
+c106d39d-b86b-480f-b226-d0e04019cdc7,68,M,Pneumonia,"Chest Pain,0.4","Shortness of Breath,0.8","Confusion,0.8","Fatigue,0.7","Cough with Phlegm,0.7"
+e067837b-c983-4119-a77a-a2384bc04e4a,27,M,Common Cold,"Congestion,1.0","Sore Throat,0.3","Runny Nose,0.9","Sneezing,0.3",
+952c18f3-8fbb-4ed6-a134-266983af31ff,86,F,Influenza,"Nasal Congestion,0.5","Chills,1.0","Dry Cough,0.7","High Fever,1.0","Headache,0.9"
+f37ff4f5-a09b-49f7-97ee-27fb356c25cd,34,F,Influenza,"High Fever,0.5","Body Aches,1.0","Fatigue,0.7",,
+d3493b52-9238-46ea-be66-68e1ddaa10e6,89,F,Asthma,"Chest Tightness,0.8","Wheezing,1.0","Rapid Breathing,0.7",,
+1fa9835c-a70c-4ca7-81eb-285f7e854d3a,63,M,Influenza,"Fatigue,0.8","Dry Cough,0.6","High Fever,1.0",,
+1dc87398-4c95-4fce-9199-fb37d0f4d4a0,21,M,Influenza,"High Fever,0.5","Dry Cough,0.7","Fatigue,0.4","Chills,0.8","Body Aches,0.8"
+3e218167-cbe0-4bd8-8303-d94ad9f0a937,62,F,Pneumonia,"Cough with Phlegm,0.4","Confusion,0.6","Chest Pain,0.7",,
+df650e5f-2165-4e07-bac3-84e793ce8279,17,F,Common Cold,"Congestion,0.4","Mild Fever,0.6","Cough,0.5","Sore Throat,0.7","Runny Nose,0.7"
+f8abbf2f-e125-40c3-a6e6-5a62cde49ef2,28,M,Pneumonia,"Fatigue,0.7","Confusion,0.6","Shortness of Breath,0.7",,
+26fa3a1f-85f0-4019-b22d-481e86452dcd,4,M,Pneumonia,"Fatigue,0.3","Shortness of Breath,0.9","High Fever,0.3",,
+634910d6-c7c2-44bd-8459-eb56b363c3cc,19,F,Pneumonia,"Confusion,0.8","High Fever,1.0","Cough with Phlegm,1.0",,
+017991af-0e0e-43c4-9c43-86d7b28f7f53,17,F,Influenza,"Body Aches,0.9","High Fever,0.6","Fatigue,0.6","Headache,0.5","Nasal Congestion,0.6"
+c5e7f588-eaf7-4cd9-90db-f0904030f072,61,F,Common Cold,"Sore Throat,1.0","Sneezing,0.4","Mild Fever,0.5","Runny Nose,0.5",
+92651417-deba-48a7-aa70-b27a707fc445,16,F,Common Cold,"Cough,0.4","Congestion,0.8","Sore Throat,0.8","Mild Fever,0.8",
+cf2221c0-b023-4b6e-ba76-808dfa9f9efe,30,M,Pneumonia,"Confusion,0.4","Fatigue,0.9","Chest Pain,0.8","High Fever,0.3","Shortness of Breath,0.9"
+b097d639-ecd9-4936-ae5e-735b4798d10e,48,F,Pneumonia,"Confusion,0.7","Cough with Phlegm,0.8","Shortness of Breath,0.3","Fatigue,0.6",
+d5d290c5-59f4-4cf5-9092-37ccade75b2b,44,F,Common Cold,"Sneezing,0.7","Runny Nose,0.3","Congestion,0.5","Sore Throat,0.8",
+01c61df8-e34f-46f0-8275-22d8a6ac949f,68,F,Pneumonia,"Cough with Phlegm,0.8","Fatigue,0.7","High Fever,0.4","Chest Pain,0.8",
+33efabd1-cd19-4aca-9d4a-fbaabdb59420,84,M,Pneumonia,"Chest Pain,0.3","Fatigue,0.6","Confusion,0.6",,
+220e4b2f-cf49-4b55-bc7e-4fa5c68e065c,39,F,Asthma,"Rapid Breathing,0.7","Shortness of Breath,0.5","Coughing at Night,0.6","Chest Tightness,0.5",
+bbada8cd-b47e-4a11-98d9-5e03fe2b9ead,52,M,Common Cold,"Mild Fever,0.8","Runny Nose,0.6","Congestion,0.6",,
+9f02a9ff-3a0e-47c9-9165-d2d171ecacda,21,F,Influenza,"Fatigue,0.5","High Fever,0.7","Chills,0.8",,
+06e9a0ac-f5f4-4634-b437-967ad82248d0,24,M,Influenza,"High Fever,0.5","Fatigue,0.8","Headache,0.6",,
+af4d4e6f-5f19-4b4e-a064-3fd6f9ff18aa,44,M,Influenza,"Dry Cough,0.8","Nasal Congestion,0.6","High Fever,0.8","Chills,0.8",
+24bbf2b7-73bd-4484-9b99-35253fee0dd6,36,F,Asthma,"Rapid Breathing,0.9","Shortness of Breath,0.7","Coughing at Night,0.3","Chest Tightness,0.8","Wheezing,0.9"
+29e20e7f-4698-4478-b878-1306ce64729d,12,M,Pneumonia,"Chest Pain,0.9","Confusion,0.7","Fatigue,1.0","Cough with Phlegm,0.7",
+8f5bdcd0-02cb-47e7-8261-6cebed0e39ba,36,M,Pneumonia,"Chest Pain,0.4","High Fever,0.3","Cough with Phlegm,0.7","Confusion,0.4","Shortness of Breath,0.4"
+d95f3165-3634-4f7e-9631-d68ebcc47d81,58,M,Pneumonia,"High Fever,0.9","Confusion,0.4","Chest Pain,0.6",,
+7a584fa5-9301-458c-88d0-36b1cd55ec35,15,M,Pneumonia,"Cough with Phlegm,0.7","Confusion,0.8","High Fever,0.9","Chest Pain,0.7",
+e3d95bcf-0aa9-4f80-a54c-f1e7043dbf14,63,F,Common Cold,"Runny Nose,0.3","Congestion,0.3","Sore Throat,0.9","Cough,0.4","Mild Fever,0.3"
+c67abe6d-5192-44e0-80a1-ca3a4edaf383,75,F,Influenza,"Dry Cough,0.8","High Fever,0.6","Nasal Congestion,0.4","Headache,0.3",
+14e40a50-6b70-4c81-aa82-2d2f6100df20,8,M,Pneumonia,"Fatigue,0.6","Confusion,1.0","Shortness of Breath,0.9","Cough with Phlegm,0.3","Chest Pain,0.3"
+fe3e59b2-123a-4f8a-9717-9a15801ec5cc,30,M,Influenza,"Dry Cough,0.5","Chills,0.5","High Fever,0.9","Fatigue,0.4","Body Aches,0.8"
+54f0914e-bc1d-4897-a68c-ca33ed2b4927,41,M,Asthma,"Coughing at Night,0.3","Chest Tightness,0.8","Rapid Breathing,0.6","Wheezing,0.9",
+1bfa1384-0104-4b7b-8766-66428c2ba224,55,M,Influenza,"Dry Cough,0.9","Body Aches,0.5","Fatigue,0.5","High Fever,0.5",
+5d70ad9f-a393-4b4d-abf4-d9529c4005fe,79,M,Influenza,"High Fever,0.7","Dry Cough,0.9","Body Aches,0.9",,
+ff547b89-f491-40b4-baea-16af1d2f062e,25,F,Influenza,"High Fever,0.6","Fatigue,0.5","Headache,0.3","Dry Cough,0.5",
+ad7be1dc-e9b2-47d5-b72d-c5207b011710,38,M,Common Cold,"Sore Throat,0.7","Mild Fever,0.7","Cough,0.9",,
+00d4ef29-af0d-4a9e-80da-36577302101d,57,F,Influenza,"Dry Cough,0.3","Nasal Congestion,0.7","Body Aches,0.6",,
+6056b2da-7ded-454a-8b7e-12523ec572ba,52,M,Asthma,"Shortness of Breath,0.4","Chest Tightness,0.6","Wheezing,0.9",,
+0070e004-3215-423f-a324-b9ad7b86e536,6,M,Pneumonia,"Shortness of Breath,0.5","Cough with Phlegm,0.6","High Fever,0.7","Chest Pain,1.0","Fatigue,0.7"
+105bc8d6-b454-4cce-8626-25e8b95ca0ed,16,M,Influenza,"Fatigue,0.5","Nasal Congestion,0.4","Dry Cough,0.9","Chills,1.0","Body Aches,0.3"
+0aee3cb9-09c8-43f1-9c1c-5c26fba4c91a,64,M,Asthma,"Coughing at Night,0.3","Shortness of Breath,0.5","Chest Tightness,0.8","Rapid Breathing,0.7","Wheezing,0.5"
+7c99b702-c2b3-4cc2-8476-f24c3bf5a0c7,39,M,Pneumonia,"Shortness of Breath,1.0","High Fever,0.5","Fatigue,0.5",,
+4d80ece4-a677-4ca6-8fc4-c7d98ffa9440,63,M,Common Cold,"Cough,0.7","Mild Fever,0.7","Sore Throat,0.6",,
+117f5809-ee07-4ddb-8cfa-298c4327b48d,85,M,Common Cold,"Congestion,0.4","Runny Nose,0.9","Mild Fever,0.6",,
+4813b403-97ea-40c9-a94a-7a888bb2106c,13,F,Influenza,"Fatigue,0.5","High Fever,0.6","Dry Cough,0.7","Body Aches,0.5",
+fc76150f-c141-426e-8a43-d03a842886d8,71,M,Influenza,"Fatigue,1.0","Nasal Congestion,0.3","Chills,1.0",,
+e4806f62-88b1-4121-a462-f5a3db388adc,13,M,Pneumonia,"Chest Pain,0.8","High Fever,0.5","Confusion,0.6",,
+fddb45ad-e225-4b61-955c-173f9b7f9750,8,M,Asthma,"Shortness of Breath,0.8","Rapid Breathing,0.3","Chest Tightness,0.9","Wheezing,1.0",
+f2e77f0b-0fee-4a7c-b687-52ecedbd089a,86,M,Pneumonia,"Chest Pain,0.9","Shortness of Breath,0.8","Fatigue,1.0","Confusion,0.8",
+cda3733c-3314-43c6-b81a-6985bc8f6e20,6,F,Influenza,"Chills,0.5","High Fever,0.5","Nasal Congestion,0.4",,
+9c5f0db6-227f-4cd0-b5d1-d83d8e9da02f,87,M,Pneumonia,"Chest Pain,0.8","Confusion,0.7","High Fever,0.6",,
+0ea71f2b-a746-42cc-8650-bc5bb3f48035,71,F,Common Cold,"Congestion,0.7","Runny Nose,0.4","Sneezing,0.4","Sore Throat,0.6",
+f2274082-5202-46a3-9738-7e0fff764747,16,M,Asthma,"Rapid Breathing,0.8","Wheezing,0.9","Coughing at Night,0.5","Chest Tightness,1.0",
+291c504f-0029-4de5-a19e-67da62eb2033,31,F,Pneumonia,"High Fever,0.4","Cough with Phlegm,0.9","Shortness of Breath,0.3",,
+7dd7e549-18d5-4b9f-b4d5-502bd8e80044,52,F,Common Cold,"Mild Fever,0.9","Sneezing,1.0","Runny Nose,0.3",,
+bb695799-ed33-47b7-bb79-454a1957dd11,42,M,Common Cold,"Congestion,0.8","Sneezing,0.9","Sore Throat,0.9","Mild Fever,0.8",
+27d6daa3-c908-434c-a9b4-0a2ca8c40ea4,53,F,Influenza,"Fatigue,0.9","Dry Cough,0.9","Headache,0.5",,
+2b20a629-4c98-44cd-9f7d-ba86a580b4dd,11,F,Asthma,"Coughing at Night,0.6","Shortness of Breath,0.6","Wheezing,0.8","Rapid Breathing,0.4",
+a3a3ba95-bfc6-4337-8823-1eb09daf9bff,88,M,Influenza,"Dry Cough,0.4","Fatigue,0.5","Chills,0.7","Nasal Congestion,0.8","Body Aches,0.4"
+f7c94176-0ee7-4351-9f84-82269e551898,43,M,Common Cold,"Congestion,0.9","Mild Fever,0.6","Runny Nose,0.7","Cough,0.7",
+f85a5052-1db4-4346-a98a-e43235a7be31,53,F,Pneumonia,"High Fever,0.8","Fatigue,0.8","Confusion,0.9",,
+40a64110-f153-4740-98e4-9da10b07dda4,54,M,Influenza,"Nasal Congestion,0.5","Headache,0.9","Body Aches,0.6",,
+ac5ee73a-38d3-48b2-9902-e66999ee80cd,25,M,Asthma,"Chest Tightness,0.7","Rapid Breathing,1.0","Coughing at Night,0.8","Wheezing,0.6","Shortness of Breath,0.7"
+9b5e4828-1155-405d-9615-0ad245c45b90,6,M,Asthma,"Rapid Breathing,0.6","Wheezing,0.9","Chest Tightness,0.5","Shortness of Breath,0.8",
+1fafaae7-638f-45da-b9a2-e4f54622c5c4,43,F,Pneumonia,"Confusion,0.3","High Fever,1.0","Shortness of Breath,0.5",,
+62f22b64-198d-43aa-91b4-a57ad98f9120,21,F,Common Cold,"Congestion,0.6","Runny Nose,0.5","Mild Fever,0.4","Sore Throat,0.4",
+c288af12-d773-48c8-a1d6-64994c498a94,37,M,Pneumonia,"Shortness of Breath,0.4","Confusion,0.7","Fatigue,0.9","Chest Pain,0.4",
+f3d62d44-027c-4e19-8a0d-8159faad585a,71,F,Common Cold,"Sore Throat,0.5","Sneezing,0.9","Runny Nose,0.9",,
+e5ea700d-c70f-4b60-960e-703d0a1a0256,74,M,Pneumonia,"Cough with Phlegm,0.5","Confusion,0.5","Fatigue,0.6","High Fever,0.6","Chest Pain,0.3"
+816d7f5d-2b16-49a5-a1bf-db42db4fe54c,82,F,Asthma,"Shortness of Breath,0.8","Wheezing,0.9","Coughing at Night,0.4","Rapid Breathing,0.9",
+117910fb-6d7b-4a09-9d07-1af9097f6461,19,M,Pneumonia,"High Fever,0.4","Shortness of Breath,1.0","Cough with Phlegm,0.6","Chest Pain,0.4",
+f4dc7cf4-2fbc-499d-9346-bfb93e270e4e,19,M,Influenza,"Nasal Congestion,0.4","Body Aches,0.9","Dry Cough,0.3","High Fever,0.8",
+bf06826d-45f5-4e2d-ae36-4660d0cbb794,78,F,Influenza,"High Fever,0.4","Chills,0.8","Fatigue,0.5","Body Aches,0.7",
+1c7ceefd-4380-425e-b89a-09b840d86ef9,55,M,Common Cold,"Cough,0.4","Runny Nose,0.7","Sneezing,0.7",,
+09f002aa-5e92-459c-afde-8f346b11c117,10,M,Influenza,"Body Aches,0.4","Fatigue,0.5","Dry Cough,0.8","Headache,0.3","Nasal Congestion,0.6"
+4a0d6eba-21b2-45e2-a5a1-08aa9e71bc83,14,F,Common Cold,"Cough,0.5","Congestion,0.8","Mild Fever,0.6","Sore Throat,1.0","Runny Nose,0.9"
+b1249f3a-673a-4fee-875b-51f13bcb1e76,56,M,Influenza,"Nasal Congestion,0.6","Headache,0.4","Body Aches,0.7",,
+dffab7fe-c37c-40e8-9af4-9c4932a5df2c,79,F,Common Cold,"Runny Nose,0.5","Mild Fever,0.8","Sore Throat,0.4","Cough,0.4",
+400a2e4f-f1ef-4593-9e4b-9514b0589388,36,M,Asthma,"Shortness of Breath,0.9","Wheezing,0.4","Chest Tightness,0.7","Coughing at Night,0.8","Rapid Breathing,1.0"
+a94d37af-1910-4a3b-a508-cb5a37d43b31,12,F,Common Cold,"Sore Throat,0.4","Cough,0.7","Mild Fever,0.8",,
+545d8618-6247-4ed3-907c-21b50885a250,28,F,Common Cold,"Cough,0.9","Congestion,0.5","Mild Fever,0.8","Runny Nose,0.9","Sneezing,0.8"
+01a64809-b4b5-468b-acc5-d77a02bd81f5,77,F,Asthma,"Rapid Breathing,0.6","Shortness of Breath,0.6","Chest Tightness,0.5",,
+ec4762fe-f7e9-4799-b444-d517a6d30d70,73,M,Pneumonia,"Cough with Phlegm,0.9","Shortness of Breath,0.8","Confusion,0.5",,
+d55650ea-d932-4589-989a-7c0f54c7f542,50,M,Asthma,"Rapid Breathing,0.8","Wheezing,0.4","Chest Tightness,0.8",,
+9546121e-306b-483c-9ff1-345ad26438e7,25,M,Pneumonia,"Shortness of Breath,0.6","Chest Pain,0.4","Cough with Phlegm,0.4","High Fever,0.7","Confusion,0.7"
+bfd054ef-bdfe-44bf-ba0e-388c09c8757e,51,F,Asthma,"Rapid Breathing,0.4","Coughing at Night,0.4","Shortness of Breath,0.6",,
+3e33e3b1-d94b-4ffb-aaa2-ec3ffa0a3bce,20,M,Asthma,"Chest Tightness,0.8","Wheezing,0.9","Coughing at Night,0.9",,
+e993269c-8cd3-4126-ab08-9f9567fea9d8,78,F,Influenza,"Fatigue,0.8","Nasal Congestion,0.5","Body Aches,0.9",,
+a0bbf097-9398-4dfd-857b-eb3d3dcddac0,4,F,Common Cold,"Mild Fever,0.4","Congestion,0.6","Cough,0.7","Runny Nose,0.5",
+91530805-3258-4342-8ff1-2d91cdf000e4,41,M,Pneumonia,"Fatigue,0.8","High Fever,0.3","Shortness of Breath,0.7",,
+51033dd5-1343-4185-a8c0-9e917dbc423f,87,M,Asthma,"Coughing at Night,0.9","Rapid Breathing,0.7","Shortness of Breath,0.3","Wheezing,0.8","Chest Tightness,0.5"
+35e82df3-c272-4f28-908b-ae513501c4f7,80,F,Common Cold,"Sneezing,0.4","Sore Throat,0.3","Cough,0.9","Mild Fever,0.8","Runny Nose,0.7"
+e2fb070f-ba8d-4ded-9857-68c010cf8833,83,F,Influenza,"Fatigue,0.3","Nasal Congestion,0.5","Body Aches,0.6",,
+263e7270-9a78-493e-b4e3-975129321450,14,M,Asthma,"Wheezing,0.6","Shortness of Breath,0.9","Coughing at Night,0.8","Rapid Breathing,1.0","Chest Tightness,0.9"
+6f025fc1-c4bf-447c-aad8-02d56fcde198,2,F,Asthma,"Shortness of Breath,0.5","Wheezing,0.9","Chest Tightness,0.8","Rapid Breathing,0.7",
+e958c30a-d02f-4f18-bf2a-d9c98ed6bfd0,9,M,Pneumonia,"Fatigue,0.7","Chest Pain,0.4","Confusion,0.7",,
+bb57ce8c-66c0-4a21-b161-354d96584053,70,M,Pneumonia,"Chest Pain,0.7","Fatigue,1.0","High Fever,0.6","Shortness of Breath,0.6","Confusion,0.8"
+e879edc4-9dbb-414e-9b88-93e4655ea340,28,F,Influenza,"Body Aches,0.8","Headache,0.8","Dry Cough,0.5","Nasal Congestion,0.5","High Fever,1.0"
+621caf34-4605-42a9-965a-c0653f7ac9cf,62,F,Influenza,"Headache,1.0","High Fever,0.4","Nasal Congestion,0.7","Fatigue,0.7",
+05e26e03-fc3d-4da0-a3a3-90d024ca27e1,83,F,Influenza,"High Fever,0.9","Body Aches,0.5","Dry Cough,0.6","Fatigue,0.5","Headache,0.7"
+dd832a55-5b96-43aa-8cd8-48882f7bc938,57,F,Asthma,"Shortness of Breath,0.6","Rapid Breathing,1.0","Chest Tightness,0.8","Wheezing,0.8","Coughing at Night,0.9"
+738ff353-1ae7-4658-a66b-eb059483e84c,14,F,Asthma,"Shortness of Breath,0.6","Coughing at Night,0.4","Chest Tightness,0.7","Rapid Breathing,0.9","Wheezing,0.6"
+a7a1cceb-a823-4d64-be4a-8279427588f5,16,M,Asthma,"Shortness of Breath,0.4","Chest Tightness,0.9","Wheezing,0.5",,
+86de5cca-3c8c-403a-ade8-af63403a5dc4,9,F,Common Cold,"Cough,0.6","Mild Fever,0.9","Runny Nose,0.7","Sneezing,0.7","Sore Throat,0.4"
+207af330-4ccc-4226-94ac-e163e55c8a64,71,F,Influenza,"Dry Cough,0.9","High Fever,0.3","Nasal Congestion,0.6","Fatigue,0.5","Chills,0.5"
+c2f4d778-40ca-4d44-91ea-4d648df8dcce,55,F,Asthma,"Shortness of Breath,0.6","Wheezing,0.4","Coughing at Night,0.9",,
+cd0bef39-b0b1-45d8-8e19-25e02f8962b2,63,F,Pneumonia,"Shortness of Breath,0.8","Fatigue,0.4","High Fever,0.9","Chest Pain,0.4",
+8f1d85af-09bd-4935-978c-64d8c20c170b,63,M,Asthma,"Chest Tightness,0.7","Coughing at Night,0.9","Wheezing,0.7",,
+cea84764-2014-4571-ac9b-906db7ea4cd5,9,M,Asthma,"Wheezing,0.7","Chest Tightness,0.8","Rapid Breathing,0.4","Shortness of Breath,0.8",
+ab7c6244-d4f8-4ea0-9cbc-7580f4d69338,72,M,Pneumonia,"Confusion,0.8","Cough with Phlegm,0.9","Fatigue,0.5",,
+3e309c0a-98d9-475b-8c36-df7d4a4f659e,35,M,Influenza,"Chills,0.3","Fatigue,0.5","Nasal Congestion,0.9","High Fever,0.8",
+ab7a354a-6100-44b6-b5b2-5a886a081225,62,M,Influenza,"Fatigue,0.5","Dry Cough,0.7","Body Aches,0.3","Chills,0.7",
+f03f2bbd-eada-4e52-8130-53804c227078,47,M,Asthma,"Coughing at Night,0.7","Rapid Breathing,0.3","Chest Tightness,0.9","Shortness of Breath,0.7",
+c7c6ec76-1e59-4b45-8b09-5655ca3be4ea,68,F,Asthma,"Chest Tightness,0.9","Coughing at Night,0.5","Rapid Breathing,0.9","Shortness of Breath,0.5",
+dfc8ca38-32f2-4e35-89e2-23b2839d19e1,28,F,Common Cold,"Congestion,0.4","Mild Fever,1.0","Sneezing,1.0",,
+21bfa27a-edc9-464c-b7b4-ae045fe00cbf,82,F,Common Cold,"Runny Nose,0.4","Congestion,0.5","Sneezing,0.6","Cough,0.4","Sore Throat,1.0"
+5de9c03b-b7da-416a-b88f-d06478038628,78,F,Asthma,"Rapid Breathing,0.5","Chest Tightness,0.9","Shortness of Breath,0.8",,
+47501011-1359-4e3f-9405-10f242eb0d64,7,F,Asthma,"Shortness of Breath,0.5","Wheezing,0.4","Chest Tightness,0.9","Coughing at Night,0.4","Rapid Breathing,0.8"
+4730cb35-8e00-4c4f-af11-91ca634de40d,80,M,Pneumonia,"Confusion,0.6","Cough with Phlegm,0.5","Fatigue,0.5","Chest Pain,0.3",
+d8f0a0fc-3f1d-4126-a1fa-36518fe27cdd,55,M,Common Cold,"Runny Nose,0.9","Sore Throat,0.5","Cough,0.7",,
+1ca149ac-a92b-4f88-a3b8-a3bd30a015c0,48,F,Common Cold,"Sore Throat,0.5","Runny Nose,0.9","Mild Fever,0.9","Sneezing,0.8","Cough,0.8"
+38be1d29-0efd-49e3-8b74-85e2e73c97fe,90,M,Influenza,"Chills,0.6","Fatigue,0.7","High Fever,0.7",,
+fe947015-ac4f-4b14-9522-9d866c343b5e,67,F,Pneumonia,"Confusion,0.7","Fatigue,0.8","Cough with Phlegm,0.4",,
+049e89c3-a942-43fa-ba1b-af56c0a0ffa0,61,M,Pneumonia,"Cough with Phlegm,0.4","Fatigue,0.9","High Fever,0.4",,
+930439b5-8312-4d4f-bd3d-2b19bf713217,75,M,Influenza,"High Fever,0.7","Headache,0.4","Fatigue,0.7","Nasal Congestion,0.9","Dry Cough,0.3"
+c5f99fdd-1c7a-4db0-bbc3-38dd9673a0db,31,F,Asthma,"Coughing at Night,0.4","Shortness of Breath,0.6","Rapid Breathing,0.6",,
+74bae6c7-0b55-4dc8-9e06-14df4abdaa6c,65,F,Influenza,"Fatigue,0.3","Chills,0.7","Dry Cough,0.6","Body Aches,0.9","Nasal Congestion,0.5"
+935b779a-59ac-4aac-9763-31bed27b4a43,40,F,Asthma,"Rapid Breathing,0.7","Wheezing,0.4","Coughing at Night,0.8","Shortness of Breath,0.6",
+04bef806-7d4a-441b-8873-fa80df02321e,24,F,Influenza,"Chills,0.3","Fatigue,0.6","Body Aches,0.5","Headache,0.4",
+8c842e85-4df8-413c-8483-6ea85f7aff96,79,F,Influenza,"High Fever,0.7","Body Aches,0.7","Nasal Congestion,0.9",,
+d3a8cf80-09fc-4b56-b72a-e053ab29cab2,61,M,Influenza,"Fatigue,0.4","Body Aches,0.9","Dry Cough,0.7",,
+b85ce7b5-a80a-4553-ae6f-fd03f94a9dc4,38,M,Pneumonia,"Cough with Phlegm,1.0","Confusion,0.8","Chest Pain,0.3","Shortness of Breath,0.5",
+795bb75d-5247-4f7d-9599-c51cb0a9ddbb,78,M,Pneumonia,"Chest Pain,0.3","Fatigue,1.0","Confusion,0.4","Shortness of Breath,0.9",
+cd5363bd-14a1-43bd-ac94-17f1137637f2,79,M,Pneumonia,"Shortness of Breath,0.8","Cough with Phlegm,0.5","Chest Pain,0.6","Confusion,0.5","High Fever,0.5"
+de5bf159-5dda-4354-ab34-97f8fc4d749f,77,F,Common Cold,"Sneezing,0.8","Mild Fever,0.8","Sore Throat,0.7","Runny Nose,0.6","Congestion,0.7"
+bd5eab6d-367a-4b2c-a62b-23041adae97c,73,M,Asthma,"Coughing at Night,0.6","Wheezing,0.8","Shortness of Breath,0.8","Rapid Breathing,0.4","Chest Tightness,0.5"
+1f050b7d-060f-43bc-9902-82ff4d88fb60,33,M,Common Cold,"Cough,0.3","Sore Throat,0.4","Mild Fever,0.8","Congestion,0.6",
+7b3a13d6-0d49-45e0-97e6-6f951c1aa41f,17,M,Pneumonia,"Chest Pain,1.0","Fatigue,0.6","Confusion,0.4","Cough with Phlegm,0.9","High Fever,0.3"
+d0d3dca5-dfdd-4ab3-80b3-e6561e28666e,55,M,Asthma,"Coughing at Night,0.4","Shortness of Breath,0.8","Chest Tightness,0.7",,
+8c57257b-4f39-4181-821e-70e4e89fe314,73,M,Common Cold,"Sore Throat,1.0","Mild Fever,0.7","Runny Nose,0.9","Sneezing,1.0",
+c5ef82ba-74a5-4f7d-a451-6c02a205140d,18,M,Asthma,"Rapid Breathing,0.7","Wheezing,0.9","Shortness of Breath,0.8",,
+01046ebb-76a6-4486-8eae-da4f3e1150cf,63,M,Asthma,"Coughing at Night,0.5","Rapid Breathing,0.8","Wheezing,0.9","Shortness of Breath,0.5",
+8e0d478c-c3ba-4c52-a800-57687c5a50a9,32,F,Common Cold,"Sneezing,0.6","Congestion,0.9","Sore Throat,0.4","Cough,0.5","Mild Fever,0.8"
+cdfefb5e-e3f2-42fa-9d0e-f2957c3da396,8,F,Asthma,"Wheezing,1.0","Shortness of Breath,0.9","Rapid Breathing,0.5","Coughing at Night,0.4","Chest Tightness,0.8"
+c20a4dfb-ae2e-484c-9c08-6ec801db319d,75,F,Asthma,"Chest Tightness,0.7","Shortness of Breath,0.3","Wheezing,0.9","Coughing at Night,0.8",
+4907146b-c2e2-440c-bc28-025be51d0bff,59,M,Pneumonia,"Cough with Phlegm,0.5","High Fever,0.4","Confusion,0.9","Fatigue,0.9",
+cb5626ea-c203-4d18-8be6-d62b49f727a7,71,F,Common Cold,"Mild Fever,0.9","Sneezing,0.6","Congestion,0.7","Runny Nose,0.8","Sore Throat,0.6"
+48e7449e-3ece-4662-b9ba-9e66a0a781f5,42,F,Pneumonia,"Shortness of Breath,0.4","Fatigue,0.6","Cough with Phlegm,1.0","Confusion,0.3","High Fever,0.7"
+7aa058b6-d572-4b3e-9f01-0748a23119ba,66,F,Influenza,"Dry Cough,0.9","Headache,0.8","High Fever,0.9",,
+2da6c44e-7d1b-4341-81b8-40e55444b674,48,M,Asthma,"Wheezing,0.8","Chest Tightness,0.9","Rapid Breathing,0.7","Coughing at Night,0.6",
+545da885-a292-4c53-b790-0a7c31038626,47,M,Asthma,"Chest Tightness,0.6","Rapid Breathing,0.4","Wheezing,0.8","Coughing at Night,1.0","Shortness of Breath,0.8"
+b5c964eb-aedc-4fba-910c-dc2f87b3211e,82,M,Asthma,"Wheezing,0.6","Rapid Breathing,0.5","Shortness of Breath,0.8","Chest Tightness,0.5","Coughing at Night,0.6"
+e1d13658-64fd-430f-9fe2-118e8a41b1b5,56,F,Common Cold,"Sore Throat,0.7","Congestion,0.9","Cough,0.9","Sneezing,1.0","Mild Fever,1.0"
+e84f5790-07ce-400d-bc58-42cd79d04115,90,M,Pneumonia,"High Fever,0.4","Shortness of Breath,0.7","Cough with Phlegm,0.6","Confusion,0.8","Fatigue,0.8"
+d9203dd3-68a8-48c1-a859-6c83f9717a60,74,M,Pneumonia,"Cough with Phlegm,0.9","Shortness of Breath,0.7","Confusion,0.9","Chest Pain,0.4","Fatigue,0.4"
+4894d874-d5b4-4002-8dd1-cf89545c23bf,13,F,Pneumonia,"Confusion,0.5","Fatigue,0.4","Cough with Phlegm,0.5",,
+4088754b-3da7-4c87-8ac4-dcb6e7437da1,83,F,Influenza,"Headache,0.5","High Fever,0.8","Body Aches,0.5",,
+6bb57a0c-2d8a-44de-90ab-d1576fe8f2b1,74,M,Pneumonia,"High Fever,0.6","Shortness of Breath,0.6","Confusion,0.5",,
+4a8d2a8c-1499-4004-be58-bcc58992b8e0,64,M,Common Cold,"Mild Fever,0.5","Runny Nose,0.4","Congestion,0.8",,
+6827bdef-7e2d-487d-bf8c-6373e3a036eb,86,M,Common Cold,"Cough,0.9","Congestion,0.6","Sore Throat,0.4","Sneezing,0.4",
+226bc86c-bd12-49c7-a05e-b39eecab2b76,70,F,Influenza,"Nasal Congestion,0.4","Headache,0.5","Dry Cough,0.9",,
+0240e925-9b24-45ed-a49c-fbd482add941,1,M,Pneumonia,"Chest Pain,0.7","Fatigue,1.0","High Fever,0.6",,
+f3a4c697-268f-4aed-bf1a-3e75c4fad044,87,F,Pneumonia,"Confusion,1.0","Shortness of Breath,0.7","Fatigue,0.5","Cough with Phlegm,0.6",
+b002b902-4a41-4a32-9048-a4149232a5e0,68,F,Influenza,"Chills,0.6","Body Aches,0.8","Fatigue,0.7",,
+79967ffb-e9b2-4906-9be5-3e45969a91bd,11,F,Influenza,"Body Aches,0.3","Nasal Congestion,0.7","Fatigue,0.6",,
+45bbd2dc-5c87-421e-985d-d7c97ce4e018,18,M,Common Cold,"Congestion,0.4","Cough,0.7","Sore Throat,0.6","Mild Fever,0.6","Runny Nose,0.4"
+b986a1c1-6e84-484b-9e85-cb44e418907a,50,M,Common Cold,"Congestion,0.5","Sneezing,0.9","Cough,0.3","Sore Throat,0.5",
+a96c13d9-3d7b-451f-8706-df6804ca55f8,60,M,Common Cold,"Sneezing,0.6","Congestion,0.7","Cough,1.0",,
+1871e851-cb63-4448-8fe8-653ff2273865,51,M,Common Cold,"Mild Fever,0.6","Sneezing,0.4","Cough,0.3",,
+a78b8666-0f5c-4922-b201-842db12b97a9,55,M,Influenza,"Chills,0.7","Headache,0.9","Dry Cough,0.9",,
+867bde4b-3b3c-4899-8f06-571fc86ff231,83,F,Pneumonia,"Fatigue,0.4","Confusion,0.3","Chest Pain,0.9",,
+a6099e23-b881-4d6e-a338-28df9dc996da,17,F,Asthma,"Wheezing,0.8","Rapid Breathing,0.8","Chest Tightness,0.8","Coughing at Night,0.7",
+6fa9c5fd-3a37-4ac4-a766-2921f900029c,43,F,Influenza,"Headache,0.3","High Fever,0.7","Chills,0.8","Nasal Congestion,0.9",
+2b987b22-12d0-4e6a-9b35-cfd2b85cec8d,66,F,Influenza,"Chills,0.5","Nasal Congestion,0.3","Dry Cough,0.7",,
+ea24430e-9bef-4dad-9f28-226d01f9499e,24,M,Influenza,"Fatigue,0.6","Headache,0.5","Body Aches,0.7","High Fever,0.7",
+e35d6c9e-0c46-4337-9a62-e83b39a36f22,56,M,Influenza,"Fatigue,0.7","High Fever,0.4","Headache,0.3",,
+33654652-1976-40df-945a-e35a911e8a13,39,M,Pneumonia,"Cough with Phlegm,0.9","Fatigue,0.5","High Fever,0.9",,
+6c5a9d71-f52a-4c10-8a85-b92781741c60,57,F,Common Cold,"Runny Nose,0.6","Mild Fever,0.5","Sore Throat,0.4","Congestion,0.7","Cough,0.6"
+d088a0ba-3ae2-417b-b451-a3bd90d87228,83,M,Pneumonia,"Fatigue,0.6","Confusion,1.0","High Fever,0.3",,
+2c8bd996-3ab4-42de-88e1-20191518ef04,58,F,Pneumonia,"Shortness of Breath,1.0","Chest Pain,1.0","Cough with Phlegm,0.5",,
+b637351e-6ac8-4c55-969a-72e6e6fadfde,6,M,Pneumonia,"Shortness of Breath,0.9","Chest Pain,0.8","High Fever,1.0","Confusion,0.4","Cough with Phlegm,0.9"
+18e334cf-76f8-4a9a-8364-e8eb4455bc42,8,M,Asthma,"Rapid Breathing,0.4","Coughing at Night,0.3","Shortness of Breath,0.4","Chest Tightness,0.9","Wheezing,0.9"
+83dd63f9-5c91-4dde-b0fb-77362d1dcb21,47,F,Asthma,"Rapid Breathing,0.9","Chest Tightness,0.9","Wheezing,0.5","Coughing at Night,0.3","Shortness of Breath,0.4"
+7bbb3d69-ee52-4da1-9efc-7bfea2389fc3,74,F,Pneumonia,"Cough with Phlegm,0.5","High Fever,1.0","Fatigue,0.8","Shortness of Breath,0.9",
+15ba3b00-5fa0-4f9d-9d43-f79c76d23d12,89,F,Pneumonia,"Shortness of Breath,0.4","High Fever,0.7","Fatigue,0.3","Confusion,0.6",
+39a5c404-0f49-4046-9fc7-5ad6ced3b12f,65,F,Common Cold,"Runny Nose,0.7","Sneezing,0.6","Congestion,0.5",,
+34a2b86f-1789-4351-99f1-65f5599efa07,12,M,Asthma,"Chest Tightness,0.9","Rapid Breathing,0.5","Shortness of Breath,0.9",,
+9abe0c2e-df2b-4750-8e49-a03a11f73165,3,F,Common Cold,"Sneezing,0.9","Sore Throat,0.9","Mild Fever,0.5","Congestion,0.4","Cough,0.5"
+3df8d618-f6f2-476a-ad69-605fadbf4fb3,15,M,Asthma,"Coughing at Night,0.4","Rapid Breathing,0.4","Wheezing,0.4","Chest Tightness,0.6",
+8ee73c2d-10a1-4082-ba2e-b4f386a5048d,49,M,Common Cold,"Sore Throat,0.9","Mild Fever,0.7","Cough,0.4","Runny Nose,0.9",
+7ef3a4d8-8273-4212-93ff-98a2f2e1e46f,78,F,Asthma,"Shortness of Breath,0.7","Chest Tightness,0.7","Wheezing,0.9","Coughing at Night,0.6","Rapid Breathing,0.9"
+876b0877-a5b3-4f2b-bf22-d43f0367b410,48,M,Asthma,"Coughing at Night,0.4","Chest Tightness,0.6","Rapid Breathing,0.6","Shortness of Breath,0.9","Wheezing,0.7"
+c33fd3c1-960b-4336-a96e-844ef8d607cb,63,F,Asthma,"Coughing at Night,0.3","Rapid Breathing,0.9","Shortness of Breath,0.3","Wheezing,0.5",
+3b99509d-6ee5-43a2-9450-6b3acc8b43d2,42,M,Common Cold,"Runny Nose,0.7","Congestion,0.5","Mild Fever,0.3",,
+7f4fc0a3-8ea9-4ff7-9f05-32aecd5d7089,65,M,Common Cold,"Sneezing,0.3","Congestion,0.4","Runny Nose,1.0",,
+f619c38c-39e3-45c0-952c-096bf6af04e8,80,M,Pneumonia,"Fatigue,0.6","High Fever,0.4","Confusion,0.5","Shortness of Breath,0.6",
+e699deb7-55e2-4c97-9322-b3cf76123837,26,M,Asthma,"Wheezing,0.7","Chest Tightness,1.0","Shortness of Breath,0.3","Coughing at Night,0.3",
+10396d1a-c81f-499d-bd90-37ce03ce580d,13,M,Common Cold,"Sore Throat,0.8","Runny Nose,0.4","Cough,0.8","Mild Fever,0.9","Congestion,1.0"
+58689a87-4ccf-430b-9149-4320f1eb4ac3,29,M,Pneumonia,"High Fever,1.0","Cough with Phlegm,0.5","Fatigue,0.8",,
+9dcb77e2-4c65-4cbd-a445-3a00df14a63d,68,F,Pneumonia,"Cough with Phlegm,1.0","Shortness of Breath,0.9","Fatigue,0.4",,
+4d04d08a-9b91-494f-90d3-d86b9a47dfaa,23,M,Asthma,"Rapid Breathing,0.9","Coughing at Night,0.4","Wheezing,0.6","Chest Tightness,0.4","Shortness of Breath,0.4"
+7970a324-26ff-454f-bd64-d5486ae1baa7,65,M,Pneumonia,"Shortness of Breath,0.3","High Fever,0.7","Cough with Phlegm,0.7",,
+561e6c13-e117-45ce-892c-7370f8cf61ff,2,M,Common Cold,"Sore Throat,0.5","Runny Nose,0.8","Congestion,0.8",,
+235465b3-6745-4443-bdb6-4648c7d7395a,41,M,Asthma,"Rapid Breathing,1.0","Wheezing,0.7","Shortness of Breath,0.5","Coughing at Night,0.5",
+b5290974-4078-4be0-91f2-b0aef3725a32,22,M,Common Cold,"Runny Nose,0.4","Congestion,0.5","Cough,0.5","Sore Throat,0.9",
+1f8dd00b-02ec-438f-b492-6407edfc68f6,55,M,Asthma,"Wheezing,0.9","Rapid Breathing,0.8","Chest Tightness,0.7","Coughing at Night,0.4","Shortness of Breath,0.3"
+d7740c96-ab2b-48fd-accd-8cd3da78e4f1,54,F,Influenza,"Body Aches,0.7","High Fever,0.6","Headache,0.4","Dry Cough,0.7",
+5b79dba8-c5f4-422e-b439-ac7ed2fb2c01,2,F,Influenza,"Headache,0.6","High Fever,0.4","Chills,0.8",,
+b79622c4-5318-439a-b39a-c473ef357348,88,M,Asthma,"Rapid Breathing,1.0","Coughing at Night,0.5","Shortness of Breath,0.6","Chest Tightness,0.9",
+ba76a20a-1ada-40d7-bc05-174fde05ae20,54,F,Asthma,"Wheezing,0.7","Rapid Breathing,0.5","Coughing at Night,0.4","Chest Tightness,0.5","Shortness of Breath,1.0"
+df69cf44-d91b-4bdb-8679-6b7c836da60f,47,M,Influenza,"Chills,0.6","High Fever,0.7","Headache,0.7",,
+f18cc888-df41-4563-aa78-5f81325d5f81,4,M,Common Cold,"Mild Fever,0.4","Runny Nose,0.5","Congestion,1.0","Cough,0.5",
+391b9ce0-4815-4136-8469-bd72c48400f5,61,M,Pneumonia,"Shortness of Breath,0.4","Chest Pain,0.9","High Fever,0.4",,
+fba02ce9-fc85-4131-aca3-bbf3c0db8194,11,F,Common Cold,"Congestion,1.0","Cough,0.7","Runny Nose,0.9","Sneezing,0.8",
+833491c6-4b46-4307-943d-981964047620,44,F,Pneumonia,"Shortness of Breath,0.4","Fatigue,0.9","Confusion,0.7","High Fever,0.7",
+19df85d8-56d5-4791-9572-280a6adb82c6,55,M,Pneumonia,"Confusion,0.6","Fatigue,0.8","Shortness of Breath,0.5","High Fever,1.0","Chest Pain,0.8"
+9183a2ce-9399-4522-9008-7c680068eaeb,87,F,Common Cold,"Sneezing,0.6","Mild Fever,0.5","Sore Throat,0.9",,
+41879750-4e23-42eb-a60c-ef8a7fad78e7,5,M,Influenza,"Dry Cough,1.0","Headache,0.9","Nasal Congestion,0.9",,
+bc22f342-6b53-497e-85bc-6888af2a7c24,28,F,Asthma,"Shortness of Breath,0.8","Coughing at Night,0.6","Rapid Breathing,0.4","Wheezing,0.5",
+ee9ac1ec-edfc-4bbe-889a-9625d64fe64b,46,F,Influenza,"Dry Cough,0.5","Body Aches,0.5","Nasal Congestion,0.4","Headache,0.8","Chills,0.5"
+233acafd-6ee1-4c75-9638-dff0d69128e5,66,F,Common Cold,"Mild Fever,0.8","Cough,0.4","Runny Nose,0.4","Congestion,0.4","Sneezing,0.4"
+4504966a-6953-4626-9d74-be9302ddd809,44,F,Common Cold,"Sore Throat,0.3","Sneezing,0.9","Runny Nose,0.7","Mild Fever,0.9","Cough,0.7"
+9a7a20da-15e1-4512-9ea1-d91d07821201,16,F,Common Cold,"Runny Nose,0.9","Cough,0.9","Mild Fever,0.6",,
+a7e49c12-5d56-4924-8546-a9313748a913,42,F,Influenza,"Nasal Congestion,1.0","Body Aches,0.9","High Fever,0.4","Fatigue,0.6",
+d3c2495a-0ec1-4600-a2b1-3235f8737aa3,84,F,Common Cold,"Mild Fever,0.9","Sore Throat,0.5","Congestion,0.7",,
+c5dee142-3894-4e6b-a950-157453091798,88,M,Pneumonia,"Cough with Phlegm,0.5","Fatigue,0.4","Confusion,0.6",,
+6e9d0aae-1389-4d3d-8b3c-c55107347bbc,23,M,Influenza,"Fatigue,0.5","Headache,0.8","Body Aches,0.3","Chills,0.8","High Fever,0.5"
+917d3da4-7dfa-45c3-a58e-7a8c910f4d29,74,F,Common Cold,"Congestion,0.9","Cough,0.5","Runny Nose,0.9",,
+c917203e-c219-48f1-b665-557fc30fa22d,57,F,Asthma,"Shortness of Breath,0.7","Wheezing,0.5","Rapid Breathing,0.6","Chest Tightness,0.7",
+9e1d897d-ef42-4cff-aa2d-4f5430418fee,55,M,Pneumonia,"Chest Pain,0.5","High Fever,0.6","Cough with Phlegm,0.8","Confusion,0.3","Shortness of Breath,0.8"
+802114ee-a515-4d6a-b41d-4ac5d3855216,77,F,Influenza,"Body Aches,0.4","High Fever,0.9","Headache,0.5","Chills,0.8",
+a0ffe037-d22c-4f50-bbc5-b2e0c71f3148,26,M,Common Cold,"Runny Nose,0.7","Mild Fever,0.8","Congestion,0.3","Cough,0.7",
+ab5d2c01-6224-4cf0-af63-f0ee9f0e58b3,59,M,Pneumonia,"Confusion,1.0","High Fever,0.4","Shortness of Breath,0.8",,
+0d90d05f-b0af-43e9-ad9d-e83e43a87b95,39,M,Pneumonia,"High Fever,0.7","Confusion,0.6","Shortness of Breath,0.6","Cough with Phlegm,0.4","Fatigue,0.3"
+480b6e7e-c8cc-4a32-8ce8-a3dd0179731b,19,M,Asthma,"Shortness of Breath,1.0","Rapid Breathing,0.7","Coughing at Night,0.4","Chest Tightness,0.6",
+aef9f8cd-578e-47cc-b81d-023bd1e9d7df,75,M,Common Cold,"Cough,0.5","Sore Throat,0.6","Mild Fever,0.9",,
+4fc061bd-b6d4-4746-b6d8-0f2d46af71df,4,F,Common Cold,"Congestion,0.3","Sneezing,0.5","Runny Nose,0.5",,
+17850bd4-d6e1-4452-98d1-9480f50d61af,77,M,Common Cold,"Congestion,0.7","Sneezing,0.4","Cough,0.9","Runny Nose,0.4","Sore Throat,0.6"
+c2923c3b-5333-430c-b2d9-532abd3da2fe,9,M,Asthma,"Rapid Breathing,0.4","Chest Tightness,0.7","Shortness of Breath,0.3","Wheezing,0.4","Coughing at Night,0.6"
+164da961-af14-429d-9899-dc7e8c3c5553,61,F,Common Cold,"Congestion,0.6","Mild Fever,0.9","Cough,0.5",,
+e5b8b607-83c1-4910-9011-1cebbd7d934d,48,M,Influenza,"Chills,0.5","Dry Cough,0.6","Nasal Congestion,0.7",,
+9857f728-5883-444a-8b6a-c206540a3240,22,M,Pneumonia,"High Fever,0.9","Cough with Phlegm,0.6","Confusion,0.4","Shortness of Breath,0.8","Fatigue,0.6"
+b598b0d5-7e1b-4eb5-9d76-d05d8c4b28be,67,M,Asthma,"Shortness of Breath,0.9","Coughing at Night,0.6","Rapid Breathing,1.0","Chest Tightness,0.5",
+04d2477c-5edd-408c-a58b-ef115c9f8e8c,63,F,Asthma,"Chest Tightness,0.4","Rapid Breathing,0.4","Wheezing,0.7","Coughing at Night,0.7",
+e27b218e-b4ea-42ee-b299-5c711989a572,57,M,Common Cold,"Sore Throat,0.3","Mild Fever,0.5","Cough,0.5","Congestion,0.6","Sneezing,0.6"
+f8f2b4f9-9858-4851-a84e-a7666415013f,23,M,Pneumonia,"Confusion,1.0","Chest Pain,0.4","Fatigue,0.5",,
+f7a9996f-235e-4380-bfa5-6ca91cd13a15,26,M,Pneumonia,"Confusion,0.4","Shortness of Breath,0.7","Fatigue,0.6",,
+1daa75a3-95b0-4b45-b062-010532444135,14,M,Asthma,"Wheezing,0.6","Shortness of Breath,0.7","Rapid Breathing,0.6",,
+925fc22e-5bb8-4cdb-9a9c-60c761b641b0,90,M,Pneumonia,"Confusion,0.6","Fatigue,0.7","Chest Pain,0.3",,
+829040e8-8f40-45a8-9082-380dfb32b8e4,75,F,Common Cold,"Sore Throat,0.4","Cough,0.9","Mild Fever,0.7","Sneezing,0.7",
+2c1aeae3-2607-40f3-83c1-3bcbaaf19d2a,45,F,Pneumonia,"Shortness of Breath,0.8","Confusion,1.0","Chest Pain,0.4",,
+f525b2e1-edd4-4dab-8c60-460c00e7b3de,49,M,Pneumonia,"Fatigue,0.7","Confusion,0.8","Chest Pain,0.7","Shortness of Breath,1.0","High Fever,0.5"
+a0d5a004-ed16-4123-9a10-3dfd021c3024,17,F,Common Cold,"Mild Fever,0.9","Runny Nose,0.9","Sore Throat,0.5","Congestion,0.9",
+dcd72883-69e1-4204-95b7-9f9210878025,5,M,Asthma,"Rapid Breathing,0.7","Chest Tightness,0.8","Coughing at Night,0.9","Wheezing,0.9",
+a6685c8a-1873-4811-9725-0fc7d8fecde5,68,M,Common Cold,"Sore Throat,0.3","Mild Fever,0.4","Congestion,0.4","Runny Nose,0.5",
+54685c11-84c8-439b-a8b0-da837ca17d0f,24,M,Asthma,"Shortness of Breath,0.7","Rapid Breathing,0.8","Wheezing,0.3","Coughing at Night,0.3","Chest Tightness,0.7"
+d42aa6ce-149d-466d-b3c0-157a0cd1a533,20,F,Common Cold,"Runny Nose,0.7","Mild Fever,0.5","Sore Throat,1.0","Sneezing,0.8","Cough,0.5"
+92f15097-9a4d-4e80-affd-f92d64acf4b2,1,M,Influenza,"Nasal Congestion,0.8","Dry Cough,0.5","Body Aches,0.7","Fatigue,0.6",
+b2302525-ac5f-4167-9767-8b9f0e83f784,47,F,Influenza,"Chills,0.8","Headache,0.8","Body Aches,0.5","Fatigue,0.5","Nasal Congestion,0.3"
+88051ff7-ce69-4cb9-986f-005c28e4254e,65,M,Influenza,"High Fever,0.6","Dry Cough,0.9","Chills,0.4","Headache,0.3",
+f6179dfa-5d92-4e15-a80e-825b2dd00075,7,F,Common Cold,"Cough,0.6","Congestion,0.7","Sore Throat,0.8","Sneezing,0.8","Runny Nose,0.4"
+b1b94a06-dfd5-4420-83ea-903fb9d0cba9,78,F,Influenza,"Body Aches,0.3","Nasal Congestion,0.6","Chills,0.4","Headache,0.7","Dry Cough,0.5"
+3fd17b16-21e6-4d6c-bfbb-552033dfdf67,44,M,Pneumonia,"Cough with Phlegm,0.5","Fatigue,0.6","High Fever,0.9","Shortness of Breath,0.7",
+64c758d9-d0da-4649-be2c-51d80dd80582,43,F,Pneumonia,"Confusion,0.8","Fatigue,0.6","Chest Pain,0.3",,
+b272c716-47db-422e-896e-87fb608e3c36,28,F,Common Cold,"Sneezing,0.7","Congestion,0.6","Mild Fever,0.9",,
+93ab678d-7756-4279-aba4-38b391bdd46d,11,M,Pneumonia,"Chest Pain,0.4","Confusion,0.6","High Fever,0.8","Fatigue,0.8","Cough with Phlegm,0.8"
+5995486b-2da0-4af5-af8f-747430379b32,75,F,Common Cold,"Cough,0.9","Sore Throat,0.7","Congestion,0.9",,
+e4d80798-13fc-43e2-aed4-e5d30a9eeffe,28,M,Influenza,"Chills,0.8","Dry Cough,0.6","Headache,0.4","Nasal Congestion,0.7",
+bb20ed2e-06f8-4745-a0b5-59ecf75ed567,34,F,Influenza,"High Fever,0.5","Chills,0.8","Fatigue,0.3","Headache,0.8",
+57c9ac1a-6c23-46ad-8877-fb87cf982005,11,F,Influenza,"Nasal Congestion,0.7","Chills,0.9","Dry Cough,0.5","Body Aches,0.3",
+8a38e485-1a99-4f8b-9cc3-356d67aae154,79,F,Pneumonia,"High Fever,0.4","Confusion,0.9","Fatigue,0.8","Shortness of Breath,0.5",
+28e78314-df5c-4696-93dd-fe3e1fe7ab5b,54,M,Asthma,"Shortness of Breath,0.9","Wheezing,0.4","Rapid Breathing,0.9","Chest Tightness,1.0",
+f57df988-db03-4e8f-bb10-bae791d6c7c0,78,F,Pneumonia,"Fatigue,0.8","High Fever,0.3","Chest Pain,0.3","Confusion,0.7","Shortness of Breath,1.0"
+67db605c-2095-4a60-9437-51fde56e8708,75,F,Common Cold,"Runny Nose,0.3","Cough,1.0","Congestion,0.7","Sore Throat,0.9",
+77c7d984-5696-46e1-8fd7-c1f80578de99,90,M,Asthma,"Wheezing,0.5","Rapid Breathing,0.8","Coughing at Night,0.8",,
+f22d9ba7-5e42-40ba-9468-14c97d059538,5,M,Asthma,"Shortness of Breath,0.5","Rapid Breathing,0.6","Coughing at Night,0.5","Wheezing,0.7",
+ab314cd5-a5e1-4570-bd0e-e8aa9a389be4,35,M,Common Cold,"Sore Throat,0.4","Sneezing,1.0","Congestion,0.8","Runny Nose,0.6","Cough,0.8"
+8d040a5f-5ea4-4d99-a880-6dc305f7cd5c,13,M,Asthma,"Coughing at Night,0.6","Chest Tightness,0.8","Shortness of Breath,0.8","Wheezing,0.5",
+87d035d1-5e68-4b69-a48d-f492053ed566,28,F,Influenza,"Headache,0.6","Fatigue,0.6","Body Aches,0.8",,
+469a6b42-c0ae-4b1d-8515-3833efa78cfd,59,M,Influenza,"Headache,0.9","Chills,0.6","High Fever,0.4",,
+cfb3c430-bef6-4ca5-8c9a-f61b56953a6e,80,F,Asthma,"Coughing at Night,0.4","Rapid Breathing,0.7","Shortness of Breath,0.3","Wheezing,0.4",
+5c820d92-787c-4c24-b4b8-2900c8c182ff,33,F,Pneumonia,"Cough with Phlegm,1.0","Chest Pain,0.4","Confusion,0.8","High Fever,0.6",
+78bece70-a78e-492b-b0be-3be66096632a,25,F,Pneumonia,"Cough with Phlegm,0.9","Confusion,0.3","Chest Pain,0.9","Fatigue,0.3",
+7becd5b7-7036-40eb-95ab-065f80dbb952,82,F,Influenza,"Chills,0.5","Nasal Congestion,0.8","High Fever,0.5","Dry Cough,0.8","Body Aches,0.5"
+aa00dc4a-6c88-460d-8352-fac46da74c81,51,F,Asthma,"Chest Tightness,0.8","Coughing at Night,0.9","Rapid Breathing,0.5",,
+f6e1527a-f966-43f0-980a-3a9d14868a03,26,M,Common Cold,"Congestion,0.4","Mild Fever,0.9","Sneezing,0.4","Cough,0.7","Sore Throat,0.7"
+87fd7343-bf24-414f-ae19-ed3481b9aa74,77,M,Pneumonia,"Chest Pain,0.9","Fatigue,1.0","Cough with Phlegm,0.7","High Fever,0.9",
+f15f8050-16da-4848-9cae-50ecd7a6a567,44,M,Pneumonia,"Cough with Phlegm,0.9","Shortness of Breath,0.6","High Fever,1.0",,
+6e6414be-9c37-4e09-b233-cee82e7d5b33,34,M,Pneumonia,"Cough with Phlegm,0.6","Shortness of Breath,0.9","Fatigue,0.9","Chest Pain,0.7","Confusion,0.7"
+703a66fe-eadb-491d-be59-2de5a916da19,82,M,Common Cold,"Sneezing,0.5","Runny Nose,0.9","Cough,0.4",,
+0441a079-83f3-4429-a605-319bde30e70f,17,F,Asthma,"Wheezing,0.8","Rapid Breathing,0.9","Chest Tightness,0.3","Coughing at Night,0.8","Shortness of Breath,1.0"
+52c056dd-badf-491f-9925-d19109063661,18,M,Asthma,"Coughing at Night,0.3","Chest Tightness,0.7","Wheezing,0.6","Shortness of Breath,0.9","Rapid Breathing,0.6"
+5b819611-7044-443c-b6d3-ee0dcf596875,51,M,Common Cold,"Runny Nose,0.3","Mild Fever,0.5","Sneezing,0.8","Sore Throat,0.5",
+24afc97c-6844-4f99-ae3c-aea5d4b01381,86,F,Common Cold,"Congestion,0.6","Sore Throat,1.0","Sneezing,0.5","Cough,0.7","Runny Nose,0.6"
+3d94028d-e07a-4623-933c-4287e3746dd4,44,F,Common Cold,"Cough,0.7","Sore Throat,1.0","Congestion,0.3",,
+0605c89b-e0e7-4b58-8561-83369a89ac86,24,M,Asthma,"Coughing at Night,0.4","Shortness of Breath,0.7","Rapid Breathing,0.7","Wheezing,0.3",
+9c3f4478-6ba5-4af2-944b-6060f473dd06,59,M,Asthma,"Chest Tightness,0.4","Rapid Breathing,0.3","Shortness of Breath,0.6","Coughing at Night,0.9",
+d8d87b6b-6054-4c81-9d61-6bef5bc523ec,32,F,Common Cold,"Runny Nose,0.5","Sore Throat,0.6","Sneezing,0.4",,
+d7cc311a-bf87-4852-b9d1-ff4055e77658,34,F,Asthma,"Shortness of Breath,0.8","Coughing at Night,1.0","Chest Tightness,0.9","Rapid Breathing,0.9","Wheezing,0.9"
+050d8d94-a952-4efe-9409-68b2ceab0e88,5,F,Common Cold,"Runny Nose,0.9","Sore Throat,0.6","Cough,0.7",,
+89ace16e-9159-40e2-a21b-0f9e4dedb16d,28,M,Pneumonia,"Fatigue,0.7","High Fever,0.7","Chest Pain,0.3",,
+241aff51-c430-4389-833e-2841ab9b10d9,29,M,Pneumonia,"Cough with Phlegm,0.8","High Fever,0.5","Confusion,0.8","Shortness of Breath,0.3",
+7f1d8308-8f84-4efb-9ff7-7b765271cf00,55,F,Influenza,"Chills,0.8","Dry Cough,0.8","Headache,0.6","Body Aches,0.5",
+49198af9-bcb4-4c72-96bf-16508cd81072,35,F,Pneumonia,"High Fever,0.5","Confusion,0.5","Shortness of Breath,0.9",,
+fcad4e04-b3af-48ad-b4d3-7cac184d7e03,46,F,Influenza,"Nasal Congestion,0.9","Dry Cough,0.4","High Fever,0.9",,
+56cf9a61-326f-4471-b0fe-49c9ff38412b,83,F,Influenza,"Nasal Congestion,0.5","Chills,0.9","High Fever,0.6",,
+4f43cdf6-fc77-4051-8eec-7a78e0e1ae90,14,F,Pneumonia,"Cough with Phlegm,1.0","Shortness of Breath,1.0","Confusion,0.8","High Fever,0.9","Chest Pain,0.4"
+35fe1e4a-42c0-41d9-af78-81eac4e3927c,12,M,Asthma,"Chest Tightness,0.9","Wheezing,0.5","Rapid Breathing,0.7","Shortness of Breath,0.7",
+2969b840-97c6-444f-8fa4-442fafc3ad16,36,F,Common Cold,"Mild Fever,0.6","Sore Throat,0.7","Cough,0.9","Runny Nose,0.8",
+d3b5cabe-ae08-45b2-8a0c-5d9af04a7546,51,F,Common Cold,"Sneezing,0.4","Cough,0.8","Sore Throat,0.9","Congestion,0.3",
+3ce8c7b4-7cb6-44df-96cd-5c7acd39c2f2,80,F,Influenza,"Dry Cough,0.6","High Fever,0.7","Chills,0.7","Fatigue,0.5","Nasal Congestion,0.8"
+c78ccdbc-d804-4279-b25f-9ca40ddaf246,87,M,Asthma,"Wheezing,0.9","Rapid Breathing,0.4","Shortness of Breath,0.6",,
+63d06fdf-7bbb-4858-9e55-780291265f6c,49,M,Asthma,"Shortness of Breath,0.9","Chest Tightness,0.4","Coughing at Night,0.3","Rapid Breathing,0.9",
+77fe9c24-26c8-4246-b8ef-f7afdaa74594,85,F,Asthma,"Rapid Breathing,0.9","Chest Tightness,0.6","Coughing at Night,0.4","Wheezing,0.9","Shortness of Breath,0.7"
+3a09dd67-bce4-4ec5-a279-e29cecadfc90,51,M,Influenza,"Body Aches,0.7","Dry Cough,0.8","High Fever,0.7","Nasal Congestion,0.4","Chills,0.7"
+5534a714-cb65-444a-8e9b-82e4ee8f9fad,56,M,Asthma,"Chest Tightness,1.0","Rapid Breathing,0.7","Coughing at Night,0.8",,
+8fc4ac85-43fd-40f2-9e10-f326cfca2031,57,F,Asthma,"Coughing at Night,0.9","Wheezing,0.7","Chest Tightness,0.4","Rapid Breathing,0.4",
+86ce3d1a-ce20-4a6d-a531-60afb714f024,8,F,Pneumonia,"High Fever,1.0","Cough with Phlegm,0.7","Shortness of Breath,0.6",,
+916fee7d-6183-4bfe-a473-42eea08bccfe,90,F,Influenza,"Headache,0.5","Chills,0.3","Dry Cough,0.4","High Fever,1.0",
+73feb18f-4138-4ead-af33-4f419361dadc,53,F,Common Cold,"Congestion,1.0","Mild Fever,0.5","Cough,0.4","Sneezing,0.4","Sore Throat,0.9"
+4c41f59c-887e-43f1-87c3-baba867e1bdb,55,F,Pneumonia,"Shortness of Breath,0.7","Cough with Phlegm,0.8","High Fever,0.8",,
+fb091237-ccf4-40a7-bdda-2eb8990d368c,59,F,Asthma,"Chest Tightness,0.6","Wheezing,0.5","Shortness of Breath,0.9","Rapid Breathing,0.8",
+2fba8634-fdf2-43cb-9ce3-b4a836621db9,24,M,Asthma,"Wheezing,0.9","Chest Tightness,0.3","Rapid Breathing,0.4","Coughing at Night,0.8",
+93aba78c-9bce-41f5-9a18-1732f509c888,46,F,Pneumonia,"High Fever,0.4","Fatigue,0.4","Cough with Phlegm,0.6","Shortness of Breath,0.5","Confusion,0.5"
+a696916d-165c-4816-b2f1-d4e9af861aec,74,F,Asthma,"Rapid Breathing,0.4","Shortness of Breath,0.9","Wheezing,0.3","Chest Tightness,0.6",
+d5c01b4f-9776-40f9-8171-c69d15297cd4,29,M,Common Cold,"Sore Throat,0.7","Mild Fever,0.7","Sneezing,0.6","Cough,0.3",
+465659ff-676b-4a98-bef0-9cb297860edd,66,F,Pneumonia,"Chest Pain,0.6","Fatigue,1.0","Confusion,0.9","Cough with Phlegm,0.4","Shortness of Breath,0.9"
+73589b1a-e33c-4d54-a1b8-696459d4dd29,84,F,Common Cold,"Runny Nose,0.5","Sore Throat,0.6","Sneezing,0.9",,
+9dbc8117-cc54-40f3-ac78-6d7262dac603,59,F,Pneumonia,"Chest Pain,0.3","Cough with Phlegm,1.0","Shortness of Breath,0.7",,
+6627ae63-3e0f-47ff-b69b-d04fefe53695,57,M,Influenza,"Body Aches,0.3","Dry Cough,0.7","High Fever,0.9",,
+ec7904fc-8625-4069-8595-830b85ca2691,24,F,Pneumonia,"High Fever,0.4","Fatigue,0.9","Confusion,0.4","Chest Pain,0.4",
+4bb20ff6-0a61-4c89-b3cb-8b6cbb348b51,29,F,Pneumonia,"Chest Pain,0.9","Cough with Phlegm,0.4","High Fever,0.4","Fatigue,0.5",
+3b0a55bf-7aed-4c12-8531-fda78d6bbde6,29,M,Influenza,"Chills,0.9","High Fever,0.4","Body Aches,0.7","Nasal Congestion,0.4","Headache,1.0"
+b0591bf1-41ed-4c91-b098-6c034e17482f,19,M,Pneumonia,"Fatigue,0.3","Cough with Phlegm,0.7","High Fever,0.5",,
+a6574d54-cccb-4129-b427-c818f4aa85dd,22,M,Pneumonia,"Cough with Phlegm,0.9","Chest Pain,0.6","Fatigue,0.6","Shortness of Breath,0.8",
+a2fd21d2-2b87-4fd7-9374-c2d772e54858,4,F,Pneumonia,"Shortness of Breath,0.5","Confusion,0.5","Chest Pain,0.3","Cough with Phlegm,0.9",
+bc5f76fe-f7f8-4ada-893c-9e83b6c87f64,19,F,Common Cold,"Sore Throat,0.9","Congestion,0.4","Cough,0.5","Runny Nose,0.6","Mild Fever,0.7"
+073648b1-7bb8-48c0-8b14-8e06855eacf3,2,M,Common Cold,"Congestion,0.7","Sore Throat,1.0","Cough,0.9","Runny Nose,0.6","Sneezing,0.8"
+6e249f29-c5a2-4e94-9672-7e5a445ff8bd,46,F,Asthma,"Rapid Breathing,0.8","Shortness of Breath,0.5","Wheezing,0.6","Coughing at Night,0.6","Chest Tightness,0.4"
+7143bce7-bb82-4ebc-8832-2c9eab55de35,33,F,Influenza,"Nasal Congestion,0.5","Fatigue,0.6","Body Aches,0.7","High Fever,0.7",
+f79d7acb-096d-4ae9-86e9-2426e683cbf3,88,F,Asthma,"Chest Tightness,0.6","Shortness of Breath,0.4","Coughing at Night,0.8","Wheezing,0.4",
+d26400c2-69f1-40c0-9d01-d6a5b8e5de33,13,M,Pneumonia,"High Fever,0.5","Fatigue,0.8","Shortness of Breath,0.9","Cough with Phlegm,1.0",
+0b51830b-f4d6-4cdd-b4f6-af0db5553d07,57,M,Pneumonia,"Shortness of Breath,0.7","High Fever,0.6","Chest Pain,0.5","Fatigue,1.0","Confusion,1.0"
+bf43ed79-6a97-4850-a5ca-1e70802d7f6d,15,M,Asthma,"Coughing at Night,0.7","Shortness of Breath,0.5","Wheezing,0.4",,
+c62ebab5-40d0-4900-88d3-3a68db8e40af,17,F,Influenza,"Nasal Congestion,0.7","High Fever,0.9","Chills,0.9","Fatigue,0.3","Body Aches,0.5"
+89312bbb-b737-4d69-a1b0-8ef450157214,45,M,Asthma,"Rapid Breathing,0.4","Chest Tightness,0.6","Coughing at Night,0.3","Shortness of Breath,0.9","Wheezing,0.7"
+e794f60b-fee0-41fa-a03b-8362da8e2af7,61,M,Common Cold,"Cough,1.0","Sore Throat,0.5","Sneezing,1.0","Mild Fever,0.8","Runny Nose,0.7"
+ac05ab17-ef57-472a-b154-c72a60dcc55f,83,M,Influenza,"Dry Cough,0.9","Nasal Congestion,0.5","High Fever,0.4","Fatigue,0.8","Chills,0.5"
+d72f3f59-cdae-4101-93d0-d04f09ba7ab5,68,M,Influenza,"Chills,0.9","Headache,0.8","Body Aches,0.3","High Fever,0.8","Fatigue,0.4"
+4a7be05c-5a0b-458e-bae7-23103aa8d384,40,M,Pneumonia,"Cough with Phlegm,0.5","Confusion,0.4","Fatigue,0.8",,
+bcf19654-b3b6-4f02-af2f-3d2d7b708dc8,12,M,Common Cold,"Cough,0.7","Runny Nose,0.6","Mild Fever,0.6","Congestion,0.5","Sneezing,0.6"
+5d6cc366-a47d-4e3b-ba9a-9c0e233f95de,26,M,Common Cold,"Congestion,0.8","Cough,0.8","Sneezing,0.7","Sore Throat,1.0",
+d6e41115-f3f2-4767-a6f5-3feb10965941,83,F,Influenza,"Fatigue,0.6","High Fever,0.5","Headache,0.9","Body Aches,0.9",
+c413664c-93ab-435e-b474-644b78f95799,6,M,Common Cold,"Mild Fever,0.7","Cough,0.5","Congestion,0.4","Sore Throat,0.7","Sneezing,0.9"
+7ee69d2d-f0e3-426b-b438-f8cf6b064406,23,M,Influenza,"Headache,0.4","Nasal Congestion,0.8","Dry Cough,0.7","Fatigue,0.6","Chills,0.9"
+56f96d88-4f85-4b40-9729-c1e252ef1847,41,F,Asthma,"Chest Tightness,0.3","Coughing at Night,0.9","Shortness of Breath,0.5","Rapid Breathing,0.4",
+23e05f21-0bdf-4f05-b05f-72e1c8107912,89,F,Pneumonia,"High Fever,0.9","Chest Pain,0.8","Shortness of Breath,1.0",,
+d0c805a2-0732-4075-ae17-60002c18b81f,86,M,Asthma,"Chest Tightness,0.9","Coughing at Night,0.5","Rapid Breathing,0.6","Wheezing,0.3",
+b2717a97-a5ba-46f3-b1c6-85b86b739b46,59,M,Influenza,"Headache,0.4","Chills,0.4","Nasal Congestion,0.4",,
+a6801013-c8ec-41c7-aaef-c8a119af3f32,47,F,Asthma,"Wheezing,0.8","Coughing at Night,0.8","Chest Tightness,0.6","Rapid Breathing,0.4","Shortness of Breath,0.8"
+e41cfdda-1cc0-4010-8a40-14f934927832,47,F,Influenza,"Headache,0.4","Nasal Congestion,0.8","High Fever,0.8","Fatigue,0.3","Dry Cough,0.5"
+9d65094b-67f4-4e6f-a173-adc93f500a1d,73,M,Influenza,"Body Aches,0.7","Dry Cough,0.5","Fatigue,0.3","Nasal Congestion,0.6",
+0d7b1469-30b8-4ad0-8da8-ba126d80dd66,13,F,Common Cold,"Sneezing,0.4","Sore Throat,0.6","Runny Nose,0.8",,
+09d5d17a-cd88-467f-a3d1-4ad1fad4fbce,30,M,Pneumonia,"High Fever,0.6","Confusion,0.4","Shortness of Breath,0.9",,
+8a54f5aa-ccaf-4fce-9079-1bd98dbd2d18,57,F,Influenza,"Body Aches,0.6","Chills,0.7","Headache,1.0","Dry Cough,0.7",
+78e9a104-329d-4d36-980b-54ccca7215b4,56,F,Asthma,"Coughing at Night,0.5","Rapid Breathing,1.0","Shortness of Breath,0.9","Wheezing,0.4",
+4ddddb89-1cd1-45e1-8a9d-025066c51e10,86,F,Pneumonia,"High Fever,0.9","Confusion,0.8","Cough with Phlegm,0.5",,
+6032519f-8276-4aa6-abe5-c1dbacb43dab,22,M,Influenza,"Headache,0.4","Nasal Congestion,0.3","High Fever,0.9","Fatigue,0.9","Chills,0.6"
+1f93cc90-774f-4416-abcd-069b40496e15,11,M,Pneumonia,"Fatigue,0.9","Chest Pain,0.8","High Fever,0.6",,
+16af2946-6287-4383-a350-f023b3c087ca,29,M,Asthma,"Coughing at Night,0.9","Chest Tightness,0.5","Wheezing,0.8","Rapid Breathing,0.8","Shortness of Breath,0.4"
+8466369a-6683-4577-b88e-50bc04098ed4,81,M,Influenza,"High Fever,0.4","Body Aches,0.5","Headache,0.5","Dry Cough,0.7",
+b9a5e35f-ecb0-4597-a400-bda7fd078e68,65,F,Influenza,"Headache,0.9","Chills,0.9","Nasal Congestion,0.8","High Fever,0.6","Dry Cough,0.5"
+0a05e3c4-74b3-40eb-862f-03b3085a5aa8,63,M,Common Cold,"Sneezing,0.5","Runny Nose,0.6","Sore Throat,0.3","Mild Fever,0.7","Cough,0.8"
+75ff47a0-3424-48ec-a6bb-dc9b43a15a47,7,F,Asthma,"Chest Tightness,0.6","Wheezing,0.6","Coughing at Night,0.6",,
+f128457a-7cba-486b-8661-69285b0bdf5b,2,F,Influenza,"Headache,1.0","Dry Cough,0.5","Chills,0.3",,
+97332528-4c47-41db-b4f2-43cbda51c2ee,22,M,Pneumonia,"Chest Pain,0.7","Cough with Phlegm,0.8","Confusion,0.6",,
+68c834e0-ca10-4764-b3ce-1dffa8cfc348,44,F,Common Cold,"Sore Throat,0.4","Cough,0.5","Sneezing,0.4",,
+a26469e6-722c-441b-a519-621154b55649,81,F,Influenza,"Dry Cough,0.3","Body Aches,0.6","Nasal Congestion,0.3","Fatigue,0.5",
+d551b21c-1222-4f16-bbe3-809e290a04df,31,M,Influenza,"High Fever,0.5","Headache,0.5","Chills,0.6","Dry Cough,0.3","Body Aches,0.9"
+e252b788-a29f-4201-b750-8752eee2cc18,84,F,Common Cold,"Mild Fever,0.6","Runny Nose,0.6","Sore Throat,0.9","Congestion,0.9","Sneezing,0.9"
+2f46eff1-b837-4e77-b2b2-6d7261f9458f,19,F,Common Cold,"Sneezing,0.5","Cough,0.5","Sore Throat,0.7",,
+80bd58c9-c5d4-4ce7-8257-0cb31b53b911,64,M,Common Cold,"Cough,0.6","Mild Fever,0.7","Runny Nose,0.9",,
+d0442651-bc09-4cb0-827a-19dc7c3502ca,45,F,Asthma,"Coughing at Night,0.9","Shortness of Breath,0.4","Rapid Breathing,0.6",,
+1c1de9e5-2786-41b6-8929-3116e4cee20a,20,F,Common Cold,"Mild Fever,0.8","Sore Throat,0.8","Congestion,0.6","Cough,0.9",
+d7af5721-2790-4e9c-894f-8e333a7e072f,60,F,Pneumonia,"Shortness of Breath,0.6","Cough with Phlegm,0.9","Chest Pain,0.7","Fatigue,0.5","High Fever,0.4"
+435ab301-85ec-4cfe-8c24-0ab85913a707,12,F,Influenza,"Headache,0.4","Chills,0.9","Nasal Congestion,0.9","High Fever,0.5","Dry Cough,0.4"
+34a48b4d-c8d1-4364-8453-27f65f6ac41b,16,F,Common Cold,"Runny Nose,0.9","Sore Throat,0.9","Cough,0.6","Congestion,0.9",
+bab23dc1-3bbc-4509-b0fa-19ba18d6935a,6,M,Influenza,"High Fever,1.0","Chills,0.4","Fatigue,0.3",,
+daf0e07f-9361-4f29-81d8-d552438d1766,90,M,Asthma,"Coughing at Night,0.3","Shortness of Breath,0.8","Wheezing,0.3","Rapid Breathing,0.6","Chest Tightness,0.9"
+aea2b8e0-f431-4665-8e70-8e54bf449b9f,25,M,Influenza,"Nasal Congestion,0.9","Dry Cough,0.6","Headache,0.6","Chills,0.4","Body Aches,0.9"
+9ed0f298-fe54-4e05-852e-9ca8663afd51,86,M,Influenza,"Chills,0.5","Dry Cough,0.7","Body Aches,0.4",,
+c62fc850-5947-47e9-9762-125d55b1ae2a,76,F,Asthma,"Wheezing,0.5","Chest Tightness,0.9","Coughing at Night,0.5","Shortness of Breath,0.8",
+8765e479-821c-418c-a29b-1c2915eb1bb4,89,M,Pneumonia,"Fatigue,0.4","Cough with Phlegm,0.8","Chest Pain,0.7",,
+9759f7a3-738a-4f51-a9c0-ad2129495ac4,84,M,Pneumonia,"Chest Pain,0.7","High Fever,1.0","Cough with Phlegm,0.5","Shortness of Breath,0.7",
+105cc393-ce07-4c3b-803e-e088dec884f6,81,M,Asthma,"Coughing at Night,0.5","Wheezing,0.3","Chest Tightness,0.4",,
+2f852588-d9c3-4d60-9f81-fdf9ba976906,54,F,Asthma,"Chest Tightness,0.8","Shortness of Breath,0.3","Coughing at Night,0.4","Wheezing,0.5","Rapid Breathing,0.4"
+aa469be3-afad-44a8-bbd7-371088c6645d,56,F,Influenza,"Body Aches,0.7","High Fever,0.6","Headache,0.7","Chills,0.6","Nasal Congestion,0.4"
+20ecc1ae-d91b-44b4-a0c4-f136bcd157c6,58,F,Pneumonia,"Chest Pain,0.7","Shortness of Breath,0.5","Fatigue,0.9",,
+924f659d-8379-43d5-8cbf-2883e09d1f0b,2,F,Common Cold,"Sneezing,0.3","Sore Throat,0.4","Congestion,0.8","Runny Nose,0.9","Cough,0.8"
+e0cdf2dd-fe3f-483d-adec-55ce4e489b12,59,F,Common Cold,"Sore Throat,0.4","Runny Nose,0.9","Sneezing,0.4","Mild Fever,0.5",
+1055278d-f9f0-445d-a5c2-342632fba617,2,F,Common Cold,"Congestion,0.9","Runny Nose,1.0","Sneezing,0.6",,
+59f853f6-b7dc-42eb-a110-02da5cd4d1da,81,M,Pneumonia,"Fatigue,1.0","Chest Pain,0.7","High Fever,0.6","Confusion,0.9","Cough with Phlegm,0.4"
+8f10a50b-68ec-40ce-a6d0-b4320f7a44e6,77,M,Pneumonia,"Confusion,0.6","Fatigue,0.3","Shortness of Breath,0.3",,
+c7274046-28f9-4cf4-ac3a-f2185202316b,58,M,Asthma,"Shortness of Breath,0.7","Coughing at Night,0.9","Rapid Breathing,0.6","Wheezing,0.5","Chest Tightness,0.4"
+b3831f2f-c129-4a09-9bac-1a4e8702e98f,67,F,Influenza,"Fatigue,1.0","Body Aches,0.5","Nasal Congestion,1.0","Headache,1.0",
+c78d5286-8376-4b69-bf85-1ffef50ac6af,71,M,Influenza,"Fatigue,0.5","Body Aches,0.5","Chills,0.5","Headache,0.7","Nasal Congestion,0.8"
+e05dfe79-78ef-454b-9b79-68a233c6154c,51,F,Influenza,"Chills,0.9","Fatigue,0.4","Dry Cough,0.5",,
+bd59a2d6-7171-4ae0-9119-09461395b8c0,58,F,Influenza,"Nasal Congestion,0.4","Dry Cough,0.6","Body Aches,0.7","Chills,0.8",
+dd7ca939-a3af-41c7-a8aa-fcf43784d6b5,71,M,Asthma,"Wheezing,0.8","Shortness of Breath,0.4","Coughing at Night,1.0","Rapid Breathing,0.3","Chest Tightness,0.6"
+59df83f4-a0ef-4b85-811d-3ae26f7e007f,71,M,Asthma,"Shortness of Breath,1.0","Rapid Breathing,0.4","Coughing at Night,0.9","Chest Tightness,0.8","Wheezing,0.6"
+35881e3f-07a4-4d60-ab8e-2658443a0996,48,M,Asthma,"Coughing at Night,0.8","Shortness of Breath,0.6","Chest Tightness,0.5","Wheezing,1.0",
+08f6fc02-8807-4199-8b30-d8c28b31be9a,36,F,Common Cold,"Sneezing,0.3","Mild Fever,1.0","Runny Nose,0.5",,
+adcf87a0-baea-4b27-a5a3-08ec1e2c6aaf,83,F,Asthma,"Wheezing,0.7","Coughing at Night,0.6","Chest Tightness,0.8","Rapid Breathing,0.6","Shortness of Breath,0.9"
+73e85cf1-67d0-4cf8-be20-fffab0e58f26,17,M,Common Cold,"Mild Fever,0.9","Cough,0.9","Sore Throat,0.5","Congestion,0.6","Sneezing,0.8"
+f1c102d8-856d-4916-95a3-15e9f147a177,55,M,Pneumonia,"Fatigue,0.9","High Fever,0.9","Chest Pain,0.9",,
+84caa8e2-800c-4573-957b-e0db84200222,7,M,Asthma,"Chest Tightness,0.9","Coughing at Night,0.3","Wheezing,0.5","Rapid Breathing,0.6","Shortness of Breath,0.7"
+e1f8bf8f-a7e1-48fd-99a3-b56c41d1470b,88,M,Common Cold,"Sneezing,0.3","Cough,0.6","Congestion,0.3","Sore Throat,0.7",
+553b9d4f-6dd0-449d-b0a0-42ebb1a3866a,10,F,Common Cold,"Runny Nose,0.4","Sore Throat,0.4","Congestion,0.8","Sneezing,0.9",
+6151e028-92ed-4858-809a-607ebe4516e3,31,M,Influenza,"Body Aches,0.9","High Fever,0.6","Nasal Congestion,0.5","Chills,0.9","Dry Cough,1.0"
+bd99081e-c1b8-4fad-9930-644d48f8b0af,26,M,Common Cold,"Runny Nose,0.4","Congestion,0.5","Sore Throat,0.7","Cough,0.7",
+9c1bd1f0-d2b9-47ad-85d1-b985c2f66848,37,M,Asthma,"Coughing at Night,0.4","Wheezing,0.4","Rapid Breathing,0.5","Shortness of Breath,0.4",
+ca0b66bc-81d7-4a70-a628-def041ef2211,31,M,Common Cold,"Congestion,0.7","Cough,0.3","Sneezing,0.3","Mild Fever,0.8",
+d62c30c6-f9e7-4a89-8d70-af43f1ac49e7,28,F,Influenza,"Chills,0.8","Body Aches,0.8","High Fever,0.4","Dry Cough,1.0","Headache,0.5"
+37029657-cf5d-48b7-b52a-895171844a25,4,F,Common Cold,"Runny Nose,0.5","Mild Fever,0.8","Sneezing,0.9","Cough,0.8","Congestion,0.6"
+dded184d-e97c-4ef6-a4c1-19ff7e8f2421,69,F,Common Cold,"Sore Throat,0.6","Runny Nose,0.9","Cough,0.6",,
+08d2f8d1-68f2-40f5-864a-9a8c6ca75a45,54,F,Common Cold,"Sneezing,0.7","Congestion,0.8","Sore Throat,0.7","Runny Nose,0.7",
+3fbfaba1-fe44-45f0-9be8-000e1aa45a30,54,M,Common Cold,"Cough,0.7","Congestion,0.3","Mild Fever,1.0",,
+76e64543-1d39-4852-a625-15be607a9ba5,40,M,Asthma,"Rapid Breathing,0.6","Chest Tightness,0.4","Wheezing,0.4","Shortness of Breath,0.3","Coughing at Night,0.3"
+d684d3bf-60d1-47e0-8fea-30a6c76722e6,40,F,Asthma,"Coughing at Night,0.7","Chest Tightness,0.8","Rapid Breathing,0.5","Wheezing,0.9",
+384e7a9f-f995-4e3c-9777-fd31fd076e48,6,F,Pneumonia,"Chest Pain,0.7","Fatigue,0.7","Cough with Phlegm,0.9","Shortness of Breath,0.5",
+2cb73bc8-47b1-4449-bee6-8afe43f13d8f,51,M,Common Cold,"Cough,0.7","Sore Throat,0.5","Sneezing,0.4",,
+0bb825e8-2417-4aa3-96ec-6ca210aed5fb,81,M,Influenza,"Nasal Congestion,0.6","Dry Cough,0.8","Headache,0.8","Fatigue,0.7","High Fever,1.0"
+1609f7e0-6338-4a2f-94ad-f9e5aced7678,22,M,Pneumonia,"Chest Pain,0.5","Confusion,0.3","Fatigue,0.9","Cough with Phlegm,1.0","High Fever,0.8"
+fa15eafc-7b92-4470-9ff3-9e4de3f64ac0,90,F,Pneumonia,"Shortness of Breath,0.6","High Fever,0.8","Cough with Phlegm,0.7","Confusion,0.9",
+337c9cc8-3195-4e48-8646-63b8e1de04f1,38,M,Pneumonia,"Shortness of Breath,0.6","Cough with Phlegm,0.8","High Fever,1.0",,
+0e5de65b-75bf-4e55-b435-63c107b993fa,38,F,Pneumonia,"Shortness of Breath,0.3","Cough with Phlegm,0.4","Fatigue,0.8","Chest Pain,0.7",
+7c4f5e0c-1e99-431d-bff7-cd9e72275498,14,M,Influenza,"High Fever,0.3","Headache,0.6","Fatigue,0.9","Dry Cough,0.7","Nasal Congestion,0.4"
+14dbe6b4-d2f9-4147-9e7d-5a38cba770a0,30,F,Influenza,"Chills,0.4","Nasal Congestion,0.9","Headache,0.4","High Fever,0.5","Dry Cough,0.7"
+03fb888b-1c98-4766-be34-0732aea85c28,78,F,Pneumonia,"High Fever,0.9","Chest Pain,0.5","Shortness of Breath,0.3","Cough with Phlegm,0.7",
+0422dc8c-c289-4644-90e9-307bd8a516f8,29,M,Common Cold,"Mild Fever,0.9","Sore Throat,0.7","Congestion,0.5",,
+e848e9fa-b0ca-4c7c-b591-ea6405364b19,32,F,Influenza,"Dry Cough,0.8","Headache,1.0","Body Aches,0.3","Chills,0.8","Nasal Congestion,0.3"
+a3368d4a-2322-482a-a291-9948e1325aea,36,M,Common Cold,"Mild Fever,0.5","Runny Nose,1.0","Congestion,0.7","Sore Throat,0.3",
+5cf77872-1089-43ab-981d-45412bf329dd,50,M,Asthma,"Chest Tightness,1.0","Shortness of Breath,0.9","Wheezing,0.4","Rapid Breathing,0.6","Coughing at Night,1.0"
+1dc11349-2e6f-4775-8be4-1d9f2bfd663e,21,M,Influenza,"Chills,0.6","High Fever,0.7","Dry Cough,0.8","Fatigue,0.5",
+47bb7b45-c544-4926-a793-a2c91952c3e2,27,M,Pneumonia,"Cough with Phlegm,0.9","High Fever,0.7","Shortness of Breath,0.8","Fatigue,0.8",
+1604d94e-6743-4e6b-a563-8ef508a84af7,24,F,Common Cold,"Congestion,0.9","Sneezing,1.0","Runny Nose,0.9","Mild Fever,0.7",
+2b39fc01-9bba-4d52-9bc2-b7fa08abda26,70,M,Asthma,"Wheezing,0.7","Chest Tightness,0.3","Rapid Breathing,0.6",,
+856f7f0c-b8b1-4376-9bbb-ccaa9b27d18f,69,M,Pneumonia,"Cough with Phlegm,0.7","High Fever,0.9","Confusion,0.8","Chest Pain,0.6",
+24920dfc-73e3-491b-92f9-251929085d12,87,F,Asthma,"Rapid Breathing,1.0","Shortness of Breath,0.9","Wheezing,0.5","Chest Tightness,0.6","Coughing at Night,0.6"
+7efb05ec-3648-4890-8e36-10429de519e3,73,M,Asthma,"Chest Tightness,0.3","Rapid Breathing,1.0","Wheezing,0.5",,
+2c30a113-32a9-402b-b18f-78c73a4e9ae6,45,F,Asthma,"Coughing at Night,0.6","Rapid Breathing,0.4","Wheezing,0.9","Chest Tightness,0.5","Shortness of Breath,0.9"
+f5c55b16-1ab7-446d-95fc-53352f78f6a7,7,F,Influenza,"Nasal Congestion,0.4","High Fever,0.7","Dry Cough,0.7","Chills,1.0",
+1d39beec-acc8-4c69-8aea-802e49e7f310,4,M,Asthma,"Wheezing,0.3","Rapid Breathing,0.6","Shortness of Breath,0.5","Chest Tightness,0.9","Coughing at Night,0.7"
+79aabf48-14b2-42f9-9c92-cf2de8188878,26,M,Asthma,"Rapid Breathing,1.0","Shortness of Breath,0.6","Chest Tightness,0.8",,
+d29d10d3-bdb5-4985-b11c-59aca88e93f7,23,M,Asthma,"Shortness of Breath,0.6","Rapid Breathing,0.9","Chest Tightness,0.4","Wheezing,0.6","Coughing at Night,0.8"
+0b4c8b91-7619-4a6a-9428-ecd46595c811,28,F,Pneumonia,"Fatigue,0.3","Chest Pain,0.5","Cough with Phlegm,0.4",,
+ebe9208c-a9ad-450e-b0a6-e4c1776dbce2,59,M,Pneumonia,"Chest Pain,0.5","High Fever,0.6","Cough with Phlegm,0.7",,
+bb7cb5b7-2e22-43b2-8de1-515b95ae35fa,33,F,Asthma,"Rapid Breathing,0.5","Chest Tightness,0.6","Coughing at Night,0.8","Shortness of Breath,0.4",
+0788db31-45aa-4e0c-a1ef-1023571199df,61,M,Asthma,"Rapid Breathing,0.6","Coughing at Night,0.8","Wheezing,0.3","Chest Tightness,0.9","Shortness of Breath,0.8"
+543a88ed-c14c-424a-b44c-1ec037624c61,11,F,Common Cold,"Cough,0.5","Sneezing,0.7","Runny Nose,0.3","Sore Throat,0.4",
+853a1a7a-b9af-4bfa-a8ff-5756e5f714a7,42,F,Common Cold,"Sneezing,0.9","Mild Fever,0.6","Runny Nose,0.4",,
+406a08a3-8aad-4744-b74b-be2d52367f53,65,M,Influenza,"Nasal Congestion,0.8","High Fever,0.6","Fatigue,0.7","Chills,0.9","Body Aches,0.5"
+df897bb4-e5df-4c81-84ce-fc21c0815c1e,66,F,Common Cold,"Mild Fever,0.5","Runny Nose,0.6","Congestion,0.6","Sneezing,0.6",
+4aa5547f-cf37-4179-a69f-9a23b5e2231e,83,M,Pneumonia,"Chest Pain,0.8","Confusion,0.5","Fatigue,0.8","High Fever,0.5",
+6636b373-081e-4743-9e67-4c7aab3588e7,83,M,Influenza,"Headache,0.3","Nasal Congestion,0.8","Chills,0.7","Dry Cough,0.8",
+5a784da9-a4c8-4cbd-932a-0bb75eaaaab8,86,F,Influenza,"Chills,0.9","Headache,0.9","Body Aches,0.9","Nasal Congestion,0.4",
+54f4ec74-2f77-4ed0-a66a-335d9541fb51,33,F,Pneumonia,"High Fever,0.4","Chest Pain,0.4","Shortness of Breath,0.6","Fatigue,0.8",
+ff29f74e-c521-49fa-afaa-c95feb55c2b7,62,F,Influenza,"Body Aches,0.6","Chills,1.0","High Fever,0.8",,
+376d6168-505e-497d-8f88-13e8bc650f1c,58,M,Common Cold,"Sore Throat,0.6","Runny Nose,0.7","Mild Fever,0.8","Sneezing,0.5","Congestion,0.8"
+64ef1539-4063-4daf-b226-3ca7d3cc61f4,68,M,Influenza,"Nasal Congestion,0.5","High Fever,0.8","Dry Cough,0.8",,
+c8e17c99-04f5-4184-85a7-e99bc26e2d68,41,F,Asthma,"Wheezing,0.7","Rapid Breathing,0.5","Chest Tightness,0.5","Shortness of Breath,0.5",
+75b2b22e-25f0-4ff1-833c-d242b40e8da3,3,F,Pneumonia,"Cough with Phlegm,0.3","Fatigue,0.5","Confusion,0.4",,
+88de96b1-7b07-4dab-abdb-4ec0e4ac4b36,46,M,Pneumonia,"Chest Pain,0.6","Shortness of Breath,0.9","Fatigue,0.8","Cough with Phlegm,0.5",
+9efc9f9a-653d-48aa-8365-d127f0d6ae49,78,M,Common Cold,"Congestion,0.8","Runny Nose,0.3","Sore Throat,0.8",,
+78c6d941-5d77-43cf-8243-167fa5e04b8b,64,F,Common Cold,"Mild Fever,0.9","Cough,0.4","Sore Throat,0.6","Runny Nose,0.9","Sneezing,0.6"
+db4c9860-ee00-4944-8b9c-6cfcf0bac770,38,M,Common Cold,"Cough,0.6","Mild Fever,0.7","Sneezing,0.4","Congestion,0.5","Sore Throat,0.5"
+5219d5d4-82b0-4592-bd4e-e9e7283bf52a,45,M,Pneumonia,"Confusion,0.3","High Fever,0.5","Chest Pain,0.9","Shortness of Breath,0.5","Cough with Phlegm,1.0"
+4a4600ab-8827-4a8c-9897-086b9ecdd625,88,F,Influenza,"Headache,0.4","High Fever,0.4","Fatigue,0.3",,
+d0ff1e9f-6500-4f13-a6d9-f82880c54a83,23,F,Pneumonia,"Chest Pain,0.4","High Fever,0.6","Cough with Phlegm,0.8","Fatigue,1.0","Shortness of Breath,0.8"
+3249f659-7710-40ba-a36e-336128de3ebb,17,F,Asthma,"Chest Tightness,0.7","Shortness of Breath,0.3","Coughing at Night,0.4","Rapid Breathing,0.6","Wheezing,0.5"
+9a7cc452-37d3-4a07-aa51-577475e2bd40,61,M,Asthma,"Wheezing,0.5","Chest Tightness,0.9","Rapid Breathing,0.8","Coughing at Night,0.7",
+3074c0a6-15c5-45d1-b5c1-3f0202fe2619,51,F,Influenza,"Chills,0.8","Nasal Congestion,0.9","Headache,0.8","High Fever,0.8","Body Aches,0.9"
+dd795b69-2023-4e58-9918-90e7fecc71e3,36,F,Asthma,"Wheezing,0.6","Chest Tightness,0.5","Coughing at Night,0.5",,
+0480e081-a90a-4cea-adae-ef077c6c79ea,58,F,Influenza,"Chills,0.8","Fatigue,0.9","Nasal Congestion,0.8",,
+4b9ede6e-be14-4843-8472-0673219fd32f,3,F,Common Cold,"Cough,0.5","Mild Fever,0.6","Sneezing,0.8",,
+699dc516-afd8-4bd4-98de-9d9404a25189,20,F,Pneumonia,"Shortness of Breath,0.4","Confusion,0.3","Chest Pain,0.8","Fatigue,1.0","Cough with Phlegm,0.9"
+5ae1d94c-1397-4251-ad18-8ea6b5dc052c,87,F,Pneumonia,"Cough with Phlegm,0.5","Shortness of Breath,0.9","Chest Pain,0.6","Fatigue,0.3","High Fever,0.4"
+2c1bedc1-573f-4a6e-bd10-e4e0cad631bd,47,F,Common Cold,"Runny Nose,0.7","Sneezing,0.5","Cough,0.4","Mild Fever,0.6",
+ea0ca295-aaba-4d56-a3d6-b70e4cb951cb,4,M,Influenza,"Fatigue,0.8","Chills,0.5","High Fever,1.0","Nasal Congestion,0.9","Body Aches,0.9"
+36f3eb73-96db-40ae-b623-2cd5ee7f3b4a,54,M,Pneumonia,"Chest Pain,0.3","Fatigue,0.8","High Fever,0.6","Confusion,0.7",
+3b0b553d-c219-4396-8a0b-75db00dbea06,89,M,Pneumonia,"Fatigue,0.8","Confusion,0.9","High Fever,0.7","Shortness of Breath,0.9","Chest Pain,0.7"
+46b89f51-a58e-41cb-8193-bd52b513f9a1,43,F,Asthma,"Wheezing,0.9","Rapid Breathing,0.8","Shortness of Breath,0.6",,
+6e84a92b-ebc8-4b8a-88d5-1ed4c3b01946,62,M,Common Cold,"Sneezing,0.3","Mild Fever,0.7","Runny Nose,0.7","Cough,0.8",
+aedd20e2-7cd4-42dd-aa24-a4a594a064a3,67,F,Asthma,"Wheezing,0.8","Rapid Breathing,1.0","Chest Tightness,1.0","Coughing at Night,0.8","Shortness of Breath,0.8"
+ea028f72-8e46-4f0a-8497-ae22fe30d301,62,M,Pneumonia,"Fatigue,0.7","High Fever,0.6","Chest Pain,0.3",,
+459f2916-8900-42e7-8ed4-d6db4bdb3180,75,F,Common Cold,"Sneezing,1.0","Runny Nose,0.8","Sore Throat,1.0","Congestion,0.8","Cough,0.6"
+e9a35df0-cff5-44ef-bcde-4c41faa0fd27,34,M,Pneumonia,"Confusion,0.9","Chest Pain,0.9","Fatigue,0.9",,
+1c4b2c54-d52e-484e-b292-21fdb10862f0,32,F,Asthma,"Shortness of Breath,0.5","Rapid Breathing,0.8","Coughing at Night,0.8","Chest Tightness,0.3",
+ef293b91-3744-4830-b1d1-7c6231d90dcb,56,F,Pneumonia,"Shortness of Breath,0.8","Chest Pain,0.7","Confusion,0.4","Cough with Phlegm,0.7","High Fever,0.9"
+56a3534f-ee59-4884-be4f-dc20c0a7ed27,73,F,Common Cold,"Congestion,0.9","Runny Nose,0.6","Cough,0.5","Mild Fever,1.0","Sore Throat,0.8"
+14c38287-23ae-4184-bb20-9bbc3d029108,88,M,Pneumonia,"High Fever,0.5","Chest Pain,0.8","Cough with Phlegm,0.8",,
+d5f7b3c3-04db-47ef-bdf1-e31096c81c9a,25,M,Asthma,"Wheezing,0.5","Rapid Breathing,0.9","Chest Tightness,0.7",,
+97f7cb45-8a8d-401b-9b49-aec8c142f602,36,F,Common Cold,"Sneezing,0.6","Cough,0.8","Mild Fever,0.4","Runny Nose,0.4",
+a79b2344-be5e-4cd3-bfe6-a7fa7a907a98,44,F,Asthma,"Wheezing,0.9","Chest Tightness,0.5","Coughing at Night,1.0","Shortness of Breath,1.0","Rapid Breathing,0.7"
+3cb8aa20-fa06-411f-8c96-bfca9d9846f6,53,F,Influenza,"Chills,0.4","High Fever,0.7","Body Aches,0.7",,
+2eefece2-556f-4862-bf67-c2bce428d639,25,M,Common Cold,"Cough,0.3","Mild Fever,0.4","Sore Throat,0.7",,
+cd6f0de6-50a1-4ace-8f62-86eddecf4bc6,62,F,Asthma,"Rapid Breathing,0.4","Shortness of Breath,1.0","Coughing at Night,0.3","Chest Tightness,0.7","Wheezing,0.4"
+653746cf-06a3-4ce9-a701-9a9a8dcdf3ca,47,F,Influenza,"Fatigue,0.4","High Fever,0.4","Headache,0.9","Nasal Congestion,0.7","Dry Cough,0.3"
+80e82c40-508e-4912-8188-b3af615415fd,33,F,Influenza,"Headache,0.9","Nasal Congestion,0.4","Fatigue,0.8","Body Aches,0.7",
+29ff53eb-44a0-432e-bd2f-23837a87dd1e,29,F,Pneumonia,"Chest Pain,0.6","Shortness of Breath,0.5","Fatigue,0.7","Confusion,0.4",
+70d9cbd5-c144-4539-8982-73154496cb8c,41,F,Common Cold,"Mild Fever,1.0","Sore Throat,0.7","Runny Nose,0.6","Cough,0.7","Sneezing,0.4"
+08556623-b4be-48c0-b2e2-33096bb0b513,49,F,Pneumonia,"Shortness of Breath,0.4","Confusion,0.4","Cough with Phlegm,0.4","Fatigue,0.4","Chest Pain,1.0"
+b0c2658c-9917-45e2-adb7-2bb1c077a671,54,F,Asthma,"Coughing at Night,0.3","Shortness of Breath,0.8","Wheezing,0.7","Rapid Breathing,0.8","Chest Tightness,0.7"
+83c3942c-edb9-4dd0-8ba8-0113db89c7c1,15,M,Influenza,"High Fever,1.0","Chills,0.9","Nasal Congestion,1.0","Headache,0.4",
+f8585ae1-a104-48ec-beef-60469a887825,74,F,Pneumonia,"High Fever,0.3","Cough with Phlegm,0.6","Confusion,0.9","Chest Pain,0.7","Shortness of Breath,1.0"
+d1fe0acd-1531-4acf-95d1-6eeccafb1a22,48,F,Influenza,"Headache,0.5","Chills,0.5","High Fever,0.5",,
+29e0a04f-2a29-4047-83b3-2c2c247439ba,51,M,Pneumonia,"Chest Pain,0.5","Shortness of Breath,0.9","High Fever,0.9","Confusion,0.9","Cough with Phlegm,0.8"
+708f157e-51c6-4ccc-a329-22124a54053f,79,F,Asthma,"Shortness of Breath,0.7","Chest Tightness,0.5","Coughing at Night,0.5","Rapid Breathing,0.5","Wheezing,0.9"
+918f5620-b60a-4360-bd13-a91dab264cc3,54,F,Influenza,"High Fever,0.7","Nasal Congestion,0.4","Chills,0.7",,
+f9638ac5-7d0a-4b53-8481-1651392f630b,48,F,Influenza,"Dry Cough,0.7","High Fever,0.4","Body Aches,0.4","Nasal Congestion,0.7","Headache,0.8"
+8f130f33-ede2-4bf1-914c-e49ccbc05f57,72,M,Common Cold,"Mild Fever,0.7","Runny Nose,0.8","Sneezing,0.9","Congestion,0.9","Cough,0.5"
+b0778fd6-662d-416a-be44-065d031c3e8a,59,F,Asthma,"Rapid Breathing,0.4","Chest Tightness,0.4","Shortness of Breath,0.9","Wheezing,0.6",
+2efd2a34-1d46-40d0-842a-5de645019386,17,M,Pneumonia,"Cough with Phlegm,0.5","Chest Pain,0.5","High Fever,0.8","Confusion,0.5",
+3cadbcc3-798c-426a-8d25-8ad0f7eab22c,64,M,Common Cold,"Mild Fever,0.7","Sneezing,0.9","Congestion,0.5","Sore Throat,0.6",
+59eb2f62-f7c8-4885-8415-ec15e3465450,33,F,Asthma,"Chest Tightness,0.5","Wheezing,0.4","Shortness of Breath,0.4","Rapid Breathing,0.6",
+e89fdd4b-d706-430d-bd60-ca6a0d7762ec,79,M,Influenza,"Fatigue,0.5","Headache,0.7","Dry Cough,0.3","Nasal Congestion,0.5",
+aaca52dc-fbab-4ca0-8a42-29c57d01d8a8,17,F,Asthma,"Rapid Breathing,0.6","Chest Tightness,0.3","Coughing at Night,0.9","Wheezing,0.5",
+5a5362a2-5ed3-4747-9c74-6970ede6b818,38,F,Common Cold,"Runny Nose,0.4","Congestion,0.3","Mild Fever,0.9","Cough,0.3","Sneezing,0.5"
+7d9814a5-bb06-4528-98fd-d2d820a74fb8,71,F,Influenza,"Body Aches,0.3","Dry Cough,0.5","Chills,0.8",,
+0352e76d-a9d6-465c-8004-a0d918bc288a,36,M,Common Cold,"Sneezing,0.4","Cough,0.6","Sore Throat,0.5",,
+31235d4f-21e9-458e-8146-7e1f2fec9714,9,M,Pneumonia,"Cough with Phlegm,0.3","Chest Pain,0.4","Confusion,0.8","Shortness of Breath,0.3","Fatigue,0.6"
+bda48903-1379-4f95-adb4-c61a2fc51fa5,80,M,Influenza,"Headache,0.7","High Fever,0.6","Nasal Congestion,0.7","Chills,0.5",
+bd7028ca-d0c1-4c23-81a7-5514dc6df5cf,57,F,Common Cold,"Cough,0.9","Runny Nose,0.3","Mild Fever,0.4","Sneezing,0.8",
+e4781fcf-6f6e-47f6-ad98-c610748513fe,74,M,Asthma,"Chest Tightness,0.9","Rapid Breathing,0.3","Wheezing,0.7","Shortness of Breath,0.9","Coughing at Night,0.5"
+0f347aaf-2351-4c03-abf9-a234de8dc75e,52,M,Common Cold,"Runny Nose,0.3","Sore Throat,0.3","Congestion,0.8","Mild Fever,0.3","Sneezing,1.0"
+e514ff71-9779-4df0-b2ac-de2bc2b560b9,14,M,Asthma,"Shortness of Breath,0.9","Coughing at Night,0.8","Wheezing,0.7","Rapid Breathing,0.9","Chest Tightness,0.9"
+1fc82968-10cd-41a1-a7cf-38302b4da14f,10,M,Pneumonia,"Shortness of Breath,0.3","Cough with Phlegm,0.8","High Fever,0.4","Fatigue,0.9",
+fc1813ca-5841-412e-93e0-2c0b93b9ce9d,80,M,Pneumonia,"Chest Pain,0.8","Cough with Phlegm,0.7","High Fever,0.7","Fatigue,0.3","Shortness of Breath,0.5"
+9392be21-b9c9-4ea0-8122-c0f86b366c9e,57,M,Common Cold,"Cough,0.5","Congestion,1.0","Sore Throat,0.7","Mild Fever,0.7","Runny Nose,0.9"
+bd7af43e-5335-470b-bf1f-907c3a8974ad,73,F,Asthma,"Shortness of Breath,0.9","Rapid Breathing,0.5","Coughing at Night,0.4",,
+5179b23e-9720-40c5-8ffe-9aebf9ab2436,47,M,Influenza,"Nasal Congestion,0.4","Dry Cough,0.4","Chills,0.9",,
+e918860e-7061-41f3-8ed1-43f040d9aa88,35,M,Common Cold,"Sore Throat,0.6","Congestion,0.5","Runny Nose,0.7","Mild Fever,0.3",
+05461a7d-7cee-4a78-9f13-f607500f2451,73,F,Influenza,"Fatigue,0.7","High Fever,0.9","Headache,0.8",,
+1831c786-50b6-4e66-a00a-4ac53bd4d8d7,79,M,Influenza,"Chills,0.7","Body Aches,0.8","High Fever,0.7","Nasal Congestion,0.8",
+3bedd2f0-e5a4-4146-bf89-19fb0b5a37a9,39,F,Asthma,"Coughing at Night,0.6","Wheezing,0.3","Rapid Breathing,0.9","Shortness of Breath,0.8",
+98b74157-96fd-440d-ba98-f4aa9463714e,47,F,Common Cold,"Sneezing,0.4","Runny Nose,0.6","Cough,0.6",,
+37ffbea5-2635-499d-9ad5-b765f8e1cc1d,64,M,Pneumonia,"Fatigue,0.4","High Fever,0.3","Shortness of Breath,0.5",,
+c9828d2b-c555-47ce-9036-23c1118cccf1,65,F,Influenza,"Headache,0.6","Fatigue,0.7","High Fever,0.7",,
+4571b53d-720a-48ad-bc4f-32b76f3f257e,38,F,Pneumonia,"Shortness of Breath,0.4","Cough with Phlegm,0.8","Chest Pain,0.7",,
+357a913e-690d-4cb3-bad9-1ad7aa010189,49,M,Asthma,"Chest Tightness,0.6","Wheezing,0.5","Rapid Breathing,0.7",,
+048b06be-95f2-4ceb-ac01-65b5e5eac6d5,7,F,Asthma,"Chest Tightness,0.5","Coughing at Night,0.5","Rapid Breathing,0.4","Wheezing,0.4","Shortness of Breath,0.6"
+7bb6d2e4-fada-4430-9f01-d2d3db715097,54,M,Influenza,"Dry Cough,0.5","High Fever,0.7","Nasal Congestion,0.8","Fatigue,0.9",
+4d318573-99c7-4f70-b2ac-136d19943eb9,25,F,Pneumonia,"High Fever,1.0","Chest Pain,0.7","Shortness of Breath,0.7","Confusion,0.4","Cough with Phlegm,0.9"
+a947be75-09c2-4462-9723-0a6a3048876e,4,M,Pneumonia,"Shortness of Breath,0.4","Confusion,0.4","Cough with Phlegm,0.4","Chest Pain,0.3","High Fever,0.8"
+6b78aa6a-092a-4d42-bbf2-72bca776d052,19,M,Influenza,"Headache,0.5","Body Aches,0.3","Dry Cough,0.9","Fatigue,0.6",
+9158244c-fc9b-46c3-9920-e9b9fb184cca,20,M,Pneumonia,"High Fever,0.9","Shortness of Breath,0.7","Confusion,0.4","Fatigue,0.6","Chest Pain,0.7"
+f3ae0d5d-70bd-4f04-bb24-b5c25d61afc0,89,F,Pneumonia,"Chest Pain,0.5","Fatigue,0.8","High Fever,0.8","Shortness of Breath,0.6","Cough with Phlegm,0.6"
+8876a1e0-8f17-46b6-9b77-c53c53d7894e,49,F,Common Cold,"Mild Fever,0.8","Runny Nose,0.4","Sneezing,0.8",,
+5ba39a8f-4b3e-46d6-acba-3dcdb7551bb3,78,F,Influenza,"High Fever,0.9","Headache,0.8","Fatigue,0.5","Body Aches,0.8",
+a5fa18a5-5a95-411a-8db9-1233ee3467d5,47,M,Influenza,"Body Aches,0.7","Fatigue,0.7","Dry Cough,0.8","Headache,0.9",
+7b198ea9-4db3-41e9-99b8-f0cbb4847f79,27,F,Asthma,"Chest Tightness,0.4","Shortness of Breath,0.8","Rapid Breathing,0.4","Wheezing,0.4","Coughing at Night,0.9"
+1a6ca836-d4e0-4d8d-a995-6868ad96ff0c,90,F,Asthma,"Wheezing,0.4","Coughing at Night,0.8","Rapid Breathing,0.9",,
+1f368cea-e82f-42ac-85ae-4dea1ecc58e8,60,M,Asthma,"Chest Tightness,0.9","Wheezing,0.5","Rapid Breathing,1.0","Shortness of Breath,0.6",
+10af3971-ca4e-4fa7-ab24-2271f07392e0,7,F,Asthma,"Shortness of Breath,0.6","Chest Tightness,0.8","Wheezing,1.0","Rapid Breathing,0.6","Coughing at Night,0.6"
+8ac69f80-11e2-4d49-9458-9088ce0e0b7f,78,F,Pneumonia,"Fatigue,0.3","Shortness of Breath,0.6","Chest Pain,0.4",,
+8a2cc978-7350-4fe6-a004-b16f47b2eb7a,55,F,Influenza,"Fatigue,1.0","Body Aches,0.6","High Fever,0.9","Dry Cough,0.8",
+32f6d8f6-26b9-499d-b2ff-d5f40199f37a,29,F,Influenza,"Fatigue,0.8","Dry Cough,0.5","Chills,0.4","Body Aches,0.9",
+662a1cae-01d2-4001-8f6c-de3664f6f186,74,M,Influenza,"Fatigue,0.6","Headache,0.4","Dry Cough,0.5",,
+22782abd-1a74-4002-b0d1-531c6a1d31bd,18,F,Asthma,"Shortness of Breath,0.8","Chest Tightness,0.9","Wheezing,0.9",,
+57c963c2-0e7e-4ae6-b559-e83ec6db6dd3,21,F,Pneumonia,"Chest Pain,0.7","High Fever,0.3","Cough with Phlegm,0.7","Shortness of Breath,0.8","Fatigue,0.8"
+b7d02a66-898e-44a2-82a3-66397dd9bc8f,48,F,Asthma,"Rapid Breathing,0.8","Shortness of Breath,0.4","Coughing at Night,0.9","Chest Tightness,0.5",
+8556dfb6-e934-4b1b-8026-161c705c0521,63,M,Common Cold,"Congestion,0.4","Cough,1.0","Sneezing,1.0","Runny Nose,0.9","Sore Throat,0.9"
+4bd82299-b599-4925-b2d8-b2f7d5a1ee72,64,F,Common Cold,"Cough,0.6","Congestion,0.9","Sore Throat,0.6","Mild Fever,0.5","Runny Nose,0.5"
+e730ee5f-c4c7-4f46-aafb-afc7a006d629,15,M,Asthma,"Wheezing,0.9","Shortness of Breath,0.7","Rapid Breathing,0.8",,
+39c1e83b-8210-48e7-9cfa-613218f030c8,19,M,Influenza,"Dry Cough,0.5","Chills,0.7","Fatigue,0.9","High Fever,0.7","Headache,0.4"
+82eb7cc0-2c47-46ee-871b-2d4cb11c4617,85,M,Pneumonia,"High Fever,1.0","Confusion,0.6","Fatigue,0.6","Chest Pain,0.8",
+87601883-8d34-4462-8a91-fabd496fc512,17,M,Asthma,"Chest Tightness,1.0","Coughing at Night,0.9","Shortness of Breath,0.8","Wheezing,0.9","Rapid Breathing,0.6"
+e97c8a9d-ffc3-4498-9535-5ccffb24d93b,50,F,Common Cold,"Cough,0.7","Sneezing,0.7","Sore Throat,0.4",,
+62daa052-cfe7-469d-8352-f64d541c9a4d,65,F,Asthma,"Wheezing,0.7","Rapid Breathing,0.9","Chest Tightness,0.8",,
+b45f5f80-7a2c-4242-8aea-b88b4bd4d59d,39,M,Influenza,"Body Aches,0.5","Nasal Congestion,0.8","Dry Cough,0.6","High Fever,0.8",
+eb84afd6-681c-43f4-b7a5-debdccbbde59,43,M,Influenza,"Headache,0.6","Body Aches,0.9","Dry Cough,0.5","Fatigue,1.0","Nasal Congestion,0.8"
+bb8cb017-4c11-4e2e-8533-e91fd7d7d8ea,76,M,Influenza,"Headache,0.7","Nasal Congestion,0.4","Fatigue,0.8",,
+146f1aa7-b5a9-49a1-8681-b7557aa9d5e2,86,F,Pneumonia,"High Fever,0.9","Confusion,0.7","Shortness of Breath,0.4","Cough with Phlegm,0.9",
+7c88781c-74c0-40ea-b7b7-b8601307ac4f,67,M,Common Cold,"Cough,0.8","Sore Throat,0.5","Runny Nose,0.4",,
+563b4f92-ab6c-4862-a72b-5e9a569be22c,20,F,Asthma,"Chest Tightness,0.4","Rapid Breathing,0.7","Coughing at Night,0.6",,
+b28d3d36-bd1e-4fc2-af7f-e1135a5aca4e,42,M,Pneumonia,"Confusion,0.8","High Fever,0.5","Cough with Phlegm,0.6","Fatigue,0.9",
+32a859e4-00a0-46a3-bc0f-88b84886899a,19,F,Pneumonia,"Fatigue,0.7","Confusion,0.4","High Fever,0.8",,
+6b6e05a7-9abe-45ab-a2bc-78413ba1fd23,52,F,Influenza,"Body Aches,0.8","Headache,0.4","Chills,0.4","Dry Cough,1.0","Nasal Congestion,0.6"
+6713cf4e-60d8-4fed-aadd-a8ccc8a908ba,19,F,Influenza,"Headache,0.5","Nasal Congestion,0.4","High Fever,1.0","Chills,0.8",
+3206e8d4-20c9-4c91-b697-35fc47d8cc13,48,F,Common Cold,"Cough,0.4","Runny Nose,0.5","Mild Fever,0.5","Sneezing,0.6","Congestion,1.0"
+9f741b2a-eeb3-40b6-973a-c4fc6033dc2e,53,M,Pneumonia,"Cough with Phlegm,0.7","Confusion,0.6","Fatigue,0.5",,
+a920fa14-fa13-4400-bf6a-e61038c0209c,68,M,Influenza,"High Fever,0.5","Nasal Congestion,0.8","Headache,1.0","Dry Cough,0.9",
+e889d593-fbf6-4d86-9969-f8e980b7135c,61,F,Asthma,"Coughing at Night,0.6","Wheezing,0.9","Rapid Breathing,0.6","Shortness of Breath,0.7",
+161a61fd-eb65-4502-bc3a-0169568ae372,38,M,Influenza,"Body Aches,0.6","High Fever,0.5","Fatigue,0.4",,
+1448f769-dcc5-47ce-823d-0f91a302cce5,70,M,Common Cold,"Sore Throat,0.5","Congestion,0.4","Cough,0.9",,
+dc12a868-3200-4987-b66b-42f21d465d81,17,M,Pneumonia,"Confusion,0.6","High Fever,0.5","Cough with Phlegm,0.4","Fatigue,0.6",
+3d44d897-f256-4601-b41e-622f7be71ac2,29,M,Influenza,"Nasal Congestion,0.5","Chills,0.6","Dry Cough,0.7","Headache,0.5","High Fever,0.9"
+2bb84980-792b-4b29-bcce-7f865938cbe5,39,M,Common Cold,"Congestion,0.6","Mild Fever,0.8","Cough,0.4",,
+17cb9380-d83f-4969-8705-ffae3d868f06,27,F,Common Cold,"Mild Fever,0.4","Runny Nose,0.7","Sneezing,0.8","Sore Throat,0.3","Congestion,0.4"
+87b0f895-98ba-4b5e-9095-9bd8a2aa8f5a,86,M,Common Cold,"Runny Nose,0.5","Sneezing,0.4","Mild Fever,0.8","Cough,0.4",
+7da6ce71-cd89-4a34-9cf4-d1c4f378cacf,24,M,Common Cold,"Sore Throat,0.8","Mild Fever,0.8","Runny Nose,0.5","Sneezing,0.3",
+7e12739d-4123-46ad-9b4e-1ca8b42e54cd,43,F,Asthma,"Rapid Breathing,0.6","Shortness of Breath,0.7","Coughing at Night,0.5",,
+868b79a4-087a-4fc3-a397-f989760e1ac3,24,M,Influenza,"Nasal Congestion,0.6","Fatigue,0.4","Dry Cough,0.5","High Fever,0.3","Body Aches,0.4"
+bf1c98fd-0118-4cbe-ba84-69d554249db2,3,M,Influenza,"Chills,0.6","Headache,0.9","Body Aches,0.8","Fatigue,0.7","Nasal Congestion,0.8"
+122c54be-7ee8-43d4-a0d3-01d7e9b409fb,27,M,Pneumonia,"Fatigue,0.9","Chest Pain,0.7","High Fever,0.8","Confusion,0.9","Cough with Phlegm,0.5"
+ee9b67d5-25c2-44b8-b1c1-cf1745bd44ec,81,F,Common Cold,"Mild Fever,0.5","Runny Nose,0.7","Sneezing,0.6",,
+2ce72323-ed15-47ea-91cc-51cad32056b2,49,M,Asthma,"Rapid Breathing,0.5","Shortness of Breath,0.8","Wheezing,0.6","Chest Tightness,0.9",
+592af8f5-3920-4327-b1ae-39d5b63085d5,12,F,Pneumonia,"Cough with Phlegm,0.5","Confusion,0.5","Chest Pain,0.6","Shortness of Breath,0.3",
+acfd575c-0a70-4ac4-9fe2-6213b4e19461,68,F,Common Cold,"Sneezing,0.8","Runny Nose,0.8","Mild Fever,0.8",,
+1298a630-9904-486f-a73b-ae6542477313,34,F,Common Cold,"Cough,0.4","Runny Nose,1.0","Sore Throat,0.4","Sneezing,0.5",
+2a894697-430c-4bdd-b3b7-34c203dd4560,39,M,Common Cold,"Runny Nose,0.5","Congestion,0.9","Sore Throat,0.9","Sneezing,0.5","Cough,0.8"
+7a9ad076-94bc-41ba-a598-19d19da95a45,39,M,Pneumonia,"Confusion,0.5","Cough with Phlegm,0.4","High Fever,0.9",,
+84129594-b9eb-4edb-8256-df828ef19039,18,F,Asthma,"Wheezing,0.4","Coughing at Night,0.5","Shortness of Breath,0.4","Chest Tightness,0.3","Rapid Breathing,0.9"
+7e2160fe-1132-404e-97d5-030a5b94343f,54,F,Common Cold,"Mild Fever,0.6","Sore Throat,0.8","Runny Nose,1.0","Congestion,0.6",
+67c79642-fe73-4081-aa8e-44aa540e6ece,81,F,Influenza,"Headache,0.4","High Fever,0.3","Body Aches,0.5","Nasal Congestion,1.0","Dry Cough,0.9"
+05ae6a17-f0eb-4325-b9ac-b73e6767875a,49,F,Influenza,"Body Aches,0.6","Nasal Congestion,0.5","Headache,0.5","High Fever,0.4","Chills,0.4"
+7e700dab-7077-4815-adfe-e248c8d330d4,62,M,Common Cold,"Runny Nose,0.6","Cough,0.6","Sore Throat,0.7","Mild Fever,0.4",
+6f1ea178-9f8a-4791-a694-0817d947b182,12,F,Common Cold,"Runny Nose,0.9","Mild Fever,0.6","Congestion,1.0","Cough,0.8",
+9ff66615-5660-4dd7-89da-15b8810c4847,20,F,Influenza,"Body Aches,0.7","Dry Cough,1.0","Fatigue,0.9","High Fever,0.9",
+6f896c8b-0b9e-4a62-a8b6-cb99b3ef35f1,82,M,Pneumonia,"Cough with Phlegm,0.3","Fatigue,0.8","Shortness of Breath,0.5",,
+f422cab4-b263-493d-a5e0-47ee30edd1b2,43,F,Influenza,"Fatigue,0.3","Nasal Congestion,0.8","High Fever,0.7","Body Aches,0.7","Chills,0.4"
+70a7fcb6-7c2a-4729-8c60-84673752f2b4,57,M,Asthma,"Rapid Breathing,0.9","Coughing at Night,0.8","Wheezing,0.5","Chest Tightness,0.7",
+f4412abd-7deb-4d24-9072-a4e894d298f9,38,F,Asthma,"Coughing at Night,0.3","Chest Tightness,0.9","Rapid Breathing,0.7","Wheezing,0.3",
+a7d5700c-0a69-4393-834f-703909b79f3c,67,F,Influenza,"Chills,0.5","Headache,0.8","Dry Cough,1.0","Nasal Congestion,0.8",
+e6b259d5-67ea-4647-9c17-49456be8e792,6,F,Pneumonia,"Chest Pain,0.4","High Fever,0.7","Fatigue,0.5",,
+4b0a1c9e-06c5-4513-83b2-6d688303767f,17,F,Asthma,"Shortness of Breath,0.7","Coughing at Night,0.6","Rapid Breathing,0.7","Chest Tightness,0.5","Wheezing,0.5"
+40d91ed6-e48b-4002-a887-420d194c03c2,26,M,Asthma,"Rapid Breathing,0.5","Chest Tightness,0.8","Shortness of Breath,0.7","Wheezing,0.7",
+6690c995-1274-4167-a4e0-48b6e5240fde,68,M,Asthma,"Rapid Breathing,0.4","Shortness of Breath,0.8","Coughing at Night,0.4","Chest Tightness,0.5","Wheezing,0.4"
+49f04811-0ce8-461a-bc5f-2f74e58145a7,86,F,Pneumonia,"High Fever,0.3","Confusion,0.5","Cough with Phlegm,0.8","Fatigue,0.7","Chest Pain,0.4"
+5c1511dd-e002-4874-ba06-63706b2739f7,33,M,Influenza,"Headache,0.8","Chills,0.6","High Fever,0.5","Fatigue,0.9",
+ecc5f0a3-4c78-4e7c-b190-e4da50a4c6ae,65,M,Asthma,"Shortness of Breath,0.9","Coughing at Night,1.0","Wheezing,0.9","Rapid Breathing,0.4",
+e0253182-5a29-4b58-898e-772b2e7a665f,56,M,Asthma,"Shortness of Breath,0.8","Chest Tightness,0.3","Wheezing,0.6",,
+7d445553-579b-4db5-966a-bf7a683140dc,23,M,Common Cold,"Mild Fever,0.3","Runny Nose,0.3","Congestion,0.9","Sneezing,0.9","Cough,0.6"
+5db7bc0f-4a10-4b0b-ab33-bda87986b596,1,F,Common Cold,"Congestion,0.4","Cough,1.0","Mild Fever,0.3",,
+c8ca863e-f32e-4410-a198-71ae1b1cca0a,52,F,Pneumonia,"High Fever,0.8","Confusion,0.6","Chest Pain,0.6",,
+121e4aba-aba4-4fa8-a097-fb37a784636c,32,F,Pneumonia,"Chest Pain,0.5","High Fever,0.4","Cough with Phlegm,0.5","Shortness of Breath,0.9",
+803df7ab-51e7-4381-a98e-94da147f8c97,60,M,Pneumonia,"Fatigue,0.6","Confusion,0.6","Chest Pain,0.8",,
+e0a7e61e-66e8-4610-b1f6-bddee79eb243,49,F,Common Cold,"Congestion,0.7","Mild Fever,0.4","Sore Throat,0.3","Sneezing,0.5","Cough,0.9"
+293c3b76-60e0-485e-86b4-bbaf93bf9fac,76,F,Pneumonia,"Chest Pain,1.0","Cough with Phlegm,0.9","High Fever,0.9","Shortness of Breath,0.8","Fatigue,0.9"
+04edc158-3837-4921-882b-80dc2aefff78,36,M,Asthma,"Shortness of Breath,0.9","Chest Tightness,0.6","Wheezing,0.9","Rapid Breathing,1.0",
+d472e286-604a-4c61-aa24-1879a057ffef,87,M,Influenza,"Dry Cough,0.5","Headache,1.0","Nasal Congestion,0.4","Body Aches,0.5","Fatigue,0.4"
+eb7513a1-9adb-4f52-9477-a27c2b8e60a2,81,F,Pneumonia,"Shortness of Breath,1.0","Cough with Phlegm,0.6","Confusion,0.5",,
+e3fa3788-dc6d-493d-8bef-496d737c09aa,75,M,Common Cold,"Mild Fever,0.5","Sore Throat,0.4","Sneezing,0.9","Runny Nose,0.4","Congestion,0.3"
+d5c47e88-e67c-4e72-a922-261ae38cbb8a,38,M,Asthma,"Rapid Breathing,0.7","Wheezing,0.8","Coughing at Night,1.0","Chest Tightness,0.6",
+c8a448da-e690-4a1a-94d8-b487549946f5,24,M,Common Cold,"Sneezing,0.6","Runny Nose,0.3","Congestion,0.7",,
+8c0307fd-972c-44af-bc9e-2b39e8ce98ef,89,F,Asthma,"Rapid Breathing,0.7","Chest Tightness,1.0","Coughing at Night,0.9",,
+f62b0a9a-7de3-4e5b-ade1-aa5310892ede,87,M,Asthma,"Chest Tightness,0.4","Coughing at Night,1.0","Shortness of Breath,0.6","Wheezing,0.3","Rapid Breathing,0.6"
+a7627b21-98f0-453d-a7e6-26b720839740,20,F,Influenza,"Body Aches,0.6","Fatigue,0.5","Chills,0.5","Dry Cough,0.5",
+eb976991-fea5-4379-886c-496a112a43b0,32,F,Pneumonia,"Cough with Phlegm,0.8","Shortness of Breath,0.6","High Fever,0.4",,
+1f1e5358-7967-444b-8809-eac4f5cf689f,26,M,Influenza,"Nasal Congestion,0.6","Dry Cough,0.3","Fatigue,1.0","Headache,0.6","High Fever,0.3"
+8abddff8-6b50-4d9f-bdb0-8a3a168a8d86,16,M,Pneumonia,"Shortness of Breath,0.5","Confusion,0.3","Chest Pain,0.5",,
+41476a86-b219-4e85-8a0c-5bef39b1ff0c,81,M,Common Cold,"Congestion,0.5","Runny Nose,0.5","Cough,0.9","Sneezing,0.9","Mild Fever,0.9"
+a40526e3-79f0-4395-9629-aacd5b46c8cb,55,M,Common Cold,"Cough,0.7","Runny Nose,0.7","Sneezing,0.5",,
+5c6ed267-40aa-43cf-a06a-cd4c21c92db6,22,F,Asthma,"Chest Tightness,0.6","Rapid Breathing,0.4","Wheezing,1.0","Shortness of Breath,0.3",
+54b9ef07-6bef-4831-af0e-61593cec1f4c,48,M,Asthma,"Coughing at Night,0.6","Wheezing,0.7","Shortness of Breath,0.5",,
+4c163e98-3663-4159-b7d8-aad05b69b8e5,56,F,Asthma,"Chest Tightness,0.8","Coughing at Night,0.6","Shortness of Breath,0.7","Rapid Breathing,0.5",
+421eb202-d38b-46c9-b48e-bd244928a20d,71,F,Asthma,"Rapid Breathing,0.6","Shortness of Breath,0.8","Coughing at Night,0.5","Wheezing,0.5","Chest Tightness,0.8"
+60ecc31d-d780-4a27-a4c7-c20208372bc2,1,F,Asthma,"Wheezing,0.8","Chest Tightness,0.6","Rapid Breathing,0.9","Shortness of Breath,0.8","Coughing at Night,0.9"
+965b1dc8-16f0-47b0-b8fe-70cf6c84f9d7,80,M,Influenza,"Nasal Congestion,0.7","Dry Cough,0.3","Headache,0.7","Fatigue,0.7",
+c85b3b2c-c4bc-44f8-9c43-1726b00164e4,2,F,Common Cold,"Runny Nose,0.4","Mild Fever,0.5","Congestion,0.3","Sore Throat,0.6","Sneezing,0.8"
+20c620fe-8e21-47b5-95d4-e3c23593e0ee,20,F,Common Cold,"Sneezing,0.5","Sore Throat,0.9","Runny Nose,0.7","Mild Fever,0.7","Congestion,0.5"
+94ca2682-a5f7-4ea4-8d6e-20a063547b8d,81,F,Pneumonia,"Cough with Phlegm,0.6","Confusion,0.9","Chest Pain,0.5","High Fever,0.6",
+7b4d4dfc-418b-4e0f-94c9-de09cacdfe0e,24,M,Influenza,"Chills,0.7","High Fever,0.8","Dry Cough,0.9","Nasal Congestion,0.7",
+db372509-7c9e-487c-9fee-6db44528f1de,10,F,Common Cold,"Runny Nose,0.8","Sneezing,0.7","Congestion,0.7",,
+297f1f19-8718-45c4-a5e1-d6cfc0630d00,71,M,Common Cold,"Sneezing,0.6","Cough,0.4","Mild Fever,0.7",,
+1b09d51d-3432-4dec-bc79-67c516c7d63e,86,F,Pneumonia,"Confusion,0.6","Shortness of Breath,0.7","Fatigue,1.0","Cough with Phlegm,0.6",
+78d584d4-2a33-4e62-a901-5b93e3e81fe2,87,M,Pneumonia,"Cough with Phlegm,0.7","Shortness of Breath,0.8","Confusion,0.6","High Fever,0.4",
+9bac5cbb-d961-40bf-a792-21cd8d6048ef,12,F,Asthma,"Wheezing,0.5","Coughing at Night,0.9","Shortness of Breath,0.8","Chest Tightness,0.8",
+e3cace6f-acc3-4977-a7de-4571f96156c8,30,M,Pneumonia,"Cough with Phlegm,0.9","Chest Pain,0.5","Fatigue,0.8",,
+6934c35d-846e-4ae5-becd-c48452aeae00,71,F,Pneumonia,"Shortness of Breath,1.0","Fatigue,0.8","Cough with Phlegm,0.7",,
+475b0e1c-eeef-4e3f-9199-0172d915e204,28,M,Asthma,"Chest Tightness,0.8","Wheezing,1.0","Rapid Breathing,0.9",,
+02ab5af3-f959-4775-ad06-2e142cd771b9,89,M,Influenza,"Dry Cough,0.7","Chills,0.7","Headache,0.9",,
+898943d7-32b6-4a43-9d7b-692ea5cf2646,25,F,Pneumonia,"Confusion,0.7","Chest Pain,0.9","High Fever,0.9","Shortness of Breath,0.4","Fatigue,0.8"
+1004b057-6fa0-4831-9113-f952a054704e,87,F,Common Cold,"Sore Throat,0.7","Runny Nose,0.9","Mild Fever,0.4",,
+51964f88-0886-4436-874d-d651453612da,63,F,Asthma,"Chest Tightness,1.0","Wheezing,0.5","Shortness of Breath,0.5",,
+69747c44-9055-4fba-86d6-7afb3d11223b,86,F,Pneumonia,"Confusion,0.7","Cough with Phlegm,0.6","Chest Pain,0.5",,
+f078cff1-8378-4945-9248-395aa6d664ef,47,F,Influenza,"Nasal Congestion,0.9","High Fever,0.7","Dry Cough,0.3",,
+3314d60f-b64e-4e43-adc0-2facc366d6e0,19,M,Influenza,"Fatigue,0.8","Chills,0.3","Body Aches,1.0","Dry Cough,0.7",
+386754f6-3326-491a-bfae-a9016ed6a3bc,29,F,Influenza,"Chills,0.9","High Fever,0.9","Headache,0.5","Body Aches,0.9",
+a4a68278-2690-4ab4-922f-10919379d1ef,61,M,Influenza,"Nasal Congestion,0.7","Dry Cough,0.8","Headache,1.0","High Fever,0.8","Body Aches,0.7"
+2e78df27-31ae-4d1e-87f0-0f8e45ec0650,78,M,Asthma,"Shortness of Breath,0.9","Chest Tightness,1.0","Wheezing,0.7",,
+ec142307-6644-435e-a44f-69817644a081,88,F,Common Cold,"Cough,0.5","Mild Fever,0.8","Congestion,0.4","Runny Nose,0.5","Sneezing,0.5"
+d4070960-98b4-4dc6-b6f8-60b9e59bc941,15,M,Common Cold,"Sneezing,0.7","Cough,0.5","Runny Nose,0.6","Sore Throat,0.9",
+d6c3e4af-d9b2-4a5e-b399-94365f21a4db,33,F,Asthma,"Shortness of Breath,0.8","Chest Tightness,0.6","Wheezing,0.5",,
+0b63b544-9da9-4733-94fa-1039ef5054a0,82,F,Pneumonia,"Confusion,1.0","Fatigue,1.0","Cough with Phlegm,0.4","Shortness of Breath,0.3",
+b79a596f-4b52-426c-b50e-437e32d6a5f3,14,F,Common Cold,"Mild Fever,0.3","Runny Nose,0.8","Cough,0.5","Sore Throat,0.4",
+64dc81d3-8cda-49e4-a75e-af10b97e6d09,89,M,Common Cold,"Sore Throat,0.7","Congestion,0.7","Cough,0.7","Mild Fever,0.9","Sneezing,0.8"
+9d419efb-347f-4d38-8929-4f049325f70c,10,M,Influenza,"Fatigue,0.7","Headache,0.8","High Fever,0.7","Nasal Congestion,0.6","Dry Cough,0.9"
+f38b21d4-dce8-48fa-8d98-d3342b4f752c,51,M,Influenza,"Body Aches,1.0","Headache,0.7","Chills,1.0","Fatigue,0.7","Nasal Congestion,0.4"
+16d54b7c-75cb-4511-8d00-790c674e7541,65,F,Pneumonia,"High Fever,0.5","Confusion,0.9","Cough with Phlegm,0.5","Chest Pain,1.0",
+2b536b13-50e0-4e22-b952-9d39240a97ca,37,M,Asthma,"Wheezing,0.5","Shortness of Breath,0.4","Rapid Breathing,0.4",,
+25aa2660-ef75-41cb-a4d9-6c7aa959f797,45,F,Asthma,"Chest Tightness,0.6","Coughing at Night,0.6","Shortness of Breath,0.9","Wheezing,0.4","Rapid Breathing,0.7"
+cacd72c2-af1b-437f-94ae-8e234607d7fb,25,M,Common Cold,"Mild Fever,1.0","Cough,0.4","Congestion,0.9",,
+b9567f51-e802-4ac2-ae0d-c72dc318bec6,53,F,Pneumonia,"Cough with Phlegm,0.4","Confusion,0.7","Fatigue,0.5","Chest Pain,0.4","Shortness of Breath,0.5"
+96b00228-cc7a-4442-b278-57dd617c38ed,39,F,Pneumonia,"Fatigue,0.7","Confusion,0.9","Chest Pain,0.9",,
+a22a902e-9833-4285-82bc-85e31a62eace,74,M,Asthma,"Rapid Breathing,0.6","Shortness of Breath,0.5","Coughing at Night,0.5",,
+f2f3ced0-46ee-4fa1-a201-d123f57bb602,28,M,Pneumonia,"Fatigue,0.7","Cough with Phlegm,0.4","Confusion,0.5","Chest Pain,0.3",
+c045d6f9-da4b-4a65-b418-3f40f1c252eb,48,M,Common Cold,"Cough,0.8","Sore Throat,0.5","Runny Nose,0.4",,
+957186f1-985d-4bfd-9f5c-cc52bd2e100b,60,M,Influenza,"Fatigue,0.6","Nasal Congestion,1.0","Headache,1.0","High Fever,0.8","Dry Cough,0.9"
+93fcc0e9-743d-4775-a1f4-53be37137ef1,83,F,Asthma,"Rapid Breathing,0.5","Shortness of Breath,0.5","Chest Tightness,0.9",,
+68ea230b-33cf-4c86-87e5-abc3e565770e,70,M,Asthma,"Chest Tightness,0.9","Rapid Breathing,0.3","Wheezing,0.7","Coughing at Night,0.4",
+189774ab-b023-49c6-8eb2-3c4b413830b0,32,M,Asthma,"Rapid Breathing,0.4","Wheezing,0.8","Coughing at Night,0.6","Chest Tightness,1.0",
+1c016d35-5f8f-4b7a-8532-6c20f6e0bd4e,47,M,Common Cold,"Mild Fever,1.0","Sneezing,0.5","Congestion,0.9","Cough,0.5",
+3525d478-f010-4471-afba-8809c9d41cf1,56,F,Influenza,"Nasal Congestion,0.6","Headache,0.3","Chills,0.7",,
+e8388830-53e2-4c71-9ab3-5b3343e5152c,1,F,Common Cold,"Mild Fever,0.6","Runny Nose,0.6","Sneezing,0.5",,
+7de97c81-aa80-4fe4-b790-1b05e510e845,66,M,Common Cold,"Sneezing,0.5","Runny Nose,0.6","Sore Throat,0.9","Cough,0.7",
+7a7a155f-1279-4386-9079-9f0721a1affd,51,F,Pneumonia,"Shortness of Breath,0.6","High Fever,0.8","Fatigue,0.5",,
+a444f11f-26c4-42a2-a959-6497dec3f1e6,90,M,Asthma,"Coughing at Night,0.4","Chest Tightness,0.9","Rapid Breathing,0.8",,
+fd45f9f5-de3d-4ece-accf-28b9e7291ec5,5,M,Asthma,"Chest Tightness,0.6","Coughing at Night,0.5","Rapid Breathing,0.5",,
+cda12bab-db90-4f5d-8152-5f7d044a6904,82,M,Common Cold,"Runny Nose,0.5","Sneezing,0.6","Congestion,0.6","Sore Throat,0.5",
+18792e6f-21c7-4857-9e22-aea0dc09c474,8,F,Common Cold,"Cough,0.7","Mild Fever,0.5","Sore Throat,0.6",,
+c350b3ee-b3c6-471c-9696-1f94f8178a6e,3,F,Common Cold,"Sore Throat,0.4","Runny Nose,0.5","Cough,0.9",,
+830d1299-36ab-4025-9ed2-6f696330baaf,48,F,Influenza,"Nasal Congestion,0.8","Fatigue,0.4","Chills,0.8","Body Aches,0.5","Headache,0.4"
+3c4b7127-9437-4e7f-937b-edc5b03af0f0,87,M,Common Cold,"Sneezing,0.4","Mild Fever,0.4","Congestion,0.5","Sore Throat,0.9",
+b8172396-02ce-4466-9a24-924b2c7ac39c,55,F,Influenza,"Nasal Congestion,0.5","Fatigue,0.4","Dry Cough,0.3",,
+f65f485f-99dd-474d-8ddf-876409a04c3f,12,F,Common Cold,"Congestion,0.9","Runny Nose,0.5","Cough,0.6","Mild Fever,0.8",
+816f4aec-0431-4c88-a6fc-3c6a168e7787,6,M,Influenza,"Chills,0.8","High Fever,0.9","Dry Cough,0.9","Nasal Congestion,0.6",
+bdebc206-a0fb-4ee7-af56-eef24d88a8da,88,F,Pneumonia,"Fatigue,1.0","High Fever,0.6","Shortness of Breath,1.0","Confusion,0.5","Cough with Phlegm,0.5"
+ccf4c0b7-3da2-408b-afac-f4e81994eed7,33,M,Asthma,"Rapid Breathing,0.9","Shortness of Breath,0.3","Chest Tightness,0.9","Wheezing,0.4",
+f398fd0c-aa4b-46d9-823b-a579be65d4fe,11,F,Pneumonia,"High Fever,0.5","Confusion,0.8","Shortness of Breath,0.4",,
+6a757f4e-9e7d-43ca-bb66-441354975825,83,F,Asthma,"Chest Tightness,0.6","Shortness of Breath,1.0","Coughing at Night,0.6",,
+ed36544c-74a0-441e-a27b-6ccc2a17154c,71,M,Influenza,"Dry Cough,0.4","Headache,0.5","Fatigue,0.5",,
+0c4d5c96-c892-4b1e-8595-70155c731eeb,88,M,Influenza,"Nasal Congestion,0.6","Fatigue,0.5","Dry Cough,0.4","Chills,0.7","Headache,0.4"
+a9b74d8e-2b49-4ba1-a45f-c88319ac400e,70,M,Common Cold,"Cough,0.7","Congestion,0.4","Sore Throat,0.3",,
+2f10216f-12c0-4731-a081-8d0179e8f9c7,13,M,Asthma,"Rapid Breathing,0.3","Shortness of Breath,0.7","Chest Tightness,0.6","Coughing at Night,0.7",
+b5d9cf28-3aa5-4a65-baed-d149c8dd294c,11,M,Influenza,"Chills,0.6","High Fever,0.8","Body Aches,0.6",,
+157c9005-54a0-4b71-8939-0290db2042f7,70,M,Asthma,"Wheezing,0.6","Rapid Breathing,0.7","Coughing at Night,0.4","Chest Tightness,1.0","Shortness of Breath,0.6"
+88e624f1-1522-4d33-b110-9cebae88f5b5,13,F,Common Cold,"Sore Throat,0.4","Congestion,1.0","Runny Nose,0.3","Cough,0.9","Mild Fever,0.7"
+52e9b9d2-7416-46ab-8d6a-55d11fcfa88f,66,F,Asthma,"Coughing at Night,0.5","Wheezing,0.5","Rapid Breathing,0.8","Chest Tightness,0.4","Shortness of Breath,0.4"
+ee1945a7-da45-482d-a285-91fdf7b2fd60,36,M,Influenza,"Chills,0.4","Dry Cough,0.3","Headache,0.3","Nasal Congestion,0.7","Body Aches,0.9"
+f331cb3a-8d8c-44d0-b9c2-81582e6801c3,40,M,Pneumonia,"High Fever,0.9","Chest Pain,0.9","Shortness of Breath,0.7","Fatigue,0.7",
+350ebbd8-dc35-4e5d-bd62-5a70b03a5549,76,M,Pneumonia,"High Fever,0.4","Shortness of Breath,0.9","Confusion,0.4","Fatigue,0.4","Cough with Phlegm,0.7"
+4497864f-240d-423e-8229-a43b5fb894ec,19,M,Influenza,"Fatigue,0.6","Dry Cough,0.4","Body Aches,0.9","Headache,0.5",
+b8950a70-8196-4b6b-8633-85a33eb8fe27,43,M,Common Cold,"Runny Nose,0.8","Congestion,0.5","Mild Fever,0.4","Sore Throat,0.5","Cough,0.4"
+9b9b7012-3f7d-452e-90ab-b901a9628cc1,13,M,Common Cold,"Mild Fever,1.0","Sore Throat,0.8","Cough,0.5","Congestion,1.0",
+06c37ffa-832a-43e7-b5b5-73d315f22787,29,M,Common Cold,"Sore Throat,0.6","Mild Fever,0.5","Sneezing,1.0",,
+bb7f7ff2-cc8e-4a60-8a77-ecfdf0c8b482,25,F,Influenza,"Dry Cough,0.6","Body Aches,0.4","Fatigue,0.8","Chills,0.7","Nasal Congestion,0.4"
+4fb5ce10-eba1-4c2b-9d63-a5715687eb3a,19,F,Pneumonia,"Fatigue,0.5","Shortness of Breath,0.7","Chest Pain,0.6","High Fever,1.0","Confusion,0.5"
+35c30890-b90b-41d7-abf0-62965b0a886a,82,M,Influenza,"Headache,0.5","High Fever,0.4","Fatigue,0.9",,
+673be4d1-d51e-4739-bc1d-ebc817aae36b,30,M,Common Cold,"Sore Throat,0.9","Runny Nose,0.3","Mild Fever,0.9",,
+a264c8c8-95d6-492d-b4b7-894af090535c,17,F,Asthma,"Rapid Breathing,0.8","Shortness of Breath,0.9","Wheezing,0.4",,
+1bcc7be1-6508-4354-968f-6cf8ae591fbe,30,M,Asthma,"Coughing at Night,0.4","Wheezing,0.7","Rapid Breathing,0.7",,
+07f6eb8e-579f-4a49-827a-a3a399c5d751,20,M,Common Cold,"Sneezing,0.3","Congestion,0.9","Sore Throat,0.6","Cough,0.4","Mild Fever,0.5"
+e847509c-6cec-4161-a204-52d1c2fe42c6,58,F,Common Cold,"Sneezing,0.7","Runny Nose,0.7","Sore Throat,0.4","Mild Fever,0.7","Cough,0.7"
+b7b065a1-d797-42c2-83f0-22bfa03390bf,2,F,Asthma,"Chest Tightness,1.0","Wheezing,0.6","Shortness of Breath,0.5","Coughing at Night,0.3","Rapid Breathing,0.9"
+01a7866a-43ba-4ffb-b273-0c84b54d6d6d,72,M,Asthma,"Shortness of Breath,0.3","Wheezing,0.5","Rapid Breathing,0.7","Chest Tightness,0.7","Coughing at Night,0.4"
+8cce56e4-9b08-4bb0-8ed3-9f9392695acf,12,F,Common Cold,"Congestion,0.7","Runny Nose,0.9","Mild Fever,0.7","Cough,0.3","Sneezing,0.6"
+f401d070-e6f6-4554-a662-ffc084ba6b6f,76,M,Asthma,"Chest Tightness,0.9","Shortness of Breath,0.5","Wheezing,0.6","Coughing at Night,0.8","Rapid Breathing,0.5"
+5551490f-046f-40c0-ae5a-9cfd5f3bb91b,42,F,Common Cold,"Cough,0.7","Sore Throat,0.5","Sneezing,0.6","Congestion,0.7",
+76af1db0-ac93-40e1-bbe7-1d6ded6886a1,88,F,Asthma,"Rapid Breathing,0.5","Coughing at Night,0.6","Wheezing,0.5","Shortness of Breath,0.8",
+49eefee8-f61e-497e-b492-9510b4cbd6da,64,M,Influenza,"Chills,0.9","Fatigue,0.6","High Fever,0.7",,
+f74d7f58-ae85-4fda-8d94-8a33ebdf9600,53,F,Asthma,"Chest Tightness,0.9","Rapid Breathing,0.6","Shortness of Breath,0.9",,
+c1224848-83c1-4237-8900-b3ca31b61bfc,29,M,Pneumonia,"Fatigue,0.8","High Fever,0.9","Chest Pain,0.9","Shortness of Breath,0.5",
+5e67d5b8-9a7e-4cc4-a61c-90a5f9441fa1,66,M,Common Cold,"Mild Fever,0.3","Sneezing,1.0","Cough,0.5","Runny Nose,0.3",
+e078fdef-addb-4f6e-ac28-3c8748f9ce8f,49,F,Common Cold,"Congestion,0.8","Cough,0.8","Mild Fever,0.6","Sneezing,0.3",
+008b2c5f-288f-4972-8f39-a9d51a86aad3,6,F,Influenza,"Dry Cough,0.9","High Fever,0.9","Fatigue,0.7","Body Aches,0.4",
+db9135d0-1d9b-4ffc-8909-0c5a0f0dfa75,59,F,Influenza,"Headache,0.3","Chills,0.9","Nasal Congestion,0.7","Fatigue,0.9","High Fever,0.8"
+95b75633-8d6d-4826-93ef-c6bce50377ce,13,F,Common Cold,"Cough,0.4","Sore Throat,0.4","Mild Fever,0.6","Congestion,0.3",
+372310ea-3496-4761-9c99-8146abc0a4a1,38,F,Asthma,"Rapid Breathing,0.3","Chest Tightness,0.6","Shortness of Breath,0.4",,
+feecb83d-6fe3-46d0-9f05-09248f6d280d,87,M,Common Cold,"Congestion,0.7","Cough,0.7","Sore Throat,0.5","Sneezing,0.6",
+c443dec4-97a1-4cca-8137-2f8ffe31785a,55,M,Influenza,"Nasal Congestion,0.6","Dry Cough,0.4","High Fever,0.8","Fatigue,1.0","Body Aches,0.5"
+19dcfacb-06bb-4169-9926-356d8232ed60,20,M,Common Cold,"Sneezing,0.6","Congestion,1.0","Runny Nose,0.5","Mild Fever,0.8","Sore Throat,0.9"
+bc8fe8da-b054-4f63-adc6-24ebdbd5bbc1,67,M,Influenza,"Body Aches,0.5","Chills,0.3","Dry Cough,0.5",,
+4a1aa975-26a7-4dbe-a492-414b4ac43bbe,21,M,Pneumonia,"Fatigue,0.4","Chest Pain,0.6","Cough with Phlegm,0.9",,
+bbead8b4-8ae7-490f-a3e2-bbc74dc7cacc,5,M,Pneumonia,"Fatigue,0.7","High Fever,0.9","Shortness of Breath,0.8","Cough with Phlegm,0.5",
+0e4e59c7-12c3-4396-ab4b-d84d4692993b,57,M,Pneumonia,"High Fever,0.5","Fatigue,0.8","Chest Pain,0.6",,
+ac960f04-4bea-4163-a3ce-8c0c735ace28,55,F,Pneumonia,"Shortness of Breath,0.5","Chest Pain,0.5","Cough with Phlegm,0.7","Fatigue,0.9","Confusion,0.6"
+6bf1e35c-acb2-4035-b294-eb89188b8a91,88,F,Common Cold,"Runny Nose,1.0","Sneezing,1.0","Cough,0.4",,
+22115a43-2752-41ef-9724-1b7d01c5e542,75,M,Asthma,"Rapid Breathing,0.8","Shortness of Breath,0.8","Coughing at Night,0.3","Wheezing,0.3",
+05116455-b1dd-495f-b2f2-83b289ca3959,9,F,Asthma,"Rapid Breathing,0.7","Wheezing,0.7","Coughing at Night,0.5",,
+dd0b3041-af66-4ef5-af06-57345db6c932,71,M,Common Cold,"Runny Nose,0.5","Mild Fever,1.0","Congestion,0.7","Sneezing,0.7","Sore Throat,0.3"
+e379cff9-37c0-4d94-a0e3-3beb64cd941b,6,M,Pneumonia,"Shortness of Breath,0.9","Fatigue,0.9","Confusion,0.6",,
+ab761a99-df32-46df-81d1-be034f507bd5,7,F,Pneumonia,"High Fever,0.6","Confusion,0.9","Fatigue,0.9","Shortness of Breath,0.7","Cough with Phlegm,0.8"
+2d8a5091-91b0-4b0d-b997-a251945d91d2,29,M,Asthma,"Wheezing,1.0","Coughing at Night,0.9","Shortness of Breath,0.5","Chest Tightness,0.9",
+35a929dd-ccb0-46a4-b937-e83aa442ae50,43,F,Common Cold,"Mild Fever,1.0","Congestion,0.8","Runny Nose,0.4","Sore Throat,0.8","Cough,0.6"
+17015023-32af-499c-8469-9eb2ace50ca9,65,M,Common Cold,"Sneezing,1.0","Sore Throat,0.6","Congestion,0.5",,
+ee8c5113-9893-4459-bd54-65c59f3b5dbb,35,F,Pneumonia,"Shortness of Breath,0.6","Confusion,0.8","High Fever,0.4","Fatigue,0.6",
+c2f520d2-58fb-4662-adb2-d3e82a2b763f,21,F,Asthma,"Shortness of Breath,0.4","Coughing at Night,1.0","Chest Tightness,0.3","Rapid Breathing,0.7","Wheezing,0.4"
+3416be1a-08a8-4af4-a307-8811c8d7131d,76,F,Influenza,"Chills,1.0","Body Aches,0.5","High Fever,0.8","Dry Cough,0.3","Fatigue,0.9"
+4a627249-a091-471d-bcb6-7ed352daf533,85,M,Common Cold,"Sneezing,0.9","Cough,0.7","Congestion,0.4","Runny Nose,1.0","Sore Throat,0.7"
+3f9c4ec5-71f5-42ab-b03b-dfe3ae519069,58,F,Common Cold,"Congestion,0.4","Mild Fever,0.4","Cough,0.3",,
+9fc0af4a-b88d-43ef-9af2-afeca2fbc25d,61,F,Pneumonia,"High Fever,0.6","Chest Pain,0.9","Fatigue,0.5","Confusion,0.8","Shortness of Breath,1.0"
+f0df5683-e218-40e1-85cd-e466cbaa8547,1,F,Common Cold,"Sneezing,0.9","Mild Fever,1.0","Congestion,0.5","Runny Nose,0.4",
+21a4ac94-4e87-47ea-a7d6-a1d12e206a11,84,M,Asthma,"Coughing at Night,0.5","Chest Tightness,0.4","Shortness of Breath,0.9","Rapid Breathing,0.8","Wheezing,0.4"
+869152c7-da82-4157-9de9-a0d8d4e71567,11,F,Influenza,"Fatigue,0.9","Chills,0.3","Nasal Congestion,0.9","High Fever,0.6","Dry Cough,0.9"
+5cb1bf23-1c48-485f-8ab2-2c388a40ebea,87,M,Pneumonia,"Chest Pain,0.4","High Fever,0.9","Cough with Phlegm,0.6","Fatigue,0.6",
+caef5e42-50a2-4e09-8f3b-0b43d802fe83,76,F,Pneumonia,"Chest Pain,0.7","Fatigue,0.9","Cough with Phlegm,0.5","Shortness of Breath,1.0",
+cd04d36e-08de-448d-97ce-e829c995f7e9,22,M,Asthma,"Shortness of Breath,0.5","Rapid Breathing,1.0","Wheezing,0.6",,
+a9237438-4ff6-40e7-a616-103c215ac547,65,M,Pneumonia,"Shortness of Breath,0.5","Confusion,0.9","Fatigue,0.5","Chest Pain,0.6","High Fever,0.7"
+46b2424a-3639-429c-97c9-1e8155113b47,79,F,Common Cold,"Sneezing,0.9","Runny Nose,0.4","Cough,0.8","Sore Throat,0.3",
+010c5795-bbce-44e9-8948-24b8feddd77c,41,F,Common Cold,"Congestion,0.7","Cough,0.6","Runny Nose,0.4",,
+46c042c6-811b-4cec-af38-de9693142ce7,51,M,Asthma,"Shortness of Breath,0.6","Chest Tightness,0.5","Wheezing,0.4","Coughing at Night,0.6",
+739cb885-9f4b-4e03-9355-88046c6bdbf1,45,F,Pneumonia,"Fatigue,0.6","High Fever,1.0","Chest Pain,0.7","Shortness of Breath,0.5",
+7fa24c12-1dcb-4484-bb2f-9594e7db2ace,68,M,Pneumonia,"Chest Pain,0.7","Confusion,0.6","High Fever,0.7","Cough with Phlegm,0.5","Fatigue,0.4"
+053ae08e-c9a0-4e00-a937-387448c420d0,46,F,Pneumonia,"Shortness of Breath,0.9","High Fever,0.7","Confusion,0.9","Chest Pain,0.6","Cough with Phlegm,1.0"
+3d4d7eaf-7edd-42a6-8b99-e7e52ba76b21,15,M,Asthma,"Coughing at Night,0.9","Rapid Breathing,1.0","Wheezing,0.9","Shortness of Breath,1.0","Chest Tightness,0.9"
+b7dd47ef-3cc6-4d63-a9df-3ef08ca417d7,72,F,Pneumonia,"Shortness of Breath,0.8","Cough with Phlegm,0.7","Fatigue,0.5","Chest Pain,0.4",
+2af2496e-e2d1-415b-9baf-c208e7343e5a,9,M,Common Cold,"Congestion,0.9","Sneezing,0.7","Runny Nose,0.7","Sore Throat,0.5",
+baa43334-11fe-4356-8965-cedcd9007a19,21,F,Influenza,"Headache,0.9","Fatigue,0.5","Dry Cough,0.5","Chills,0.4",
+c6cebee3-5022-47c7-b837-d65c2fba5f33,77,M,Pneumonia,"Shortness of Breath,0.5","Confusion,0.8","Cough with Phlegm,0.3",,
+94c9f9ef-70f4-4240-9466-0655f6f3b63d,12,F,Common Cold,"Runny Nose,0.4","Sneezing,1.0","Mild Fever,0.3","Sore Throat,0.7",
+6f3ef38f-2014-4f76-ad30-b5d995721090,66,F,Pneumonia,"Cough with Phlegm,0.9","Shortness of Breath,0.9","High Fever,0.4","Confusion,0.7",
+151539e9-9436-4c86-9bab-31aef1f3ac31,14,M,Common Cold,"Sore Throat,0.4","Congestion,0.5","Sneezing,0.4","Mild Fever,0.3","Runny Nose,0.8"
+5954d620-7e5c-4a35-ad48-5fe08ae3c0b8,6,F,Asthma,"Chest Tightness,0.7","Coughing at Night,0.9","Shortness of Breath,0.3","Wheezing,0.9",
+9f755afe-3e5f-465d-998a-b0e35cc545d8,13,M,Common Cold,"Mild Fever,0.5","Congestion,0.6","Sneezing,0.7","Runny Nose,0.9","Sore Throat,0.5"
+d91113e4-5c23-44dc-be22-8fda431d6a4f,89,M,Pneumonia,"High Fever,0.7","Cough with Phlegm,0.7","Shortness of Breath,0.6","Chest Pain,0.7","Confusion,0.7"
+98237d50-8596-4a15-a24b-8832ed5a07e9,65,F,Influenza,"Dry Cough,0.6","High Fever,0.8","Headache,0.9","Chills,0.8","Fatigue,0.9"
+078ac698-79b2-4a54-81c5-68005618054d,46,M,Common Cold,"Runny Nose,0.9","Sneezing,1.0","Sore Throat,0.6",,
+036bf4a9-5b3d-4b35-ba77-fc520bfb15cb,49,M,Pneumonia,"Fatigue,0.9","Confusion,0.6","Shortness of Breath,0.8","High Fever,0.5",
+7e6f0b90-fb3f-4c38-993d-d43aa95f51bf,28,M,Pneumonia,"Fatigue,0.7","Shortness of Breath,0.5","Confusion,0.7",,
+45a5e24e-2a11-4df1-ad71-10e2b47585f2,88,M,Influenza,"Headache,0.5","Nasal Congestion,0.3","High Fever,1.0","Chills,0.6","Dry Cough,0.8"
+40fc00e7-834b-43e4-b740-7fe8df32f71b,35,M,Influenza,"Nasal Congestion,0.9","Body Aches,0.7","Dry Cough,0.4",,
+c46ad8c2-fa0d-42fc-be25-a04480103e95,56,F,Pneumonia,"Cough with Phlegm,0.7","Confusion,0.8","Chest Pain,0.4",,
+a89bfd1a-4d94-4442-bfaf-5c1b631b42ce,27,M,Pneumonia,"Shortness of Breath,0.6","Cough with Phlegm,0.3","Confusion,0.6","Fatigue,0.9",
+78eb0d19-4c55-49e4-b19b-d25407a92d9c,69,M,Pneumonia,"Fatigue,0.3","Chest Pain,0.9","High Fever,0.7","Shortness of Breath,0.7","Confusion,0.6"
+bd6eb2c8-e1c0-4d4f-b19d-3908faeae808,73,F,Influenza,"High Fever,0.9","Chills,0.6","Dry Cough,0.5","Headache,0.4",
+9310d3f7-ab6c-48fa-9b59-51e9762588be,38,F,Influenza,"Body Aches,0.3","High Fever,0.3","Headache,0.6","Chills,0.7",
+30432ae2-2892-4828-8751-621357f3b24a,18,M,Common Cold,"Congestion,0.8","Sneezing,0.6","Mild Fever,0.4","Cough,0.9",
+8fdb2ec1-0633-4d67-bed5-c1042fbb54de,87,F,Influenza,"Chills,0.3","Fatigue,0.9","Nasal Congestion,0.5",,
+1673f61f-9432-4f5e-8060-314a5f6de9ef,25,M,Asthma,"Shortness of Breath,0.3","Coughing at Night,0.4","Rapid Breathing,0.4","Chest Tightness,1.0","Wheezing,0.6"
+4ae2b64b-59f3-43e5-bd53-d1c2673debbb,43,M,Pneumonia,"Shortness of Breath,0.6","High Fever,0.9","Cough with Phlegm,0.5","Confusion,0.6","Chest Pain,0.3"
+b4f52767-9933-4c2d-acc9-6dbdc7a81a78,85,F,Common Cold,"Sneezing,0.5","Sore Throat,1.0","Runny Nose,0.6","Congestion,0.6",
+c89598c0-3a2e-41ef-b68c-543b3db739db,88,M,Asthma,"Wheezing,0.7","Rapid Breathing,0.8","Coughing at Night,0.5",,
+c182f9d2-8dc9-4b32-9fa4-eb8a329da40c,39,M,Common Cold,"Cough,0.5","Congestion,0.6","Sore Throat,0.4",,
+8dc7469e-ff1e-4d20-b41a-defca30f0565,14,F,Common Cold,"Sore Throat,0.4","Congestion,0.5","Runny Nose,0.5","Sneezing,0.8",
+c0f7243f-dc22-480e-a21d-858a36ba6608,68,F,Common Cold,"Sneezing,0.5","Cough,0.3","Mild Fever,0.4","Runny Nose,0.3","Congestion,0.6"
+eee1ace8-30d9-430b-a53b-9fa4563b5d0a,59,F,Common Cold,"Sore Throat,0.6","Sneezing,0.3","Congestion,0.9","Cough,0.3","Mild Fever,1.0"
+3a22bc33-c6d8-4fd9-841f-fd330e87e5f7,25,M,Asthma,"Rapid Breathing,0.5","Coughing at Night,0.7","Shortness of Breath,0.6","Wheezing,0.4",
+aca38e8d-4d88-49df-9ac5-096b4bc0821b,72,F,Common Cold,"Sneezing,0.6","Sore Throat,0.6","Congestion,0.9","Cough,0.6","Runny Nose,0.5"
+c12bc084-a611-466b-8bfe-66402838c23b,36,M,Asthma,"Rapid Breathing,0.6","Wheezing,0.3","Coughing at Night,0.5","Shortness of Breath,0.9","Chest Tightness,0.6"
+da9d5a98-926d-4e97-b089-40c1cf7934ab,32,M,Common Cold,"Congestion,0.6","Mild Fever,0.6","Sneezing,0.8","Sore Throat,0.8",
+145850ab-8b1f-413c-b3e9-55659587af31,61,M,Asthma,"Wheezing,0.9","Chest Tightness,0.7","Rapid Breathing,0.8","Coughing at Night,1.0","Shortness of Breath,0.9"
+762c38a2-62fb-4823-9b7d-93e5d3e010fd,71,F,Common Cold,"Mild Fever,0.8","Runny Nose,0.6","Congestion,0.6","Sneezing,0.7","Cough,0.9"
+fc65eaa1-384c-4946-a228-1f1f648954dc,23,F,Common Cold,"Sore Throat,0.7","Sneezing,0.3","Runny Nose,0.4",,
+a94f9da3-8335-4415-a2b4-8ed8762a73b2,48,M,Common Cold,"Cough,0.7","Runny Nose,0.6","Sore Throat,0.9","Mild Fever,0.5",
+8274a24d-c4fb-43c9-a1fc-352960dc366a,6,F,Asthma,"Chest Tightness,0.8","Wheezing,0.8","Rapid Breathing,0.3","Coughing at Night,0.9",
+ad5d8a22-f2d5-4f31-a964-4dd34c087145,80,M,Asthma,"Rapid Breathing,1.0","Coughing at Night,0.4","Shortness of Breath,0.8","Chest Tightness,0.5","Wheezing,0.5"
+7048f26b-f14b-44b8-9f8c-cd92b7f06ad8,20,M,Pneumonia,"Confusion,0.5","Chest Pain,0.5","High Fever,0.6","Shortness of Breath,0.6","Fatigue,0.3"
+b2d1f319-f551-439e-b922-7bf876522ece,73,F,Common Cold,"Mild Fever,0.6","Cough,0.8","Runny Nose,0.5","Sore Throat,0.7",
+bc972406-7e53-486f-a980-6dd7a11f3d3a,43,M,Common Cold,"Cough,0.5","Runny Nose,0.3","Congestion,0.7","Sneezing,0.8","Sore Throat,0.4"
+396f2b26-0d88-4951-a5c0-641eb37af7b9,62,M,Pneumonia,"Shortness of Breath,0.5","Fatigue,1.0","Confusion,1.0",,
+01bd6877-10ec-4d5c-b4bf-9e84bee99a46,55,M,Common Cold,"Runny Nose,0.3","Sore Throat,0.5","Congestion,0.7","Cough,0.7","Sneezing,0.5"
+fa814e81-5e5b-4fa2-ab4c-393e824b91ec,32,F,Common Cold,"Mild Fever,0.7","Sore Throat,0.5","Sneezing,0.5","Runny Nose,0.7","Cough,0.5"
+e9cd1dc0-e805-42ed-9f6c-d429cf6b1939,24,F,Influenza,"Dry Cough,0.9","Body Aches,0.5","Headache,0.6",,
+308c06b2-6b99-4c9b-ab17-6ed6a576902e,60,M,Pneumonia,"High Fever,1.0","Cough with Phlegm,0.6","Fatigue,0.4","Confusion,0.3","Chest Pain,0.3"
+5f864686-bf73-4688-907e-a6bd8412e1d2,16,F,Common Cold,"Cough,1.0","Mild Fever,0.8","Runny Nose,0.6","Sneezing,0.4","Congestion,0.8"
+176b53b1-197d-41d3-8a07-c41e94d126b1,43,M,Common Cold,"Sore Throat,1.0","Mild Fever,0.7","Congestion,0.6","Runny Nose,0.5","Cough,0.9"
+2ce3fca7-8784-447b-8c03-61918ea233ad,33,F,Influenza,"Body Aches,0.5","Chills,0.4","Nasal Congestion,0.6",,
+b45a7fb4-aca2-4426-b68f-5c5cde520a01,28,F,Pneumonia,"Chest Pain,0.5","Fatigue,0.4","Shortness of Breath,0.6",,
+dc1118e5-b231-4425-931d-90be09187140,48,M,Influenza,"Nasal Congestion,0.9","High Fever,0.4","Dry Cough,0.8","Chills,0.7","Headache,0.7"
+020251ca-365c-49e6-aafc-32ae17c61e86,30,M,Influenza,"Dry Cough,1.0","Body Aches,0.4","High Fever,0.8",,
+2db5fa0b-cbb4-467f-9011-da684a40130f,5,F,Asthma,"Chest Tightness,0.5","Wheezing,1.0","Rapid Breathing,0.6","Coughing at Night,0.8",
+eab33ddf-3b12-4a47-9a54-90096754958e,67,M,Pneumonia,"Cough with Phlegm,0.8","Chest Pain,0.4","Fatigue,0.3","High Fever,0.6","Confusion,0.9"
+63b68593-45ff-4013-8a1c-4b6e1d9a0342,1,M,Common Cold,"Congestion,0.6","Runny Nose,0.5","Sneezing,1.0","Mild Fever,0.9",
+82936d6e-35dc-437a-a502-0b938c1afb67,3,M,Asthma,"Rapid Breathing,0.6","Chest Tightness,0.4","Wheezing,0.6","Coughing at Night,0.3","Shortness of Breath,0.7"
+e9d82909-c0b8-4f71-8821-61d527e5a85d,85,F,Common Cold,"Runny Nose,0.4","Sore Throat,0.6","Congestion,1.0","Cough,0.8",
+fb8d4dd4-b5ba-47af-8048-36a784ab28e6,31,F,Influenza,"Headache,0.7","Nasal Congestion,0.8","Dry Cough,0.9",,
+a25760a2-2cfc-4a6c-a9ab-fa393e4ba7a4,44,F,Pneumonia,"Chest Pain,0.6","Fatigue,0.8","Cough with Phlegm,0.5","Confusion,0.5",
+67bd6aa9-fc31-4f16-bafa-b688a3ad1c81,6,F,Asthma,"Shortness of Breath,0.9","Chest Tightness,0.7","Coughing at Night,0.8","Rapid Breathing,0.5","Wheezing,0.4"
+baabce49-79a1-421c-a329-603b70b7035a,2,F,Pneumonia,"Chest Pain,0.7","Fatigue,0.8","High Fever,0.7","Shortness of Breath,0.9","Cough with Phlegm,0.7"
+e6f2b6dc-e42d-4de1-992f-cfed5c7155e8,46,F,Influenza,"Body Aches,0.4","Nasal Congestion,0.7","Dry Cough,0.7","Chills,0.8","High Fever,0.6"
+6dc8f770-2c62-4e4f-8716-7badb062b1a9,44,M,Asthma,"Rapid Breathing,0.5","Wheezing,0.7","Chest Tightness,0.9","Shortness of Breath,0.6",
+725103c9-cf8e-43e3-8294-61b418bfd2f8,51,F,Asthma,"Shortness of Breath,0.9","Coughing at Night,0.3","Chest Tightness,0.7",,
+744a2ad7-4d7a-4581-901d-437725dd0ef7,17,F,Influenza,"Nasal Congestion,0.6","Headache,0.4","High Fever,0.8","Chills,0.7",
+440937bc-6a21-47a0-acae-bbf3135aa5e2,48,F,Influenza,"Chills,0.6","High Fever,0.8","Nasal Congestion,0.7","Dry Cough,0.6","Headache,0.7"
+372ed218-8446-4c8a-be44-27becac34ae2,87,M,Influenza,"Nasal Congestion,1.0","Dry Cough,0.6","Chills,0.4","Headache,0.8","Body Aches,0.3"
+721183d7-dfd2-4ece-88a2-84054e19382e,69,M,Influenza,"High Fever,0.5","Dry Cough,0.3","Fatigue,0.6",,
+d24d48fc-6ffe-408c-9459-6ed58aa4304f,28,M,Common Cold,"Mild Fever,0.3","Sneezing,0.4","Sore Throat,0.7",,
+10c2495e-c73e-4cba-944a-046ae6966ab3,40,M,Pneumonia,"Chest Pain,1.0","Confusion,0.5","Cough with Phlegm,1.0","High Fever,0.6",
+1c7bcc9e-e957-449e-ba5f-7e986de1c1b1,21,F,Influenza,"Dry Cough,0.8","Body Aches,0.8","High Fever,0.4","Fatigue,1.0",
+583e2892-3ce9-4f46-b7c1-c8b4bd72cb04,84,M,Common Cold,"Runny Nose,0.8","Mild Fever,0.8","Cough,0.6","Congestion,0.7",
+2e34ed2d-f36c-451c-8448-82b76a80225b,82,M,Influenza,"Dry Cough,0.4","Fatigue,0.8","Chills,0.3",,
+6cffbfd4-e326-4dc1-9ae3-04457359b35a,19,M,Common Cold,"Cough,0.4","Mild Fever,0.5","Runny Nose,0.4","Sore Throat,0.8",
+1777fab2-6f52-4759-9232-ecc805134528,14,F,Influenza,"Dry Cough,0.4","Body Aches,0.4","Nasal Congestion,0.5","High Fever,0.9",
+aa752497-6879-45a9-bb36-26b94ee5673f,60,F,Common Cold,"Sneezing,0.3","Cough,1.0","Runny Nose,0.7",,
+fb23f335-a1c8-4879-a743-66978d0d52c9,14,M,Common Cold,"Cough,0.4","Mild Fever,0.6","Sore Throat,0.3","Runny Nose,0.4","Sneezing,0.8"
+3703f559-eea2-4b4b-9821-23309caeced5,5,F,Influenza,"Body Aches,0.5","High Fever,0.8","Nasal Congestion,0.4",,
+807ed2b6-00fb-430d-a04b-41d95a2dabfd,3,F,Pneumonia,"Fatigue,0.6","Shortness of Breath,0.9","High Fever,0.3","Chest Pain,0.7","Cough with Phlegm,0.5"
+92f7dd30-c6e8-4562-a70b-aef7ff1785f2,8,M,Influenza,"Fatigue,0.5","Body Aches,0.8","Chills,0.7","Nasal Congestion,0.9",
+8fe36084-bfbe-4e3b-87e6-3ae4f726d99b,9,M,Asthma,"Rapid Breathing,0.5","Shortness of Breath,0.5","Coughing at Night,0.8","Chest Tightness,0.6",
+00a809b8-f2ff-4dd1-8e06-5f08db43952a,6,M,Influenza,"Headache,1.0","Chills,0.4","Body Aches,1.0",,
+3af0a78c-acc9-4f3b-86ca-4d7a2fb5ae27,83,F,Influenza,"High Fever,0.5","Body Aches,0.9","Fatigue,0.4",,
+921826c9-ceba-4cc8-b244-d8fbcd63eef3,3,M,Common Cold,"Runny Nose,0.7","Cough,0.7","Sore Throat,0.6","Sneezing,1.0",
