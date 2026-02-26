@@ -2,39 +2,118 @@
 
 {% block content %}
 <div class="row justify-content-center">
-    <div class="col-md-8">
-        <div class="card">
+    <div class="col-lg-9">
+
+        <div class="card mb-4">
             <div class="card-header bg-info text-white">
-                <h3 class="mb-0">About This Project</h3>
+                <h3 class="mb-0"><i class="bi bi-info-circle"></i> About This System</h3>
             </div>
             <div class="card-body">
-                <h4>Disease Prediction using Fuzzy Logic</h4>
+
+                <h4>Tropical Disease Prediction using Fuzzy Logic + Random Forest Consensus</h4>
                 <p>
-                    This system uses fuzzy logic to predict possible diseases based on symptom inputs.
-                    Fuzzy logic allows for handling imprecise or uncertain information, which is common
-                    in medical diagnosis.
+                    This system predicts the most likely <strong>tropical disease</strong> from
+                    patient symptom inputs using a <strong>dual-model consensus approach</strong>
+                    for improved accuracy and reliability.
                 </p>
-                
-                <h5 class="mt-4">How It Works</h5>
+
+                <hr>
+
+                <h5 class="text-primary"><i class="bi bi-bullseye"></i> Scope</h5>
+                <p>
+                    Covers <strong>10 conditions</strong> — 8 major tropical diseases recognized
+                    by the World Health Organization (WHO) plus Common Cold and Influenza for
+                    realistic differential diagnosis — assessed via <strong>{{ symptom_count }}
+                    clinical symptoms</strong>. All symptom data is sourced from WHO fact sheets,
+                    CDC guidelines, Harrison's Principles of Internal Medicine (21st Ed), and
+                    Manson's Tropical Diseases (24th Ed).
+                </p>
+
+                <hr>
+
+                <h5 class="text-primary"><i class="bi bi-gear"></i> How It Works</h5>
                 <ol>
-                    <li>Enter your symptom values in the input form</li>
-                    <li>The system calculates membership degrees for each symptom in fuzzy sets (low, medium, high)</li>
-                    <li>Fuzzy rules are applied to determine possible diseases</li>
-                    <li>Results are displayed with confidence levels</li>
+                    <li>
+                        <strong>Enter symptoms</strong> — rate your symptoms on the provided scales
+                        (temperature for fever, 0-10 severity for others).
+                    </li>
+                    <li>
+                        <strong>Fuzzy Logic Analysis</strong> — symptoms are evaluated against
+                        clinically-derived fuzzy rules. Each disease has an expected symptom
+                        pattern with triangular/trapezoidal membership functions. A weighted
+                        pattern-matching score is computed.
+                    </li>
+                    <li>
+                        <strong>Random Forest Classification</strong> — a trained Random Forest
+                        model (150 trees, max depth 12) independently classifies the symptoms based on
+                        prevalence-generated training data derived from WHO/CDC clinical profiles
+                        with 5-fold cross-validation.
+                    </li>
+                    <li>
+                        <strong>Consensus Mechanism</strong> — both predictions are combined
+                        with dynamic weighting based on data completeness. When both models
+                        agree, confidence is higher. Disagreement triggers warnings.
+                    </li>
                 </ol>
-                
-                <h5 class="mt-4">Technologies Used</h5>
+
+                <hr>
+
+                <h5 class="text-primary"><i class="bi bi-book"></i> Reference Sources</h5>
                 <ul>
-                    <li>Django - Python web framework</li>
-                    <li>Fuzzy Logic - For handling uncertain medical information</li>
-                    <li>Bootstrap - For responsive user interface</li>
+                    <li>WHO Fact Sheets — <a href="https://www.who.int/news-room/fact-sheets" target="_blank">who.int/news-room/fact-sheets</a></li>
+                    <li>CDC Tropical Disease Pages — <a href="https://www.cdc.gov/global-health/diseases" target="_blank">cdc.gov/global-health/diseases</a></li>
+                    <li>Harrison's Principles of Internal Medicine, 21st Edition</li>
+                    <li>Manson's Tropical Diseases, 24th Edition</li>
                 </ul>
-                
+
+                <hr>
+
+                <h5 class="text-primary"><i class="bi bi-virus"></i> Diseases Covered</h5>
+                <div class="row">
+                    {% for disease in diseases %}
+                    <div class="col-md-6 mb-3">
+                        <div class="card h-100 border">
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">{{ disease.name }}</h6>
+                                <p class="card-text small mb-2">{{ disease.description }}</p>
+                                {% if disease.hallmarks %}
+                                <div>
+                                    <small class="text-muted">Key symptoms:</small><br>
+                                    {% for h in disease.hallmarks %}
+                                    <span class="badge bg-warning text-dark">
+                                        <i class="bi bi-star-fill"></i> {{ h }}
+                                    </span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <hr>
+
+                <h5 class="text-primary"><i class="bi bi-cpu"></i> Technical Details</h5>
+                <table class="table table-sm table-bordered">
+                    <tr><th>Fuzzy Engine</th><td>Custom triangular/trapezoidal membership functions with 5-level fuzzy sets per symptom</td></tr>
+                    <tr><th>ML Model</th><td>Random Forest Classifier — 150 trees, max depth 12, min_samples_leaf 5, balanced class weights</td></tr>
+                    <tr><th>Training Data</th><td>Prevalence-based dataset (2000+ samples) generated from WHO/CDC clinical profiles</td></tr>
+                    <tr><th>Consensus</th><td>Dynamic weighting based on data completeness with agreement detection</td></tr>
+                    <tr><th>Validation</th><td>5-fold stratified cross-validation with overfitting detection (expected 82–92% accuracy)</td></tr>
+                    <tr><th>Framework</th><td>Django + scikit-learn + Bootstrap 5</td></tr>
+                </table>
+                    <tr><th>Framework</th><td>Django + scikit-learn + Bootstrap 5</td></tr>
+                </table>
+
                 <div class="d-grid gap-2 mt-4">
-                    <a href="{% url 'fuzzy_app:index' %}" class="btn btn-primary">Back to Prediction</a>
+                    <a href="{% url 'fuzzy_app:index' %}" class="btn btn-primary">
+                        <i class="bi bi-arrow-left"></i> Back to Prediction
+                    </a>
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 {% endblock %}

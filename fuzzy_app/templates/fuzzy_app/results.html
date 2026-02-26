@@ -1,56 +1,284 @@
 {% extends 'fuzzy_app/base.html' %}
+{% load custom_filters %}
 
 {% block content %}
 <div class="row justify-content-center">
-    <div class="col-md-8">
-        <div class="card">
+    <div class="col-lg-10">
+
+        <!-- ── Validation Status Banner ────────────────────────────── -->
+        {% if result.validation %}
+        {% with v=result.validation %}
+        <div class="alert
+            {% if v.status == 'reliable' %}alert-success
+            {% elif v.status == 'moderate' %}alert-warning
+            {% else %}alert-danger{% endif %}
+            mb-4" role="alert">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h5 class="alert-heading mb-1">
+                        <i class="bi bi-shield-check"></i>
+                        Prediction Status: <strong>{{ v.status|upper }}</strong>
+                    </h5>
+                    <small>Reliability Score: <strong>{{ v.reliability_score }}%</strong></small>
+                </div>
+                <div class="text-end">
+                    <span class="badge fs-6
+                        {% if v.confidence_level == 'High' %}bg-success
+                        {% elif v.confidence_level == 'Medium' %}bg-warning text-dark
+                        {% else %}bg-danger{% endif %}">
+                        {{ v.confidence_level }} Confidence
+                    </span>
+                    {% if result.models_agree %}
+                    <br><span class="badge bg-success mt-1"><i class="bi bi-check-circle"></i> Models Agree</span>
+                    {% else %}
+                    <br><span class="badge bg-warning text-dark mt-1"><i class="bi bi-exclamation-triangle"></i> Models Disagree</span>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Progress bar -->
+            <div class="progress mt-2" style="height: 8px;">
+                <div class="progress-bar
+                    {% if v.reliability_score >= 70 %}bg-success
+                    {% elif v.reliability_score >= 50 %}bg-warning
+                    {% else %}bg-danger{% endif %}"
+                    role="progressbar" style="width: {{ v.reliability_score }}%">
+                </div>
+            </div>
+        </div>
+        {% endwith %}
+        {% endif %}
+
+        <!-- ── Metrics Row ─────────────────────────────────────────── -->
+        {% if result.validation %}
+        {% with v=result.validation %}
+        <div class="row g-3 mb-4">
+            <div class="col-md-3">
+                <div class="metric-box">
+                    <div class="metric-label">Data Completeness</div>
+                    <div class="metric-value">{{ v.data_completeness }}%</div>
+                    <small class="text-muted">{{ v.symptoms_provided }} symptoms</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="metric-box">
+                    <div class="metric-label">Prediction Certainty</div>
+                    <div class="metric-value">{{ v.prediction_certainty }}%</div>
+                    <small class="text-muted">Gap to 2nd choice</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="metric-box">
+                    <div class="metric-label">Fuzzy Top</div>
+                    <div class="metric-value" style="font-size:1rem;">{{ result.fuzzy_top }}</div>
+                    <small class="text-muted">Knowledge-based</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="metric-box">
+                    <div class="metric-label">RF Top</div>
+                    <div class="metric-value" style="font-size:1rem;">{{ result.rf_top }}</div>
+                    <small class="text-muted">Data-driven</small>
+                </div>
+            </div>
+        </div>
+        {% endwith %}
+        {% endif %}
+
+        <!-- ── Warnings ────────────────────────────────────────────── -->
+        {% if result.validation.warnings %}
+        <div class="alert alert-warning py-2 mb-3">
+            <strong><i class="bi bi-exclamation-triangle"></i> Warnings:</strong>
+            <ul class="mb-0 mt-1">
+                {% for w in result.validation.warnings %}
+                <li>{{ w }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <!-- ── Disease Predictions ─────────────────────────────────── -->
+        {% if result.predictions %}
+        <div class="card mb-4">
             <div class="card-header bg-success text-white">
-                <h3 class="mb-0">Prediction Results</h3>
+                <h5 class="mb-0"><i class="bi bi-clipboard2-pulse"></i> Predicted Diseases (Consensus)</h5>
             </div>
             <div class="card-body">
-                {% if results %}
-                <h4>Most Likely Diseases:</h4>
-                
-                <div class="list-group mt-3">
-                    {% for disease, data in results.items %}
-                    <div class="list-group-item">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">{{ disease }}</h5>
-                            <span class="badge bg-primary rounded-pill">{{ data.confidence }}</span>
+                {% for disease, data in result.predictions.items %}
+                <div class="{% if not forloop.first %}mt-4 pt-3 border-top{% endif %}">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div>
+                            <h4 class="mb-1">
+                                {% if forloop.first %}
+                                <i class="bi bi-1-circle-fill text-primary"></i>
+                                {% elif forloop.counter == 2 %}
+                                <i class="bi bi-2-circle text-secondary"></i>
+                                {% else %}
+                                <i class="bi bi-3-circle text-secondary"></i>
+                                {% endif %}
+                                {{ disease }}
+                            </h4>
+                            <!-- Hallmark symptoms -->
+                            {% if data.hallmarks %}
+                            <div class="mb-1">
+                                {% for h in data.hallmarks %}
+                                <span class="badge badge-hallmark"><i class="bi bi-star-fill"></i> {{ h }}</span>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
                         </div>
-                        <p class="mb-1">{{ data.description }}</p>
-                        <div class="confidence-meter">
-                            <div class="confidence-fill" style="width: {{ data.confidence|floatformat:0 }}%"></div>
+                        <div class="text-end">
+                            <span class="badge bg-primary fs-6">{{ data.confidence }}%</span>
                         </div>
                     </div>
-                    {% endfor %}
+
+                    <!-- Confidence bar -->
+                    <div class="progress mb-2" style="height: 22px;">
+                        <div class="progress-bar
+                            {% if data.confidence >= 30 %}bg-success
+                            {% elif data.confidence >= 15 %}bg-warning
+                            {% else %}bg-danger{% endif %}"
+                            role="progressbar"
+                            style="width: {{ data.confidence }}%">
+                            Consensus {{ data.confidence }}%
+                        </div>
+                    </div>
+
+                    <!-- Individual model scores -->
+                    <div class="row small text-muted mb-2">
+                        <div class="col-6">
+                            <i class="bi bi-diagram-3"></i> Fuzzy Logic: <strong>{{ data.fuzzy_score }}%</strong>
+                        </div>
+                        <div class="col-6">
+                            <i class="bi bi-tree"></i> Random Forest: <strong>{{ data.rf_score }}%</strong>
+                        </div>
+                    </div>
+
+                    <p class="mb-1">{{ data.description }}</p>
+
+                    <!-- Precautions -->
+                    {% if data.precautions and forloop.first %}
+                    <div class="alert alert-info py-2 mt-2 mb-0">
+                        <strong><i class="bi bi-shield-plus"></i> Recommended Actions:</strong>
+                        <ul class="mb-0 mt-1">
+                            {% for p in data.precautions %}
+                            <li>{{ p }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
                 </div>
-                
-                <hr>
-                
-                <h4>Your Input Symptoms:</h4>
-                <ul class="list-group">
-                    {% for symptom, value in symptom_values.items %}
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        {{ symptom }}
-                        <span class="badge bg-secondary rounded-pill">{{ value }}</span>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- ── Fuzzy Logic Breakdown (for top disease) ─────────────── -->
+        {% if result.fuzzy_details %}
+        <div class="card mb-4">
+            <div class="card-header bg-info text-white">
+                <h6 class="mb-0">
+                    <i class="bi bi-diagram-3"></i>
+                    Fuzzy Logic Analysis — {{ result.fuzzy_details.disease }}
+                </h6>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-sm table-striped mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Symptom</th>
+                                <th>Your Value</th>
+                                <th>Expected Level</th>
+                                <th>Actual Level</th>
+                                <th>Match</th>
+                                <th>Weight</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for d in result.fuzzy_details.details %}
+                            <tr>
+                                <td>
+                                    {{ d.symptom }}
+                                    {% if d.is_hallmark %}
+                                    <span class="badge badge-hallmark"><i class="bi bi-star-fill"></i></span>
+                                    {% endif %}
+                                </td>
+                                <td>{{ d.value }}</td>
+                                <td><span class="badge bg-secondary">{{ d.expected_level }}</span></td>
+                                <td>
+                                    <span class="badge {% if d.expected_level == d.actual_level %}bg-success{% else %}bg-warning text-dark{% endif %}">
+                                        {{ d.actual_level }}
+                                    </span>
+                                </td>
+                                <td>{{ d.match_degree }}</td>
+                                <td>{{ d.weight }}</td>
+                                <td><strong>{{ d.contribution }}</strong></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        {% else %}
+        <!-- No results -->
+        <div class="alert alert-warning">
+            <i class="bi bi-info-circle"></i>
+            No diseases matched your symptoms with significant confidence.
+            Please provide more symptom information.
+        </div>
+        {% endif %}
+
+        <!-- ── Input Summary ───────────────────────────────────────── -->
+        {% if display_symptoms %}
+        <div class="card mb-4">
+            <div class="card-header bg-light">
+                <h6 class="mb-0"><i class="bi bi-list-check"></i> Your Input Symptoms</h6>
+            </div>
+            <div class="card-body p-0">
+                <ul class="list-group list-group-flush">
+                    {% for s in display_symptoms %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center py-2">
+                        {{ s.name }}
+                        <span class="badge bg-secondary rounded-pill">{{ s.value }} {{ s.unit }}</span>
                     </li>
                     {% endfor %}
                 </ul>
-                
-                <div class="d-grid gap-2 mt-4">
-                    <a href="{% url 'fuzzy_app:index' %}" class="btn btn-primary">Try Again</a>
-                </div>
-                {% else %}
-                <div class="alert alert-warning">
-                    No diseases matched your symptoms with significant confidence.
-                </div>
-                <div class="d-grid gap-2 mt-4">
-                    <a href="{% url 'fuzzy_app:index' %}" class="btn btn-primary">Try Again</a>
-                </div>
-                {% endif %}
             </div>
         </div>
+        {% endif %}
+
+        <!-- ── Recommendations ─────────────────────────────────────── -->
+        {% if result.validation.recommendations %}
+        <div class="alert alert-info py-2 mb-4">
+            <strong><i class="bi bi-lightbulb"></i> Recommendations:</strong>
+            <ul class="mb-0 mt-1">
+                {% for r in result.validation.recommendations %}
+                <li>{{ r }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <!-- ── Disclaimer + Try Again ──────────────────────────────── -->
+        <div class="alert alert-light border mb-4">
+            <small class="text-muted">
+                <strong>Disclaimer:</strong> This is an automated prediction system for
+                <strong>educational purposes only</strong>. It is NOT a substitute for
+                professional medical diagnosis. Always consult a qualified healthcare
+                professional for accurate diagnosis and treatment.
+            </small>
+        </div>
+
+        <div class="d-grid gap-2 mb-4">
+            <a href="{% url 'fuzzy_app:index' %}" class="btn btn-primary btn-lg">
+                <i class="bi bi-arrow-counterclockwise"></i> New Prediction
+            </a>
+        </div>
+
     </div>
 </div>
 {% endblock %}

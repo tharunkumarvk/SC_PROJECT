@@ -2,35 +2,161 @@
 
 {% block content %}
 <div class="row justify-content-center">
-    <div class="col-md-8">
+    <div class="col-lg-8">
+
+        <!-- Intro Card -->
+        <div class="card mb-4">
+            <div class="card-body text-center py-4">
+                <h2 class="fw-bold text-primary mb-2">
+                    <i class="bi bi-clipboard2-pulse"></i> Tropical Disease Symptom Checker
+                </h2>
+                <p class="text-muted mb-0">
+                    Enter your symptoms below. The system uses <strong>Fuzzy Logic</strong> and
+                    <strong>Random Forest</strong> models with a consensus mechanism to predict
+                    the most likely tropical disease from <strong>{{ disease_count }}</strong> conditions.
+                </p>
+            </div>
+        </div>
+
+        <!-- Symptom Input Form -->
         <div class="card">
             <div class="card-header bg-primary text-white">
-                <h3 class="mb-0">Enter Symptom Values</h3>
+                <h5 class="mb-0"><i class="bi bi-thermometer-half"></i> Enter Symptom Values</h5>
             </div>
             <div class="card-body">
-                <form method="post">
+                <p class="text-muted small mb-3">
+                    Fill in the symptoms you are experiencing. Leave fields blank for symptoms not present.
+                    Provide at least 3–4 symptoms for a meaningful prediction.
+                </p>
+
+                <form method="post" id="symptom-form">
                     {% csrf_token %}
-                    
-                    {% for field in form %}
-                    <div class="row symptom-input">
-                        <div class="col-md-6">
-                            <label for="{{ field.id_for_label }}" class="form-label">{{ field.label }}</label>
+
+                    {% for cat_name, fields in grouped_fields %}
+                    <h6 class="text-primary mt-3 mb-2 fw-bold">
+                        {% if cat_name == "Systemic" %}<i class="bi bi-thermometer-half"></i>
+                        {% elif cat_name == "Pain" %}<i class="bi bi-bandaid"></i>
+                        {% elif cat_name == "Gastrointestinal" %}<i class="bi bi-droplet"></i>
+                        {% elif cat_name == "Respiratory" %}<i class="bi bi-wind"></i>
+                        {% elif cat_name == "Skin / Hemorrhagic" %}<i class="bi bi-palette"></i>
+                        {% elif cat_name == "Fluid / Metabolic" %}<i class="bi bi-moisture"></i>
+                        {% endif %}
+                        {{ cat_name }}
+                    </h6>
+                    {% for field in fields %}
+                    <div class="row align-items-center symptom-row">
+                        <div class="col-md-5">
+                            <label for="{{ field.id_for_label }}" class="form-label fw-semibold mb-0">
+                                {{ field.label }}
+                            </label>
+                            {% if field.help_text %}
+                            <div class="form-text">{{ field.help_text }}</div>
+                            {% endif %}
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-7">
                             {{ field }}
                             {% if field.errors %}
-                            <div class="text-danger">{{ field.errors }}</div>
+                            <div class="text-danger small mt-1">{{ field.errors }}</div>
                             {% endif %}
                         </div>
                     </div>
                     {% endfor %}
-                    
-                    <div class="d-grid gap-2 mt-4">
-                        <button type="submit" class="btn btn-primary btn-lg">Predict Disease</button>
+                    {% endfor %}
+
+                    <hr>
+                    <div class="d-grid gap-2 mt-3">
+                        <button type="submit" class="btn btn-primary btn-lg btn-predict">
+                            <i class="bi bi-search"></i> Predict Disease
+                        </button>
                     </div>
                 </form>
             </div>
         </div>
+
+        <!-- Quick-fill examples -->
+        <div class="card mt-4">
+            <div class="card-header bg-light">
+                <h6 class="mb-0"><i class="bi bi-lightning"></i> Quick Test Examples</h6>
+            </div>
+            <div class="card-body">
+                <p class="small text-muted">Click a button to auto-fill typical symptom values for testing:</p>
+                <div class="d-flex flex-wrap gap-2">
+                    <button class="btn btn-outline-danger btn-sm" onclick="fillExample('malaria')">Malaria</button>
+                    <button class="btn btn-outline-warning btn-sm" onclick="fillExample('dengue')">Dengue</button>
+                    <button class="btn btn-outline-info btn-sm" onclick="fillExample('typhoid')">Typhoid</button>
+                    <button class="btn btn-outline-success btn-sm" onclick="fillExample('cholera')">Cholera</button>
+                    <button class="btn btn-outline-secondary btn-sm" onclick="fillExample('zika')">Zika</button>
+                    <button class="btn btn-outline-primary btn-sm" onclick="fillExample('yellowfever')">Yellow Fever</button>
+                    <button class="btn btn-outline-dark btn-sm" onclick="fillExample('chikungunya')">Chikungunya</button>
+                    <button class="btn btn-outline-danger btn-sm" onclick="fillExample('leptospirosis')">Leptospirosis</button>
+                    <button class="btn btn-outline-info btn-sm" onclick="fillExample('cold')">Common Cold</button>
+                    <button class="btn btn-outline-warning btn-sm" onclick="fillExample('flu')">Influenza</button>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Quick-fill examples with typical symptom values
+const examples = {
+    malaria:       {fever:103, headache:7, joint_pain:3, muscle_pain:6, rash:1, nausea_vomiting:6,
+                    fatigue:8, abdominal_pain:3, diarrhea:2, bleeding:0, chills:9, jaundice:1,
+                    dehydration:4, eye_pain:1, cough:1, sore_throat:0, runny_nose:0, congestion:0,
+                    sneezing:0, loss_of_appetite:7},
+    dengue:        {fever:104, headache:8, joint_pain:9, muscle_pain:8, rash:7, nausea_vomiting:6,
+                    fatigue:7, abdominal_pain:5, diarrhea:2, bleeding:5, chills:4, jaundice:1,
+                    dehydration:5, eye_pain:8, cough:0, sore_throat:1, runny_nose:0, congestion:0,
+                    sneezing:0, loss_of_appetite:7},
+    typhoid:       {fever:102, headache:7, joint_pain:2, muscle_pain:3, rash:2, nausea_vomiting:6,
+                    fatigue:8, abdominal_pain:8, diarrhea:8, bleeding:1, chills:3, jaundice:1,
+                    dehydration:6, eye_pain:1, cough:1, sore_throat:0, runny_nose:0, congestion:0,
+                    sneezing:0, loss_of_appetite:8},
+    cholera:       {fever:98, headache:2, joint_pain:1, muscle_pain:3, rash:0, nausea_vomiting:9,
+                    fatigue:7, abdominal_pain:6, diarrhea:9, bleeding:0, chills:2, jaundice:0,
+                    dehydration:9, eye_pain:0, cough:0, sore_throat:0, runny_nose:0, congestion:0,
+                    sneezing:0, loss_of_appetite:8},
+    zika:          {fever:99, headache:4, joint_pain:5, muscle_pain:3, rash:8, nausea_vomiting:2,
+                    fatigue:4, abdominal_pain:1, diarrhea:1, bleeding:0, chills:2, jaundice:0,
+                    dehydration:2, eye_pain:7, cough:0, sore_throat:0, runny_nose:0, congestion:0,
+                    sneezing:0, loss_of_appetite:3},
+    yellowfever:   {fever:105, headache:8, joint_pain:3, muscle_pain:7, rash:1, nausea_vomiting:8,
+                    fatigue:8, abdominal_pain:6, diarrhea:2, bleeding:7, chills:7, jaundice:9,
+                    dehydration:6, eye_pain:2, cough:0, sore_throat:0, runny_nose:0, congestion:0,
+                    sneezing:0, loss_of_appetite:7},
+    chikungunya:   {fever:102, headache:6, joint_pain:9, muscle_pain:7, rash:6, nausea_vomiting:4,
+                    fatigue:7, abdominal_pain:2, diarrhea:1, bleeding:0, chills:4, jaundice:0,
+                    dehydration:3, eye_pain:3, cough:0, sore_throat:0, runny_nose:0, congestion:0,
+                    sneezing:0, loss_of_appetite:6},
+    leptospirosis: {fever:103, headache:8, joint_pain:4, muscle_pain:9, rash:1, nausea_vomiting:7,
+                    fatigue:8, abdominal_pain:5, diarrhea:3, bleeding:4, chills:7, jaundice:7,
+                    dehydration:5, eye_pain:6, cough:2, sore_throat:0, runny_nose:0, congestion:0,
+                    sneezing:0, loss_of_appetite:7},
+    cold:          {fever:99, headache:3, joint_pain:1, muscle_pain:2, rash:0, nausea_vomiting:0,
+                    fatigue:3, abdominal_pain:0, diarrhea:0, bleeding:0, chills:1, jaundice:0,
+                    dehydration:1, eye_pain:2, cough:4, sore_throat:5, runny_nose:7, congestion:7,
+                    sneezing:6, loss_of_appetite:2},
+    flu:           {fever:102, headache:6, joint_pain:4, muscle_pain:7, rash:0, nausea_vomiting:2,
+                    fatigue:8, abdominal_pain:1, diarrhea:1, bleeding:0, chills:6, jaundice:0,
+                    dehydration:3, eye_pain:2, cough:7, sore_throat:5, runny_nose:4, congestion:4,
+                    sneezing:2, loss_of_appetite:6},
+};
+
+function fillExample(disease) {
+    const vals = examples[disease];
+    if (!vals) return;
+    // Clear all fields first
+    document.querySelectorAll('#symptom-form input[type="number"]').forEach(input => input.value = '');
+    // Fill in values
+    for (const [key, val] of Object.entries(vals)) {
+        const input = document.getElementById('id_' + key);
+        if (input) input.value = val;
+    }
+    // Scroll to submit button
+    document.querySelector('.btn-predict').scrollIntoView({behavior: 'smooth', block: 'center'});
+}
+</script>
 {% endblock %}
